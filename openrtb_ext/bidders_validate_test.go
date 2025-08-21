@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 import (
 	"os"
@@ -97,3 +97,6 @@ func uniqueForPrefixLength(b []string, prefixLength int) bool {
 
 	return true
 }
+
+
+

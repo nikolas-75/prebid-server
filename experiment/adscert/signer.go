@@ -1,4 +1,4 @@
-package adscert
+﻿package adscert
 
 import (
 	"fmt"
@@ -50,3 +50,6 @@ func getSignatureMessage(signatureResponse *api.AuthenticatedConnectionSignature
 	}
 	return "", fmt.Errorf("error signing request: %s", signatureResponse.GetSignatureOperationStatus())
 }
+
+
+

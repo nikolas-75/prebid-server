@@ -1,4 +1,4 @@
-package flipp
+﻿package flipp
 
 import "github.com/prebid/prebid-server/v3/openrtb_ext"
 
@@ -86,3 +86,6 @@ type PrebidResponse struct {
 	CreativeType *string  `json:"creativeType"`
 	RequestID    *string  `json:"requestId"`
 }
+
+
+

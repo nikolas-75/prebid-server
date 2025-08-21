@@ -1,4 +1,4 @@
-package config
+﻿package config
 
 import (
 	"fmt"
@@ -105,3 +105,6 @@ func extendMapPrefix(prefix string, field string) string {
 	}
 	return fmt.Sprintf("%s[%s]", prefix, field)
 }
+
+
+

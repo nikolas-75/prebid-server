@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 type ExtImpSparteo struct {
 	NetworkId string `json:"networkId"`
@@ -8,3 +8,6 @@ type ExtImpSparteo struct {
 	Custom4   string `json:"custom4,omitempty"`
 	Custom5   string `json:"custom5,omitempty"`
 }
+
+
+

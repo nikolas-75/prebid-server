@@ -1,4 +1,4 @@
-package triplelift_native
+﻿package triplelift_native
 
 import (
 	"encoding/json"
@@ -51,3 +51,6 @@ var invalidParams = []string{
 	`{"inventoryCode":""}`,
 	`{"inventoryCode":"1", "floor": "10"}`,
 }
+
+
+

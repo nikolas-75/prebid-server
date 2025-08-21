@@ -1,4 +1,4 @@
-package sonobi
+﻿package sonobi
 
 import (
 	"encoding/json"
@@ -46,3 +46,6 @@ var validParams = []string{
 var invalidParams = []string{
 	`{"unit": "123"}`,
 }
+
+
+

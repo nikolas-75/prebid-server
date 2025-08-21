@@ -1,4 +1,4 @@
-package logan
+﻿package logan
 
 import (
 	"encoding/json"
@@ -150,3 +150,6 @@ func getMediaTypeForImp(impID string, impMap map[string]openrtb2.Imp) (openrtb_e
 		Message: fmt.Sprintf("Failed to find impression \"%s\"", impID),
 	}
 }
+
+
+

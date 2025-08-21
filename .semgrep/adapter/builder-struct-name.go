@@ -1,4 +1,4 @@
-/*
+﻿/*
 	builder-struct-name tests
 	https://semgrep.dev/docs/writing-rules/testing-rules
 	"ruleid" prefix in comment indicates patterns that should be flagged by semgrep
@@ -122,3 +122,5 @@ func Builder(_ openrtb_ext.BidderName, config config.Adapter, _ config.Server) (
 	// ok: builder-struct-name-check
 	return builder, nil
 }
+
+

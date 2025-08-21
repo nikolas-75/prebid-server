@@ -1,4 +1,4 @@
-package privacy
+﻿package privacy
 
 import (
 	"encoding/json"
@@ -23,3 +23,6 @@ func TestNilWriter(t *testing.T) {
 
 	assert.Equal(t, expectedRequest, request)
 }
+
+
+

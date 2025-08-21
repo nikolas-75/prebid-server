@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 import (
 	"fmt"
@@ -79,3 +79,6 @@ func (bidderCodes *ExtAlternateBidderCodes) IsBidderInAlternateBidderCodes(bidde
 
 	return ExtAdapterAlternateBidderCodes{}, false
 }
+
+
+

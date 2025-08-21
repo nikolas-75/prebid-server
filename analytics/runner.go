@@ -1,4 +1,4 @@
-package analytics
+﻿package analytics
 
 import (
 	"github.com/prebid/prebid-server/v3/privacy"
@@ -13,3 +13,6 @@ type Runner interface {
 	LogNotificationEventObject(*NotificationEvent, privacy.ActivityControl)
 	Shutdown()
 }
+
+
+

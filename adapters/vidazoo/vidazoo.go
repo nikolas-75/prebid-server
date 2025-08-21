@@ -1,4 +1,4 @@
-package vidazoo
+﻿package vidazoo
 
 import (
 	"encoding/json"
@@ -132,3 +132,6 @@ func extractCid(imp *openrtb2.Imp) (string, error) {
 	}
 	return strings.TrimSpace(impExt.ConnectionId), nil
 }
+
+
+

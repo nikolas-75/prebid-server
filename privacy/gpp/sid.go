@@ -1,4 +1,4 @@
-package gpp
+﻿package gpp
 
 import (
 	gpplib "github.com/prebid/go-gpp"
@@ -28,3 +28,6 @@ func IndexOfSID(gpp gpplib.GppContainer, sid gppConstants.SectionID) int {
 	}
 	return -1
 }
+
+
+

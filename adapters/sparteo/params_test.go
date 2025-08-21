@@ -1,4 +1,4 @@
-package sparteo
+﻿package sparteo
 
 import (
 	"encoding/json"
@@ -66,3 +66,6 @@ var invalidParams = []string{
 	`{"networkId": "net123", "custom1": 456}`,
 	`{"networkId": "net123", "custom2": true}`,
 }
+
+
+

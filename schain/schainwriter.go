@@ -1,4 +1,4 @@
-package schain
+﻿package schain
 
 import (
 	"github.com/prebid/openrtb/v20/openrtb2"
@@ -73,3 +73,6 @@ func (w SChainWriter) Write(reqWrapper *openrtb_ext.RequestWrapper, bidder strin
 func extPrebidSChainExists(reqExt *openrtb_ext.ExtRequest) bool {
 	return reqExt != nil && reqExt.Prebid.SChains != nil
 }
+
+
+

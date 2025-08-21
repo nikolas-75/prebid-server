@@ -1,4 +1,4 @@
-package colossus
+﻿package colossus
 
 import (
 	"encoding/json"
@@ -156,3 +156,6 @@ func getMediaTypeForImp(bid openrtb2.Bid, imps []openrtb2.Imp) (openrtb_ext.BidT
 		Message: fmt.Sprintf("Failed to find impression \"%s\"", bid.ImpID),
 	}
 }
+
+
+

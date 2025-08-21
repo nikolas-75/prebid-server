@@ -1,4 +1,4 @@
-package usersync
+﻿package usersync
 
 import (
 	"strings"
@@ -109,3 +109,6 @@ func TestUniformBidderFilter(t *testing.T) {
 		assert.Equal(t, test.expected, filter.Allowed(bidder), test.description)
 	}
 }
+
+
+

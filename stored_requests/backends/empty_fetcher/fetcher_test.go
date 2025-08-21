@@ -1,4 +1,4 @@
-package empty_fetcher
+﻿package empty_fetcher
 
 import (
 	"context"
@@ -19,3 +19,6 @@ func TestErrorLength(t *testing.T) {
 		t.Errorf("The empty fetcher should return 3 errors. Got %d", len(errs))
 	}
 }
+
+
+

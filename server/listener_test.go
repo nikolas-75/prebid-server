@@ -1,4 +1,4 @@
-package server
+﻿package server
 
 import (
 	"errors"
@@ -138,3 +138,6 @@ func (m *mockAddr) Network() string {
 func (m *mockAddr) String() string {
 	return "192.0.2.1:25"
 }
+
+
+

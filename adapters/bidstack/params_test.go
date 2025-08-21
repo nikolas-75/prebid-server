@@ -1,4 +1,4 @@
-package bidstack
+﻿package bidstack
 
 import (
 	"encoding/json"
@@ -45,3 +45,6 @@ func TestInvalidParams(t *testing.T) {
 		}
 	}
 }
+
+
+

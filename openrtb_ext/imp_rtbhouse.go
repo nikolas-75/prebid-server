@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 // ExtImpRTBHouse defines the contract for bidrequest.imp[i].ext.prebid.bidder.rtbhouse
 type ExtImpRTBHouse struct {
@@ -8,3 +8,6 @@ type ExtImpRTBHouse struct {
 	BidFloor float64 `json:"bidfloor,omitempty"`
 	Channel  string  `json:"channel,omitempty"`
 }
+
+
+

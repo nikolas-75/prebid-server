@@ -1,4 +1,4 @@
-package driftpixel
+﻿package driftpixel
 
 import (
 	"testing"
@@ -32,3 +32,6 @@ func TestEndpointTemplateMalformed(t *testing.T) {
 
 	assert.Error(t, buildErr)
 }
+
+
+

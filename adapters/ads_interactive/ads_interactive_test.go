@@ -1,4 +1,4 @@
-package ads_interactive
+﻿package ads_interactive
 
 import (
 	"testing"
@@ -18,3 +18,6 @@ func TestJsonSamples(t *testing.T) {
 
 	adapterstest.RunJSONBidderTest(t, "ads_interactivetest", bidder)
 }
+
+
+

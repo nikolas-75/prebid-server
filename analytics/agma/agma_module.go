@@ -1,4 +1,4 @@
-package agma
+﻿package agma
 
 import (
 	"bytes"
@@ -269,3 +269,6 @@ func (l *AgmaLogger) Shutdown() {
 func (l *AgmaLogger) LogCookieSyncObject(event *analytics.CookieSyncObject)         {}
 func (l *AgmaLogger) LogNotificationEventObject(event *analytics.NotificationEvent) {}
 func (l *AgmaLogger) LogSetUIDObject(event *analytics.SetUIDObject)                 {}
+
+
+

@@ -1,4 +1,4 @@
-package config
+﻿package config
 
 import (
 	"errors"
@@ -59,7 +59,7 @@ type VASTEvent struct {
 
 // Events indicates the various types of events to be captured typically for injecting tracker URLs
 // within the VAST XML
-// Don't enable this feature. It is still under developmment. Please follow https://github.com/prebid/prebid-server/issues/1725 for more updates
+// Don't enable this feature. It is still under developmment. Please follow https://github.com/prebid/prebid-server/v3/issues/1725 for more updates
 type Events struct {
 	Enabled    bool        `mapstructure:"enabled" json:"enabled"`
 	DefaultURL string      `mapstructure:"default_url" json:"default_url"`
@@ -145,3 +145,6 @@ func isValidURL(eventURL string) bool {
 func (e VASTEvent) isTrackingEvent() bool {
 	return e.CreateElement == TrackingVASTElement
 }
+
+
+

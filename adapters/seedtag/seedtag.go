@@ -1,4 +1,4 @@
-package seedtag
+﻿package seedtag
 
 import (
 	"errors"
@@ -123,3 +123,6 @@ func getMediaTypeForBid(bid openrtb2.Bid) (openrtb_ext.BidType, error) {
 	}
 
 }
+
+
+

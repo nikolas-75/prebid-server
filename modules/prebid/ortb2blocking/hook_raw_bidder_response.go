@@ -1,4 +1,4 @@
-package ortb2blocking
+﻿package ortb2blocking
 
 import (
 	"errors"
@@ -380,3 +380,6 @@ func getFailedAttributes(data map[string]interface{}) []string {
 
 	return builder
 }
+
+
+

@@ -1,4 +1,4 @@
-package smaato
+﻿package smaato
 
 import (
 	"github.com/stretchr/testify/assert"
@@ -40,3 +40,6 @@ func TestExtractAdmNative(t *testing.T) {
 		})
 	}
 }
+
+
+

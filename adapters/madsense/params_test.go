@@ -1,4 +1,4 @@
-package madsense
+﻿package madsense
 
 import (
 	"encoding/json"
@@ -49,3 +49,6 @@ var invalidParams = []string{
 	`{"companyId": "98765432"}`,
 	`{"company_id": ""}`,
 }
+
+
+

@@ -1,4 +1,4 @@
-package medianet
+﻿package medianet
 
 import (
 	"encoding/json"
@@ -52,3 +52,6 @@ var invalidParams = []string{
 	`{"ccid":"123","ccrid":"123"}`,
 	`{"aid":123, "placementId":"123", "siteId":"321"}`,
 }
+
+
+

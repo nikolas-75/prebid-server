@@ -1,4 +1,4 @@
-package bidmachine
+﻿package bidmachine
 
 import (
 	"encoding/json"
@@ -221,3 +221,6 @@ func GetMediaTypeForImp(impID string, imps []openrtb2.Imp) openrtb_ext.BidType {
 	}
 	return UndefinedMediaType
 }
+
+
+

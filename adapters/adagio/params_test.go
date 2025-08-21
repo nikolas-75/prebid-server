@@ -1,4 +1,4 @@
-package adagio
+﻿package adagio
 
 import (
 	"encoding/json"
@@ -68,3 +68,6 @@ var invalidParams = []string{
 	`{"organizationId":"1000","placement":"some-placement","site":123456}`,
 	`{"organizationId":"1000","placement":"some-placement","site":"this-is-a-very-very-very-very-very-very-long-site-name"}`,
 }
+
+
+

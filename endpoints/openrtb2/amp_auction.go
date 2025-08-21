@@ -1,4 +1,4 @@
-package openrtb2
+﻿package openrtb2
 
 import (
 	"bytes"
@@ -891,3 +891,6 @@ func setSeatNonBid(finalExtBidResponse *openrtb_ext.ExtBidResponse, request *ope
 	finalExtBidResponse.Prebid.SeatNonBid = auctionResponse.GetSeatNonBid()
 	return true
 }
+
+
+

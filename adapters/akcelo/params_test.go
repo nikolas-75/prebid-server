@@ -1,4 +1,4 @@
-package akcelo
+﻿package akcelo
 
 import (
 	"encoding/json"
@@ -40,3 +40,6 @@ var invalidParams = []string{
 	`{"siteId": 456}`,
 	`{"siteId": 456, "test": 1}`,
 }
+
+
+

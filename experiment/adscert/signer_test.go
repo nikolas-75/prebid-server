@@ -1,4 +1,4 @@
-package adscert
+﻿package adscert
 
 import (
 	"errors"
@@ -53,3 +53,6 @@ func (ips *MockLocalAuthenticatedConnectionsSignatory) SignAuthenticatedConnecti
 func (ips *MockLocalAuthenticatedConnectionsSignatory) VerifyAuthenticatedConnection(request *api.AuthenticatedConnectionVerificationRequest) (*api.AuthenticatedConnectionVerificationResponse, error) {
 	return nil, nil
 }
+
+
+

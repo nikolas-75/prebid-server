@@ -1,4 +1,4 @@
-package bigoad
+﻿package bigoad
 
 import (
 	"encoding/json"
@@ -44,3 +44,6 @@ var invalidParams = []string{
 	`{}`,
 	`{"xxx": "baidu.com"}`,
 }
+
+
+

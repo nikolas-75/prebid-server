@@ -1,4 +1,4 @@
-package eventchannel
+﻿package eventchannel
 
 import (
 	"bytes"
@@ -45,3 +45,6 @@ func BuildEndpointSender(client *http.Client, baseUrl string, module string) Sen
 	endpoint.Path = path.Join(endpoint.Path, "intake", module)
 	return NewHttpSender(client, endpoint.String())
 }
+
+
+

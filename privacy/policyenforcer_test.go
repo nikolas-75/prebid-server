@@ -1,4 +1,4 @@
-package privacy
+﻿package privacy
 
 import (
 	"testing"
@@ -16,3 +16,6 @@ func TestNilEnforcerShouldEnforce(t *testing.T) {
 	assert.False(t, nilEnforcer.ShouldEnforce(""))
 	assert.False(t, nilEnforcer.ShouldEnforce("anyBidder"))
 }
+
+
+

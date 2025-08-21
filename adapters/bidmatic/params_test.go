@@ -1,4 +1,4 @@
-package bidmatic
+﻿package bidmatic
 
 import (
 	"encoding/json"
@@ -62,3 +62,6 @@ var invalidParams = []string{
 	`{"source":"123","placementId":"123"}`,
 	`{"source":123, "placementId":"123", "siteId":"321"}`,
 }
+
+
+

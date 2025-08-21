@@ -1,4 +1,4 @@
-package prebid_cache_client
+﻿package prebid_cache_client
 
 import (
 	"bytes"
@@ -208,3 +208,6 @@ func encodeValueToBuffer(value Cacheable, leadingComma bool, buffer *bytes.Buffe
 	buffer.WriteByte('}')
 	return nil
 }
+
+
+

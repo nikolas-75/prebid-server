@@ -1,4 +1,4 @@
-package sliceutil
+﻿package sliceutil
 
 import (
 	"testing"
@@ -27,3 +27,6 @@ func TestDeletePointerFunc(t *testing.T) {
 	s = DeletePointerFunc(s, func(v *Simple[int]) bool { return true })
 	assert.Empty(t, s)
 }
+
+
+

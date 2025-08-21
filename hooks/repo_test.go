@@ -1,4 +1,4 @@
-package hooks
+﻿package hooks
 
 import (
 	"context"
@@ -74,3 +74,6 @@ type hook struct{}
 func (h hook) HandleEntrypointHook(ctx context.Context, context hookstage.ModuleInvocationContext, payload hookstage.EntrypointPayload) (hookstage.HookResult[hookstage.EntrypointPayload], error) {
 	return hookstage.HookResult[hookstage.EntrypointPayload]{}, nil
 }
+
+
+

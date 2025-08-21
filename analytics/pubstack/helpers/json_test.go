@@ -1,4 +1,4 @@
-package helpers
+﻿package helpers
 
 import (
 	"net/http"
@@ -59,3 +59,6 @@ func TestJsonifyAmpObject(t *testing.T) {
 	_, err := JsonifyAmpObject(ao, "scopeId")
 	assert.NoError(t, err)
 }
+
+
+

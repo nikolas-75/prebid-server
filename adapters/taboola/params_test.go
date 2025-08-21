@@ -1,4 +1,4 @@
-package taboola
+﻿package taboola
 
 import (
 	"encoding/json"
@@ -57,3 +57,6 @@ var invalidParams = []string{
 	`{"publisherId" : "1", "tagid": "tag-id-for-example","pageType":1}`,
 	`{"publisherId" : "1", "tagid": "tag-id-for-example","pageType":null}`,
 }
+
+
+

@@ -1,4 +1,4 @@
-/*
+﻿/*
 	type-bid-assignment tests
 	https://semgrep.dev/docs/writing-rules/testing-rules
 	"ruleid" prefix in comment indicates patterns that should be flagged by semgrep
@@ -179,3 +179,6 @@ func (a *adapter) MakeBids(internalRequest *openrtb2.BidRequest, externalRequest
 		}
 	}
 }
+
+
+

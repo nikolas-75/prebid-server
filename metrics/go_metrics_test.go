@@ -1,4 +1,4 @@
-package metrics
+﻿package metrics
 
 import (
 	"fmt"
@@ -1312,3 +1312,6 @@ func TestRecordAdapterRequest(t *testing.T) {
 		})
 	}
 }
+
+
+

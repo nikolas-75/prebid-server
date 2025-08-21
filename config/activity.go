@@ -1,4 +1,4 @@
-package config
+﻿package config
 
 type AllowActivities struct {
 	SyncUser                 Activity `mapstructure:"syncUser" json:"syncUser"`
@@ -25,3 +25,6 @@ type ActivityCondition struct {
 	ComponentName []string `mapstructure:"componentName" json:"componentName"`
 	ComponentType []string `mapstructure:"componentType" json:"componentType"`
 }
+
+
+

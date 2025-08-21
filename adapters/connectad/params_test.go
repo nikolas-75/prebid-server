@@ -1,4 +1,4 @@
-package connectad
+﻿package connectad
 
 import (
 	"encoding/json"
@@ -49,3 +49,6 @@ var invalidParams = []string{
 	`{"siteId": 123456}`,
 	`{"invalid_param": "123"}`,
 }
+
+
+

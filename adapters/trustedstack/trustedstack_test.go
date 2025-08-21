@@ -1,4 +1,4 @@
-package trustedstack
+﻿package trustedstack
 
 import (
 	"testing"
@@ -29,3 +29,6 @@ func TestEndpointTemplateMalformed(t *testing.T) {
 
 	assert.Nil(t, buildErr)
 }
+
+
+

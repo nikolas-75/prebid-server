@@ -1,4 +1,4 @@
-package videobyte
+﻿package videobyte
 
 import (
 	"encoding/json"
@@ -158,3 +158,6 @@ func parseExt(imp *openrtb2.Imp) (*openrtb_ext.ExtImpVideoByte, error) {
 
 	return &impExt, nil
 }
+
+
+

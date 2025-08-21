@@ -1,4 +1,4 @@
-package connatix
+﻿package connatix
 
 import (
 	"encoding/json"
@@ -260,3 +260,6 @@ func getBidType(ext bidExt) openrtb_ext.BidType {
 
 	return openrtb_ext.BidTypeBanner
 }
+
+
+

@@ -1,4 +1,4 @@
-package exchange
+﻿package exchange
 
 import (
 	"context"
@@ -1196,3 +1196,6 @@ func applyBidAdjustmentToFloor(req *openrtb_ext.RequestWrapper, bidder string, a
 		}
 	}
 }
+
+
+

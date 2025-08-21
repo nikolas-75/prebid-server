@@ -1,4 +1,4 @@
-package floors
+﻿package floors
 
 import (
 	"encoding/json"
@@ -1218,3 +1218,6 @@ func getIntPtr(v int) *int {
 func getInt64Ptr(v int64) *int64 {
 	return &v
 }
+
+
+

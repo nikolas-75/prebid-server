@@ -1,4 +1,4 @@
-package sliceutil
+﻿package sliceutil
 
 // IndexPointerFunc returns the index of the first element in the slice for which the function f returns true.
 func IndexPointerFunc[Slice ~[]T, T any](s Slice, f func(*T) bool) int {
@@ -25,3 +25,6 @@ func DeletePointerFunc[Slice ~[]T, T any](s Slice, f func(*T) bool) Slice {
 	clear(s[i:]) // zero/nil out the obsolete elements, for GC
 	return s[:i]
 }
+
+
+

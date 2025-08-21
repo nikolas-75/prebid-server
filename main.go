@@ -1,4 +1,4 @@
-package main
+﻿package main
 
 import (
 	"flag"
@@ -44,7 +44,7 @@ func main() {
 	// Create a soft memory limit on the total amount of memory that PBS uses to tune the behavior
 	// of the Go garbage collector. In summary, `cfg.GarbageCollectorThreshold` serves as a fixed cost
 	// of memory that is going to be held garbage before a garbage collection cycle is triggered.
-	// This amount of virtual memory won’t translate into physical memory allocation unless we attempt
+	// This amount of virtual memory wonâ€™t translate into physical memory allocation unless we attempt
 	// to read or write to the slice below, which PBS will not do.
 	garbageCollectionThreshold := make([]byte, cfg.GarbageCollectorThreshold)
 	defer runtime.KeepAlive(garbageCollectionThreshold)
@@ -85,3 +85,6 @@ func serve(cfg *config.Configuration) error {
 	r.Shutdown()
 	return nil
 }
+
+
+

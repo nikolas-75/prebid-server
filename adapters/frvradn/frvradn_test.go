@@ -1,4 +1,4 @@
-package frvradn
+﻿package frvradn
 
 import (
 	"testing"
@@ -27,3 +27,6 @@ func TestInvalidEndpoint(t *testing.T) {
 
 	assert.Error(t, buildErr)
 }
+
+
+

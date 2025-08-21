@@ -1,4 +1,4 @@
-package blue
+﻿package blue
 
 import (
 	"testing"
@@ -18,3 +18,6 @@ func TestBidderBlue(t *testing.T) {
 
 	adapterstest.RunJSONBidderTest(t, "bluetest", bidder)
 }
+
+
+

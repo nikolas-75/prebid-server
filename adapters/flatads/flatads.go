@@ -1,4 +1,4 @@
-package flatads
+﻿package flatads
 
 import (
 	"fmt"
@@ -155,3 +155,6 @@ func getMediaTypeForBid(impID string, imps []openrtb2.Imp) (openrtb_ext.BidType,
 		Message: fmt.Sprintf("The impression with ID %s is not present into the request", impID),
 	}
 }
+
+
+

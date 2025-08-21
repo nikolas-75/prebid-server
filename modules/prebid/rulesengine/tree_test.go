@@ -1,4 +1,4 @@
-package rulesengine
+﻿package rulesengine
 
 import (
 	"encoding/json"
@@ -86,3 +86,6 @@ func BuildTestRequestWrapper() *openrtb_ext.RequestWrapper {
 
 	return rw
 }
+
+
+

@@ -1,4 +1,4 @@
-package seedingAlliance
+﻿package seedingAlliance
 
 import (
 	"encoding/json"
@@ -45,3 +45,6 @@ var invalidParams = []string{
 	`{"adUnitId": "1234", "seatId": 42}`,
 	`{"adUnitId": 1234, "seatId": "42"}`,
 }
+
+
+

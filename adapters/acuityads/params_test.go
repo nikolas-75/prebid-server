@@ -1,4 +1,4 @@
-package acuityads
+﻿package acuityads
 
 import (
 	"encoding/json"
@@ -49,3 +49,6 @@ func TestInvalidParams(t *testing.T) {
 		}
 	}
 }
+
+
+

@@ -1,4 +1,4 @@
-package iqx
+﻿package iqx
 
 import (
 	"encoding/json"
@@ -164,3 +164,6 @@ func getMediaTypeForBid(bid openrtb2.Bid) (openrtb_ext.BidType, error) {
 		return "", fmt.Errorf("failed to parse bid mtype for impression id \"%s\"", bid.ImpID)
 	}
 }
+
+
+

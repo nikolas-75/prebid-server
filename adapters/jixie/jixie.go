@@ -1,4 +1,4 @@
-package jixie
+﻿package jixie
 
 import (
 	"encoding/json"
@@ -133,3 +133,6 @@ func (a *adapter) MakeBids(internalRequest *openrtb2.BidRequest, externalRequest
 	return adsResp, nil
 
 }
+
+
+

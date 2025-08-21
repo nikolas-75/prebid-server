@@ -1,4 +1,4 @@
-package bidstack
+﻿package bidstack
 
 import (
 	"net/http"
@@ -48,3 +48,6 @@ func TestGetBidderExt(t *testing.T) {
 	assert.NoError(t, err)
 	assert.Equal(t, expected, actual)
 }
+
+
+

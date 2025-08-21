@@ -1,4 +1,4 @@
-package undertone
+﻿package undertone
 
 import (
 	"encoding/json"
@@ -199,3 +199,6 @@ func getInvalidImpErr(impId string, err error) *errortypes.BadInput {
 		Message: "Invalid impid=" + impId + ": " + err.Error(),
 	}
 }
+
+
+

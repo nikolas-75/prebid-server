@@ -1,4 +1,4 @@
-package bliink
+﻿package bliink
 
 import (
 	"encoding/json"
@@ -123,3 +123,6 @@ func getMediaTypeForImp(impId string, imps []openrtb2.Imp) (openrtb_ext.BidType,
 	}
 	return mediaType, fmt.Errorf("unable to fetch mediaType in multi-format: %s", impId)
 }
+
+
+

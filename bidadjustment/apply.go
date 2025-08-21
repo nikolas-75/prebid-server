@@ -1,4 +1,4 @@
-package bidadjustment
+﻿package bidadjustment
 
 import (
 	"math"
@@ -92,3 +92,6 @@ func get(rules map[string][]openrtb_ext.Adjustment, bidType, bidderName, dealID 
 	}
 	return nil
 }
+
+
+

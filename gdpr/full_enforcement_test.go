@@ -1,4 +1,4 @@
-package gdpr
+﻿package gdpr
 
 import (
 	"testing"
@@ -999,3 +999,6 @@ func makeVendorList() vendorList {
 		},
 	}
 }
+
+
+

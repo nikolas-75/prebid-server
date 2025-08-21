@@ -1,4 +1,4 @@
-package metax
+﻿package metax
 
 import (
 	"encoding/json"
@@ -254,3 +254,6 @@ func TestMakeRequests(t *testing.T) {
 	assert.Equal(t, 0, len(reqDatas2))
 	assert.Equal(t, 1, len(err2))
 }
+
+
+

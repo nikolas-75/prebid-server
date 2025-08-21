@@ -1,4 +1,4 @@
-package http_fetcher
+﻿package http_fetcher
 
 import (
 	"context"
@@ -313,3 +313,6 @@ type responseContract struct {
 type accountsResponseContract struct {
 	Accounts map[string]json.RawMessage `json:"accounts"`
 }
+
+
+

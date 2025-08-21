@@ -1,4 +1,4 @@
-package info
+﻿package info
 
 import (
 	"net/http"
@@ -140,3 +140,6 @@ func writeWithErrorHandling(w http.ResponseWriter, data []byte) {
 		glog.Errorf("error writing response to /info/bidders: %v", err)
 	}
 }
+
+
+

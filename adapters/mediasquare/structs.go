@@ -1,4 +1,4 @@
-package mediasquare
+﻿package mediasquare
 
 import (
 	"fmt"
@@ -220,3 +220,6 @@ func (msqResp *msqResponse) getContent(bidderResponse *adapters.BidderResponse) 
 		bidderResponse.Bids = tmpBids
 	}
 }
+
+
+

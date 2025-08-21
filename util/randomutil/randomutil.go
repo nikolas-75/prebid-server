@@ -1,4 +1,4 @@
-package randomutil
+﻿package randomutil
 
 import (
 	"math/rand"
@@ -18,3 +18,6 @@ func (RandomNumberGenerator) GenerateInt63() int64 {
 func (r RandomNumberGenerator) Intn(n int) int {
 	return rand.Intn(n)
 }
+
+
+

@@ -1,4 +1,4 @@
-package nobid
+﻿package nobid
 
 import (
 	"encoding/json"
@@ -51,3 +51,6 @@ var invalidParams = []string{
 	`{"placementId": "1"}`,
 	`{"placementId": 1}`,
 }
+
+
+

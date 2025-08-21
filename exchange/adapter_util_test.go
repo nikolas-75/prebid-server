@@ -1,4 +1,4 @@
-package exchange
+﻿package exchange
 
 import (
 	"errors"
@@ -429,3 +429,6 @@ type fakeBuilder struct {
 func (b fakeBuilder) Builder(name openrtb_ext.BidderName, cfg config.Adapter, server config.Server) (adapters.Bidder, error) {
 	return b.bidder, b.err
 }
+
+
+

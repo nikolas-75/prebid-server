@@ -1,4 +1,4 @@
-package usersync
+﻿package usersync
 
 import (
 	"encoding/base64"
@@ -25,3 +25,6 @@ func (d Base64Decoder) Decode(encodedValue string) *Cookie {
 
 	return &cookie
 }
+
+
+

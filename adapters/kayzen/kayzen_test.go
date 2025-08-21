@@ -1,4 +1,4 @@
-package kayzen
+﻿package kayzen
 
 import (
 	"testing"
@@ -27,3 +27,6 @@ func TestEndpointTemplateMalformed(t *testing.T) {
 
 	assert.Error(t, buildErr)
 }
+
+
+

@@ -1,4 +1,4 @@
-package bidadjustment
+﻿package bidadjustment
 
 import (
 	"testing"
@@ -336,3 +336,6 @@ func TestValidateAdjustment(t *testing.T) {
 		})
 	}
 }
+
+
+

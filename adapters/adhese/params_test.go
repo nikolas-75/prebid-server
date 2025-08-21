@@ -1,4 +1,4 @@
-package adhese
+﻿package adhese
 
 import (
 	"encoding/json"
@@ -56,3 +56,6 @@ var invalidParams = []string{
 	`{"account": "demo", "location": "loc1", "format": "for1", "targets": "test"}`,
 	`{"account": "demo", "location": "loc1", "format": "for1", "targets": 5}`,
 }
+
+
+

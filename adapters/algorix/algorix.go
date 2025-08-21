@@ -1,4 +1,4 @@
-package algorix
+﻿package algorix
 
 import (
 	"encoding/json"
@@ -230,3 +230,6 @@ func getBidType(bid openrtb2.Bid, imps []openrtb2.Imp) (openrtb_ext.BidType, err
 	}
 	return mediaType, fmt.Errorf("unable to fetch mediaType in multi-format: %s", bid.ImpID)
 }
+
+
+

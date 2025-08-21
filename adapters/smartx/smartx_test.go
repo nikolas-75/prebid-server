@@ -1,4 +1,4 @@
-package smartx
+﻿package smartx
 
 import (
 	"testing"
@@ -22,3 +22,6 @@ func TestJsonSamples(t *testing.T) {
 
 	adapterstest.RunJSONBidderTest(t, testsDir, bidder)
 }
+
+
+

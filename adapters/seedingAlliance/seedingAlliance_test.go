@@ -1,4 +1,4 @@
-package seedingAlliance
+﻿package seedingAlliance
 
 import (
 	"encoding/json"
@@ -205,3 +205,6 @@ func TestCurExists(t *testing.T) {
 		assert.Equal(t, test.want, got)
 	}
 }
+
+
+

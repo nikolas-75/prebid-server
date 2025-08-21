@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 // ImpExtRise defines the contract for bidrequest.imp[i].ext.prebid.bidder.rise
 type ImpExtRise struct {
@@ -6,3 +6,6 @@ type ImpExtRise struct {
 	Org         string `json:"org"`
 	PlacementID string `json:"placementId"`
 }
+
+
+

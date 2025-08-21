@@ -1,4 +1,4 @@
-package gumgum
+﻿package gumgum
 
 import (
 	"encoding/json"
@@ -67,3 +67,6 @@ var invalidParams = []string{
 	`{"product": "test"}`,
 	`{"product": 12345678}`,
 }
+
+
+

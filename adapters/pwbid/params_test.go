@@ -1,4 +1,4 @@
-package pwbid
+﻿package pwbid
 
 import (
 	"encoding/json"
@@ -47,3 +47,6 @@ var invalidParams = []string{
 	`{"bidFloor":0.10}`,
 	`null`,
 }
+
+
+

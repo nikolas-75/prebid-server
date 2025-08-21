@@ -1,4 +1,4 @@
-package privacy
+﻿package privacy
 
 // NOTE: Reanme this package. Will eventually replace in its entirety with Activites.
 
@@ -43,3 +43,6 @@ func (p EnabledPolicyEnforcer) ShouldEnforce(bidder string) bool {
 	}
 	return false
 }
+
+
+

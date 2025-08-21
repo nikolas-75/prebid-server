@@ -1,4 +1,4 @@
-package ortb
+﻿package ortb
 
 import (
 	"fmt"
@@ -32,3 +32,6 @@ func validateVideo(video *openrtb2.Video, impIndex int) error {
 
 	return nil
 }
+
+
+

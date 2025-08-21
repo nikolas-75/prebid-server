@@ -1,4 +1,4 @@
-package agma
+﻿package agma
 
 import (
 	"bytes"
@@ -82,3 +82,6 @@ func createHttpSender(httpClient *http.Client, endpoint config.AgmaAnalyticsHttp
 		return nil
 	}, nil
 }
+
+
+

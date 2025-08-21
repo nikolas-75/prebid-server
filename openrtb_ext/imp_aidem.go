@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 type ExtImpAidem struct {
 	PlacementId string `json:"placementId"`
@@ -6,3 +6,6 @@ type ExtImpAidem struct {
 	PublisherId string `json:"publisherId"`
 	RateLimit   string `json:"rateLimit"`
 }
+
+
+

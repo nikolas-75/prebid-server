@@ -1,4 +1,4 @@
-package endpoints
+﻿package endpoints
 
 import (
 	"net/http"
@@ -20,3 +20,6 @@ func NewStatusEndpoint(response string) httprouter.Handle {
 		w.Write(responseBytes)
 	}
 }
+
+
+

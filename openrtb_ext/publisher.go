@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 // ExtPublisher defines the contract for ...publisher.ext (found in both bidrequest.site and bidrequest.app)
 type ExtPublisher struct {
@@ -11,3 +11,6 @@ type ExtPublisherPrebid struct {
 	// host. As such, the definition depends on the PBS hosting entity.
 	ParentAccount *string `json:"parentAccount,omitempty"`
 }
+
+
+

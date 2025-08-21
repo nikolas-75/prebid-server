@@ -1,4 +1,4 @@
-package gdpr
+﻿package gdpr
 
 import (
 	"testing"
@@ -239,3 +239,6 @@ func (fcr *fakeTCF2ConfigReader) PurposeOneTreatmentEnabled() bool {
 func (fcr *fakeTCF2ConfigReader) PurposeOneTreatmentAccessAllowed() bool {
 	return false
 }
+
+
+

@@ -1,4 +1,4 @@
-package lockerdome
+﻿package lockerdome
 
 import (
 	"encoding/json"
@@ -54,3 +54,6 @@ var invalidParams = []string{
 	`{"adUnitId": true}`,
 	`{"adUnitId": 123456789}`, // adUnitId can't be a number
 }
+
+
+

@@ -1,4 +1,4 @@
-package version
+﻿package version
 
 import (
 	"strings"
@@ -51,3 +51,6 @@ func writeNameVersionRecord(sb *strings.Builder, name, version string) {
 	sb.WriteString("/")
 	sb.WriteString(version)
 }
+
+
+

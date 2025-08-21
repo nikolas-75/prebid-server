@@ -1,4 +1,4 @@
-package improvedigital
+﻿package improvedigital
 
 import (
 	"encoding/json"
@@ -57,3 +57,6 @@ var invalidParams = []string{
 	`{"placementId": true, "size":"1234567"}`,
 	`{"publisherId":13245, "placementKey": "slotA"}`,
 }
+
+
+

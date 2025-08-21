@@ -1,4 +1,4 @@
-package bidadjustment
+﻿package bidadjustment
 
 import (
 	"testing"
@@ -524,3 +524,6 @@ func TestMerge(t *testing.T) {
 		})
 	}
 }
+
+
+

@@ -1,4 +1,4 @@
-package optidigital
+﻿package optidigital
 
 import (
 	"net/http"
@@ -69,3 +69,6 @@ func (a *adapter) MakeBids(request *openrtb2.BidRequest, requestData *adapters.R
 	}
 	return bidResponse, nil
 }
+
+
+

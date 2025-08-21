@@ -1,4 +1,4 @@
-package endpoints
+﻿package endpoints
 
 import (
 	"context"
@@ -436,3 +436,6 @@ func handleBadStatus(w http.ResponseWriter, status int, metricValue metrics.SetU
 		w.Write([]byte(err.Error()))
 	}
 }
+
+
+

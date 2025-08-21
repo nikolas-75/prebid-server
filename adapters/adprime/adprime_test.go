@@ -1,4 +1,4 @@
-package adprime
+﻿package adprime
 
 import (
 	"testing"
@@ -18,3 +18,6 @@ func TestJsonSamples(t *testing.T) {
 
 	adapterstest.RunJSONBidderTest(t, "adprimetest", bidder)
 }
+
+
+

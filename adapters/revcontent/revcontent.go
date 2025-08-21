@@ -1,4 +1,4 @@
-package revcontent
+﻿package revcontent
 
 import (
 	"encoding/json"
@@ -106,3 +106,6 @@ func getBidType(bidAdm string) openrtb_ext.BidType {
 	}
 	return openrtb_ext.BidTypeNative
 }
+
+
+

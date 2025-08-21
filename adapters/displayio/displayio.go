@@ -1,4 +1,4 @@
-package displayio
+﻿package displayio
 
 import (
 	"encoding/json"
@@ -187,3 +187,6 @@ func (adapter *adapter) buildEndpointURL(params *openrtb_ext.ExtImpDisplayio) (s
 	endpointParams := macros.EndpointTemplateParams{PublisherID: params.PublisherId}
 	return macros.ResolveMacros(adapter.endpoint, endpointParams)
 }
+
+
+

@@ -1,4 +1,4 @@
-package lemmadigital
+﻿package lemmadigital
 
 import (
 	"encoding/json"
@@ -113,3 +113,6 @@ func (a *adapter) buildEndpointURL(params openrtb_ext.ImpExtLemmaDigital) (strin
 		AdUnit: strconv.Itoa(params.AdId)}
 	return macros.ResolveMacros(a.endpoint, endpointParams)
 }
+
+
+

@@ -1,4 +1,4 @@
-package usersync
+﻿package usersync
 
 // SyncType specifies the mechanism used to perform a user sync.
 type SyncType string
@@ -36,3 +36,6 @@ func (t SyncTypeFilter) ForBidder(bidder string) []SyncType {
 
 	return syncTypes
 }
+
+
+

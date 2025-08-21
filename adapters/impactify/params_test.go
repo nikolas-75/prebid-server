@@ -1,4 +1,4 @@
-package impactify
+﻿package impactify
 
 import (
 	"encoding/json"
@@ -47,3 +47,6 @@ var invalidParams = []string{
 	`[]`,
 	`{}`,
 }
+
+
+

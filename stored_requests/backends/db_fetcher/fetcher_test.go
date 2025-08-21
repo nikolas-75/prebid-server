@@ -1,4 +1,4 @@
-package db_fetcher
+﻿package db_fetcher
 
 import (
 	"context"
@@ -318,3 +318,6 @@ func assertErrorCount(t *testing.T, num int, errs []error) {
 		t.Errorf("Wrong number of errors. Expected %d. Got %d. Errors are %v", num, len(errs), errs)
 	}
 }
+
+
+

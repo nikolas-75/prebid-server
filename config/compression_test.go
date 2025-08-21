@@ -1,4 +1,4 @@
-package config
+﻿package config
 
 import (
 	"testing"
@@ -45,3 +45,6 @@ func TestReqCompressionCfgIsSupported(t *testing.T) {
 		assert.Equal(t, got, test.wantSupported, test.description)
 	}
 }
+
+
+

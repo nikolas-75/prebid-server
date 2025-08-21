@@ -1,4 +1,4 @@
-package tappx
+﻿package tappx
 
 import (
 	"encoding/json"
@@ -73,3 +73,6 @@ var invalidParams = []string{
 	`{"tappxkey": "1", "endpoint": "1", "bcid":["123"], bcrid: [123]}`,
 	`{"tappxkey": "1", "endpoint": "1", "bcid":[123], bcrid: ["123"]}`,
 }
+
+
+

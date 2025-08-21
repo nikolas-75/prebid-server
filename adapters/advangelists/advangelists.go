@@ -1,4 +1,4 @@
-package advangelists
+﻿package advangelists
 
 import (
 	"encoding/json"
@@ -253,3 +253,6 @@ func Builder(bidderName openrtb_ext.BidderName, config config.Adapter, server co
 	}
 	return bidder, nil
 }
+
+
+

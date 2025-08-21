@@ -1,4 +1,4 @@
-/*
+﻿/*
 	bid-type-switch-check tests
 	https://semgrep.dev/docs/writing-rules/testing-rules
 	"ruleid" prefix in comment indicates patterns that should be flagged by semgrep
@@ -34,3 +34,6 @@ case "native":
 case "video":
 	return openrtb_ext.BidTypeVideo, nil
 }
+
+
+

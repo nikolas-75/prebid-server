@@ -1,4 +1,4 @@
-package adservertargeting
+﻿package adservertargeting
 
 import (
 	"encoding/json"
@@ -57,3 +57,6 @@ func (bidsCache *bidsCache) GetBid(bidderName, bidId string, bid openrtb2.Bid) (
 	}
 	return bidsCache.bids[bidderName][bidId], nil
 }
+
+
+

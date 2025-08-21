@@ -1,4 +1,4 @@
-package trustedstack
+﻿package trustedstack
 
 import (
 	"encoding/json"
@@ -107,3 +107,6 @@ func buildEndpoint(trustedstackUrl, hostUrl string) string {
 	urlObject.RawQuery = values.Encode()
 	return urlObject.String()
 }
+
+
+

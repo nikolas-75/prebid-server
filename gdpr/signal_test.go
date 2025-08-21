@@ -1,4 +1,4 @@
-package gdpr
+﻿package gdpr
 
 import (
 	"testing"
@@ -162,3 +162,6 @@ func TestSignalNormalize(t *testing.T) {
 		assert.Equal(t, test.wantSignal, normalizedSignal, test.description)
 	}
 }
+
+
+

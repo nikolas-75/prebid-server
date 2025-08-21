@@ -1,4 +1,4 @@
-package adverxo
+﻿package adverxo
 
 import (
 	"encoding/json"
@@ -50,3 +50,6 @@ var invalidParams = []string{
 	`{ "adUnitId": 5, "auth": ""}`,
 	`{ "adUnitId": 5, "auth": "12345"}`,
 }
+
+
+

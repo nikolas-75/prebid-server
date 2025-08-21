@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 import "github.com/prebid/openrtb/v20/openrtb2"
 
@@ -6,3 +6,6 @@ import "github.com/prebid/openrtb/v20/openrtb2"
 type ExtSource struct {
 	SChain *openrtb2.SupplyChain `json:"schain"`
 }
+
+
+

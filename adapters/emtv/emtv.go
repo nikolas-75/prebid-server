@@ -1,4 +1,4 @@
-package emtv
+﻿package emtv
 
 import (
 	"encoding/json"
@@ -163,3 +163,6 @@ func getMediaTypeForImp(impID string, imps []openrtb2.Imp, impMap map[string]ope
 		Message: fmt.Sprintf("Failed to find impression \"%s\"", impID),
 	}
 }
+
+
+

@@ -1,4 +1,4 @@
-package akcelo
+﻿package akcelo
 
 import (
 	"github.com/prebid/prebid-server/v3/adapters/adapterstest"
@@ -18,3 +18,6 @@ func TestJsonSamples(t *testing.T) {
 	require.NoError(t, buildErr, "Builder returned unexpected error")
 	adapterstest.RunJSONBidderTest(t, "akcelotest", bidder)
 }
+
+
+

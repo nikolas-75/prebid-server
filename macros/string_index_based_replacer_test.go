@@ -1,4 +1,4 @@
-package macros
+﻿package macros
 
 import (
 	"strings"
@@ -135,3 +135,6 @@ func BenchmarkStringIndexBasedReplacer(b *testing.B) {
 		}
 	}
 }
+
+
+

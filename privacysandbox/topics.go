@@ -1,4 +1,4 @@
-package privacysandbox
+﻿package privacysandbox
 
 import (
 	"encoding/json"
@@ -226,3 +226,6 @@ func formatWarning(msg string) error {
 		Message:     fmt.Sprintf("Invalid field in Sec-Browsing-Topics header: %s", msg),
 	}
 }
+
+
+

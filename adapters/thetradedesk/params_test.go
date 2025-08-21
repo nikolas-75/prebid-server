@@ -1,4 +1,4 @@
-package thetradedesk
+﻿package thetradedesk
 
 import (
 	"encoding/json"
@@ -51,3 +51,6 @@ var invalidParams = []string{
 	`{"publisherId": 123456, "supplySourceId": 123}`,
 	`{"publisherId": 0, "supplySourceId": 0}`,
 }
+
+
+

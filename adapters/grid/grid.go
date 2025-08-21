@@ -1,4 +1,4 @@
-package grid
+﻿package grid
 
 import (
 	"encoding/json"
@@ -480,3 +480,6 @@ func getMediaTypeForImp(impID string, imps []openrtb2.Imp, bidWithType GridBid) 
 		Message: fmt.Sprintf("Failed to find impression for ID: \"%s\"", impID),
 	}
 }
+
+
+

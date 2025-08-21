@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 type ImpExtFlipp struct {
 	PublisherNameIdentifier string             `json:"publisherNameIdentifier"`
@@ -14,3 +14,6 @@ type ImpExtFlippOptions struct {
 	DwellExpand  bool   `json:"dwellExpand,omitempty"`
 	ContentCode  string `json:"contentCode,omitempty"`
 }
+
+
+

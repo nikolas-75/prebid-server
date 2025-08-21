@@ -1,4 +1,4 @@
-package coinzilla
+﻿package coinzilla
 
 import (
 	"encoding/json"
@@ -43,3 +43,6 @@ var invalidParams = []string{
 	`{}`,
 	`{"placementId":""}`,
 }
+
+
+

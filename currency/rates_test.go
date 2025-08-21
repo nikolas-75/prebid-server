@@ -1,4 +1,4 @@
-package currency
+﻿package currency
 
 import (
 	"errors"
@@ -305,3 +305,6 @@ func TestGetRate_NotValidISOCurrency(t *testing.T) {
 		}
 	}
 }
+
+
+

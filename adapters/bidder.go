@@ -1,4 +1,4 @@
-package adapters
+﻿package adapters
 
 import (
 	"encoding/base64"
@@ -170,3 +170,6 @@ func (r ExtraRequestInfo) ConvertCurrency(value float64, from, to string) (float
 }
 
 type Builder func(openrtb_ext.BidderName, config.Adapter, config.Server) (Bidder, error)
+
+
+

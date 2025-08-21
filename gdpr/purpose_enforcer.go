@@ -1,4 +1,4 @@
-package gdpr
+﻿package gdpr
 
 import (
 	"github.com/prebid/go-gdpr/api"
@@ -109,3 +109,6 @@ func isDowngraded(enforceAlgo config.TCF2EnforcementAlgo, basicEnforcementVendor
 	}
 	return false
 }
+
+
+

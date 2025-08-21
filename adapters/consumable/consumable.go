@@ -1,4 +1,4 @@
-package consumable
+﻿package consumable
 
 import (
 	"encoding/json"
@@ -160,3 +160,6 @@ func extractExtensions(impression openrtb2.Imp) (*adapters.ExtImpBidder, *openrt
 
 	return &bidderExt, &consumableExt, nil
 }
+
+
+

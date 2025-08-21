@@ -1,4 +1,4 @@
-package currency
+﻿package currency
 
 import "fmt"
 
@@ -11,3 +11,6 @@ type ConversionNotFoundError struct {
 func (err ConversionNotFoundError) Error() string {
 	return fmt.Sprintf("Currency conversion rate not found: '%s' => '%s'", err.FromCur, err.ToCur)
 }
+
+
+

@@ -1,4 +1,4 @@
-package gamoshi
+﻿package gamoshi
 
 import (
 	"encoding/json"
@@ -57,3 +57,6 @@ var invalidParams = []string{
 	`[]`,
 	`{}`,
 }
+
+
+

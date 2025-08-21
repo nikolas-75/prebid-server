@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 // ExtImpSmartadserver defines the contract for bidrequest.imp[i].ext.prebid.bidder.smartadserver
 type ExtImpSmartadserver struct {
@@ -7,3 +7,6 @@ type ExtImpSmartadserver struct {
 	FormatID  int `json:"formatId"`
 	NetworkID int `json:"networkId"`
 }
+
+
+

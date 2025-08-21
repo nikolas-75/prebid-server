@@ -1,4 +1,4 @@
-package onetag
+﻿package onetag
 
 import (
 	"encoding/json"
@@ -52,3 +52,6 @@ var invalidParams = []string{
 	`{"pubId": ""}`,
 	`{"pubId": 123}`,
 }
+
+
+

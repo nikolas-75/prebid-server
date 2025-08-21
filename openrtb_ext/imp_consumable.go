@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 // ExtImpConsumable defines the contract for bidrequest.imp[i].ext.prebid.bidder.consumable
 type ExtImpConsumable struct {
@@ -9,3 +9,6 @@ type ExtImpConsumable struct {
 	UnitName    string `json:"unitName,omitempty"`
 	PlacementId string `json:"placementid,omitempty"`
 }
+
+
+

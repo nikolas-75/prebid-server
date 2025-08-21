@@ -1,4 +1,4 @@
-package modules
+﻿package modules
 
 import (
 	"encoding/json"
@@ -19,7 +19,7 @@ func NewBuilder() Builder {
 }
 
 // Builder is the interfaces intended for building modules
-// implementing hook interfaces [github.com/prebid/prebid-server/hooks/hookstage].
+// implementing hook interfaces [github.com/prebid/prebid-server/v3/hooks/hookstage].
 type Builder interface {
 	// Build initializes existing hook modules passing them config and other dependencies.
 	// It returns hook repository created based on the implemented hook interfaces by modules
@@ -95,3 +95,6 @@ func (m *builder) Build(
 
 	return repo, collection, sdm, err
 }
+
+
+

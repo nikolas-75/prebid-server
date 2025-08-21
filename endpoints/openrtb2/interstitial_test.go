@@ -1,4 +1,4 @@
-package openrtb2
+﻿package openrtb2
 
 import (
 	"encoding/json"
@@ -121,3 +121,6 @@ func TestInterstitialWithoutPrebidDeviceExt(t *testing.T) {
 	}
 	assert.Equal(t, targetFormat, myRequest.Imp[0].Banner.Format)
 }
+
+
+

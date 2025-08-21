@@ -1,4 +1,4 @@
-package adapters
+﻿package adapters
 
 import (
 	"fmt"
@@ -26,3 +26,6 @@ func CheckResponseStatusCodeForErrors(response *ResponseData) error {
 func IsResponseStatusCodeNoContent(response *ResponseData) bool {
 	return response.StatusCode == http.StatusNoContent
 }
+
+
+

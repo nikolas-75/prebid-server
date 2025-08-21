@@ -1,4 +1,4 @@
-package openrtb2
+﻿package openrtb2
 
 import (
 	"bytes"
@@ -179,3 +179,6 @@ func BenchmarkValidWholeExemplary(b *testing.B) {
 		})
 	}
 }
+
+
+

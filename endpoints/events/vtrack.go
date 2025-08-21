@@ -1,4 +1,4 @@
-package events
+﻿package events
 
 import (
 	"context"
@@ -329,3 +329,6 @@ func ModifyVastXmlJSON(externalUrl string, data json.RawMessage, bidid, bidder, 
 	}
 	return json.RawMessage(vast)
 }
+
+
+

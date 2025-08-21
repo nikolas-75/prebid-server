@@ -1,4 +1,4 @@
-package db_provider
+﻿package db_provider
 
 import (
 	"context"
@@ -65,3 +65,6 @@ func (provider DbProviderMock) QueryContext(ctx context.Context, template string
 
 	return provider.db.QueryContext(ctx, query, args...)
 }
+
+
+

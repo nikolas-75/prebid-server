@@ -1,4 +1,4 @@
-package sparteo
+﻿package sparteo
 
 import (
 	"fmt"
@@ -225,3 +225,6 @@ func (a *adapter) getMediaType(bid *openrtb2.Bid) (openrtb_ext.BidType, error) {
 
 	return bidType, nil
 }
+
+
+

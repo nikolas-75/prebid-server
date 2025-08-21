@@ -1,4 +1,4 @@
-package pubstack
+﻿package pubstack
 
 import (
 	"net/http"
@@ -103,3 +103,6 @@ func assertConfigChanOne(t *testing.T, c <-chan *Configuration, expectedConfig *
 		return assert.Fail(t, "Should receive an event, but did NOT", msgAndArgs...)
 	}
 }
+
+
+

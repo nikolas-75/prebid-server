@@ -1,4 +1,4 @@
-package tradplus
+﻿package tradplus
 
 import (
 	"encoding/json"
@@ -51,3 +51,6 @@ var invalidParams = []string{
 	`{"zoneId": "aaa"}`,
 	`{"zoneId": null}`,
 }
+
+
+

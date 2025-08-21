@@ -1,4 +1,4 @@
-package eventchannel
+﻿package eventchannel
 
 import (
 	"bytes"
@@ -142,3 +142,6 @@ func (c *EventChannel) start() {
 		}
 	}
 }
+
+
+

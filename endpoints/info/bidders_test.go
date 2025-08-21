@@ -1,4 +1,4 @@
-package info
+﻿package info
 
 import (
 	"io"
@@ -522,3 +522,6 @@ func TestBiddersHandler(t *testing.T) {
 		})
 	}
 }
+
+
+

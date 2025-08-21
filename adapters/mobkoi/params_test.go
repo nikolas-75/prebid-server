@@ -1,4 +1,4 @@
-package mobkoi
+﻿package mobkoi
 
 import (
 	"encoding/json"
@@ -61,3 +61,6 @@ var invalidParams = []string{
 	`{"placementId":"abc", "adServerBaseUrl":"https://adserver.mobkoi.net"}`,
 	`{"placementId":"abc", "adServerBaseUrl":"https://mobkoi.com"}`,
 }
+
+
+

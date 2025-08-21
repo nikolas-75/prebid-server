@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 import (
 	"maps"
@@ -209,3 +209,6 @@ func (enforcement *PriceFloorEnforcement) DeepCopy() *PriceFloorEnforcement {
 
 	return &newEnforcement
 }
+
+
+

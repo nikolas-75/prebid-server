@@ -1,4 +1,4 @@
-package stored_responses
+﻿package stored_responses
 
 import (
 	"context"
@@ -876,3 +876,6 @@ func (cf *mockStoredBidResponseFetcher) FetchRequests(ctx context.Context, reque
 func (cf *mockStoredBidResponseFetcher) FetchResponses(ctx context.Context, ids []string) (data map[string]json.RawMessage, errs []error) {
 	return cf.data, nil
 }
+
+
+

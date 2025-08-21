@@ -1,4 +1,4 @@
-package currency
+﻿package currency
 
 import (
 	"testing"
@@ -197,3 +197,6 @@ func TestGetAuctionCurrencyRates(t *testing.T) {
 		})
 	}
 }
+
+
+

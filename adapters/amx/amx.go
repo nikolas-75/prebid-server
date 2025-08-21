@@ -1,4 +1,4 @@
-package amx
+﻿package amx
 
 import (
 	"encoding/json"
@@ -204,3 +204,6 @@ func getMediaTypeForBid(bidExt amxBidExt) openrtb_ext.BidType {
 
 	return openrtb_ext.BidTypeBanner
 }
+
+
+

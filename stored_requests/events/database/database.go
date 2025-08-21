@@ -1,4 +1,4 @@
-package database
+﻿package database
 
 import (
 	"bytes"
@@ -240,3 +240,6 @@ func (e *DatabaseEventProducer) sendEvents(rows *sql.Rows) (err error) {
 
 	return
 }
+
+
+

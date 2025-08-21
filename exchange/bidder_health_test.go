@@ -1,4 +1,4 @@
-package exchange
+﻿package exchange
 
 import (
 	"math"
@@ -282,3 +282,6 @@ func TestBidderAdapter_GetHealth(t *testing.T) {
 		assert.InDelta(t, val, actual, 0.000001, "getHealth() should return the stored health value")
 	}
 }
+
+
+

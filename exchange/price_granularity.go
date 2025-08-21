@@ -1,4 +1,4 @@
-package exchange
+﻿package exchange
 
 import (
 	"math"
@@ -56,3 +56,6 @@ func getCpmTarget(cpm float64, bucketMin float64, increment float64, precision i
 	roundedCPM := math.Floor((cpm-bucketMin)/increment)*increment + bucketMin
 	return strconv.FormatFloat(roundedCPM, 'f', precision, 64)
 }
+
+
+

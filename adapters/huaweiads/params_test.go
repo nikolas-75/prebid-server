@@ -1,4 +1,4 @@
-package huaweiads
+﻿package huaweiads
 
 import (
 	"encoding/json"
@@ -52,3 +52,6 @@ var invalidParams = []string{
 	`{"slotid": "m8x9x3rzff","adtype": "banner","publisherid": "123","signkey": "","keyid": "41","clienttime": "2018-11-02 16:34:07.981+1300"}`,
 	`{"slotid": "m8x9x3rzff","adtype": "banner","publisherid": "123","signkey": "2f910deac52ff34f0d80585d8664c55e3422ff3c6aeb5e1cf2ff94f1ac6a9642","keyid": "","clienttime": "2018-11-02 16:34:07.981+1300"}`,
 }
+
+
+

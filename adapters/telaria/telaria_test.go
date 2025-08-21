@@ -1,4 +1,4 @@
-package telaria
+﻿package telaria
 
 import (
 	"testing"
@@ -32,3 +32,6 @@ func TestJsonSamples(t *testing.T) {
 
 	adapterstest.RunJSONBidderTest(t, "telariatest", bidder)
 }
+
+
+

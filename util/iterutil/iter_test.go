@@ -1,4 +1,4 @@
-package iterutil
+﻿package iterutil
 
 import (
 	"iter"
@@ -35,3 +35,6 @@ func TestSeconds(t *testing.T) {
 	got := slices.Collect(seconds)
 	assert.Equal(t, want, got)
 }
+
+
+

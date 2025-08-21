@@ -1,4 +1,4 @@
-package loyal
+﻿package loyal
 
 import (
 	"encoding/json"
@@ -163,3 +163,6 @@ func getBidMediaType(bid *openrtb2.Bid) (openrtb_ext.BidType, error) {
 		return "", fmt.Errorf("invalid BidType: %s", extBid.Prebid.Type)
 	}
 }
+
+
+

@@ -1,4 +1,4 @@
-package connatix
+﻿package connatix
 
 import (
 	"encoding/json"
@@ -56,3 +56,6 @@ var invalidParams = []string{
 	`{"adCode": "string", "seatCode": 5, "originalPublisherid": "string"}`,
 	`{  "placementId": "" }`,
 }
+
+
+

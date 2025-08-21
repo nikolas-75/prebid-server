@@ -1,4 +1,4 @@
-package vrtcal
+﻿package vrtcal
 
 import (
 	"encoding/json"
@@ -108,3 +108,6 @@ func getReturnTypeForImp(mType openrtb2.MarkupType) (openrtb_ext.BidType, error)
 			Message: "Unsupported return type"}
 	}
 }
+
+
+

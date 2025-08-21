@@ -1,4 +1,4 @@
-package config
+﻿package config
 
 // This is a first pass at providing a priority list for building out interstitial sizes.
 // It is quite possible that different strategies may develop, requiring a configurable
@@ -266,3 +266,6 @@ var ResolvedInterstitialSizes = []InterstitialSize{
 	{140, 50},
 	{120, 20},
 }
+
+
+

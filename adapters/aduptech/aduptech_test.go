@@ -1,4 +1,4 @@
-package aduptech
+﻿package aduptech
 
 import (
 	"testing"
@@ -63,3 +63,6 @@ func TestInvalidTargetCurrency(t *testing.T) {
 
 	assert.EqualError(t, buildErr, "invalid extra info: invalid TargetCurrency INVALID, pls check")
 }
+
+
+

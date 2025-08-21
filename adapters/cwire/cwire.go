@@ -1,4 +1,4 @@
-package cwire
+﻿package cwire
 
 import (
 	"encoding/json"
@@ -100,3 +100,6 @@ func (a *adapter) MakeBids(bidReq *openrtb2.BidRequest, unused *adapters.Request
 
 	return bidderResponse, nil
 }
+
+
+

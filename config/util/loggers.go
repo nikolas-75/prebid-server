@@ -1,4 +1,4 @@
-package util
+﻿package util
 
 import (
 	"math/rand"
@@ -22,3 +22,6 @@ func logRandomSampleImpl(msg string, logger LogMsg, chance float32, randGenerato
 	}
 	logger(msg)
 }
+
+
+

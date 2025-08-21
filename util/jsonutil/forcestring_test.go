@@ -1,4 +1,4 @@
-package jsonutil
+﻿package jsonutil
 
 import (
 	"testing"
@@ -59,3 +59,6 @@ func Test_ParseIntoString(t *testing.T) {
 func Test_ParseIntoNilStringError(t *testing.T) {
 	assert.Error(t, ParseIntoString([]byte(`"123"`), nil))
 }
+
+
+

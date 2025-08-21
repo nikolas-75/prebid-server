@@ -1,4 +1,4 @@
-package connectad
+﻿package connectad
 
 import (
 	"encoding/json"
@@ -206,3 +206,6 @@ func buildImpBanner(imp *openrtb2.Imp) error {
 
 	return nil
 }
+
+
+

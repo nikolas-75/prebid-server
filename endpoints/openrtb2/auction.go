@@ -1,4 +1,4 @@
-package openrtb2
+﻿package openrtb2
 
 import (
 	"compress/gzip"
@@ -2055,3 +2055,6 @@ func checkIfAppRequest(request []byte) (bool, error) {
 	}
 	return false, nil
 }
+
+
+

@@ -1,4 +1,4 @@
-package cwire
+﻿package cwire
 
 import (
 	"testing"
@@ -27,3 +27,6 @@ func TestJsonSamples(t *testing.T) {
 
 	adapterstest.RunJSONBidderTest(t, "cwiretest", bidder)
 }
+
+
+

@@ -1,4 +1,4 @@
-package improvedigital
+﻿package improvedigital
 
 import (
 	"encoding/json"
@@ -282,3 +282,6 @@ func (a *ImprovedigitalAdapter) buildEndpointURL(imp openrtb2.Imp) string {
 
 	return strings.Replace(a.endpoint, publisherEndpointParam, publisherEndpoint, -1)
 }
+
+
+

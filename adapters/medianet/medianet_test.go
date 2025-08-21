@@ -1,4 +1,4 @@
-package medianet
+﻿package medianet
 
 import (
 	"testing"
@@ -29,3 +29,6 @@ func TestEndpointTemplateMalformed(t *testing.T) {
 
 	assert.Nil(t, buildErr)
 }
+
+
+

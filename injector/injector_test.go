@@ -1,4 +1,4 @@
-package injector
+﻿package injector
 
 import (
 	"errors"
@@ -453,3 +453,6 @@ func TestWriteTrackingEvent(t *testing.T) {
 		})
 	}
 }
+
+
+

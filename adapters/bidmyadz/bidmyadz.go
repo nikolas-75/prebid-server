@@ -1,4 +1,4 @@
-package bidmyadz
+﻿package bidmyadz
 
 import (
 	"encoding/json"
@@ -159,3 +159,6 @@ func (a *adapter) MakeBids(
 func getBidType(ext bidExt) (openrtb_ext.BidType, error) {
 	return openrtb_ext.ParseBidType(ext.MediaType)
 }
+
+
+

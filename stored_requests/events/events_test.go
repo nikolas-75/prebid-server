@@ -1,4 +1,4 @@
-package events
+﻿package events
 
 import (
 	"context"
@@ -99,3 +99,6 @@ func (p *fakeProducer) Saves() <-chan Save {
 func (p *fakeProducer) Invalidations() <-chan Invalidation {
 	return p.invalidations
 }
+
+
+

@@ -1,4 +1,4 @@
-package rulesengine
+﻿package rulesengine
 
 import (
 	"encoding/json"
@@ -207,3 +207,6 @@ func mockRequestWrapperWithBidders(t *testing.T, bidders []string) *openrtb_ext.
 
 	return rw
 }
+
+
+

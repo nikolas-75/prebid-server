@@ -1,4 +1,4 @@
-package beachfront
+﻿package beachfront
 
 import (
 	"testing"
@@ -60,3 +60,6 @@ func TestExtraInfoMalformed(t *testing.T) {
 
 	assert.Error(t, buildErr)
 }
+
+
+

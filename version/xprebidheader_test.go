@@ -1,4 +1,4 @@
-package version
+﻿package version
 
 import (
 	"testing"
@@ -147,3 +147,6 @@ func TestBuildXPrebidHeaderForRequest(t *testing.T) {
 		assert.Equal(t, test.result, result, test.description+":result")
 	}
 }
+
+
+

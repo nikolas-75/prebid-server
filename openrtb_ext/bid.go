@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 import (
 	"encoding/json"
@@ -202,3 +202,6 @@ const (
 	OriginalBidCurKey       = "origbidcur"
 	Passthrough             = "passthrough"
 )
+
+
+

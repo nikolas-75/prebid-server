@@ -1,4 +1,4 @@
-package gdpr
+﻿package gdpr
 
 import (
 	"github.com/prebid/go-gdpr/consentconstants"
@@ -147,3 +147,6 @@ func (tc *tcf2Config) BasicEnforcementVendors() map[string]struct{} {
 	}
 	return make(map[string]struct{}, 0)
 }
+
+
+

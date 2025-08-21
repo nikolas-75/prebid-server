@@ -1,4 +1,4 @@
-package amp
+﻿package amp
 
 import (
 	"errors"
@@ -254,3 +254,6 @@ func chooseConsent(consent, gdprConsent string) string {
 	// implementation before the same AMP macro was reused for CCPA.
 	return gdprConsent
 }
+
+
+

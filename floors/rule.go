@@ -1,4 +1,4 @@
-package floors
+﻿package floors
 
 import (
 	"fmt"
@@ -548,3 +548,6 @@ func (r *ruleKeys) appendRuleKey(rawKey []string) {
 func (r *ruleKeys) getAllRuleKeys() []string {
 	return r.keys
 }
+
+
+

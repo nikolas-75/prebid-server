@@ -1,4 +1,4 @@
-package config
+﻿package config
 
 type Hooks struct {
 	Enabled bool    `mapstructure:"enabled"`
@@ -32,3 +32,6 @@ type HookExecutionGroup struct {
 		HookImplCode string `mapstructure:"hook_impl_code" json:"hook_impl_code"`
 	} `mapstructure:"hook_sequence" json:"hook_sequence"`
 }
+
+
+

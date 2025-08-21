@@ -1,4 +1,4 @@
-package hookstage
+﻿package hookstage
 
 type MutationType int
 
@@ -52,3 +52,6 @@ func (c *ChangeSet[T]) AddMutation(fn MutationFunc[T], t MutationType, k ...stri
 	c.muts = append(c.muts, Mutation[T]{fn: fn, mutType: t, key: k})
 	return c
 }
+
+
+

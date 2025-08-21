@@ -1,4 +1,4 @@
-package nexx360
+﻿package nexx360
 
 import (
 	"testing"
@@ -18,3 +18,6 @@ func TestJsonSamples(t *testing.T) {
 
 	adapterstest.RunJSONBidderTest(t, "nexx360test", bidder)
 }
+
+
+

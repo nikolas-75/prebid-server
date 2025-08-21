@@ -1,4 +1,4 @@
-package mediasquare
+﻿package mediasquare
 
 import (
 	"encoding/json"
@@ -93,3 +93,6 @@ func errorWriter(referer string, err error, isEmpty bool) error {
 	}
 	return fmt.Errorf("%s: %s", referer, err.Error())
 }
+
+
+

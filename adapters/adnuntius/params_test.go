@@ -1,4 +1,4 @@
-package adnuntius
+﻿package adnuntius
 
 import (
 	"encoding/json"
@@ -58,3 +58,6 @@ var invalidParams = []string{
 	`{"network":"test", "auID":123}`,
 	`{"network":test, "auID":"123"}`,
 }
+
+
+

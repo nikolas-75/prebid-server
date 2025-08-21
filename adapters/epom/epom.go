@@ -1,4 +1,4 @@
-package epom
+﻿package epom
 
 import (
 	"encoding/json"
@@ -127,3 +127,6 @@ func getMediaTypeForImp(impID string, imps []openrtb2.Imp) openrtb_ext.BidType {
 	}
 	return openrtb_ext.BidTypeBanner
 }
+
+
+

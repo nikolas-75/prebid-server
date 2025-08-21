@@ -1,4 +1,4 @@
-package ortb
+﻿package ortb
 
 import (
 	"fmt"
@@ -93,3 +93,6 @@ func validateFormat(format *openrtb2.Format, impIndex, formatIndex int) error {
 	}
 	return nil
 }
+
+
+

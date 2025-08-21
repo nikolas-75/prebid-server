@@ -1,4 +1,4 @@
-package smartadserver
+﻿package smartadserver
 
 import (
 	"encoding/json"
@@ -59,3 +59,6 @@ var invalidParams = []string{
 	`{"networkId":73,"siteId":1,"formatId":3}`,
 	`{"networkId":73,"siteId":1,"pageId":2}`,
 }
+
+
+

@@ -1,4 +1,4 @@
-package colossus
+﻿package colossus
 
 import (
 	"encoding/json"
@@ -46,3 +46,6 @@ var invalidParams = []string{
 	`{"TagID": 16}`,
 	`{"TagID": "123", "groupId": "456"}`,
 }
+
+
+

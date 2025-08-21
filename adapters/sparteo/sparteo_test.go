@@ -1,4 +1,4 @@
-package sparteo
+﻿package sparteo
 
 import (
 	"encoding/json"
@@ -73,3 +73,6 @@ func TestGetMediaType_NilExt(t *testing.T) {
 	assert.Error(t, err, "Expected error for nil extension")
 	assert.Equal(t, openrtb_ext.BidType(""), result, "Expected empty result for nil extension")
 }
+
+
+

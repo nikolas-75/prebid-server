@@ -1,4 +1,4 @@
-package automatad
+﻿package automatad
 
 import (
 	"encoding/json"
@@ -46,3 +46,6 @@ var invalidParams = []string{
 	`{"position": 100, "placementId" : "a34gh6d"}`,
 	`{"position": 100, "placementId" : 200}`,
 }
+
+
+

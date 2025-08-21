@@ -1,4 +1,4 @@
-package currency
+﻿package currency
 
 import (
 	"fmt"
@@ -157,3 +157,6 @@ type Conversions interface {
 	GetRate(from string, to string) (float64, error)
 	GetRates() *map[string]map[string]float64
 }
+
+
+

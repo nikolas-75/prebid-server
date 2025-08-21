@@ -1,4 +1,4 @@
-package smartx
+﻿package smartx
 
 import (
 	"encoding/json"
@@ -56,3 +56,6 @@ func TestInvalidParams(t *testing.T) {
 		}
 	}
 }
+
+
+

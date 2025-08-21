@@ -1,4 +1,4 @@
-package helpers
+﻿package helpers
 
 import (
 	"fmt"
@@ -159,3 +159,6 @@ func JsonifyAmpObject(ao *analytics.AmpObject, scope string) ([]byte, error) {
 	}
 	return nil, fmt.Errorf("amp object badly formed %v", err)
 }
+
+
+

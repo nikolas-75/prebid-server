@@ -1,4 +1,4 @@
-package aja
+﻿package aja
 
 import (
 	"testing"
@@ -20,3 +20,6 @@ func TestJsonSamples(t *testing.T) {
 
 	adapterstest.RunJSONBidderTest(t, "ajatest", bidder)
 }
+
+
+

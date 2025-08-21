@@ -1,4 +1,4 @@
-package kargo
+﻿package kargo
 
 import (
 	"encoding/json"
@@ -90,3 +90,6 @@ func getMediaTypeForBid(ext json.RawMessage) openrtb_ext.BidType {
 	}
 	return openrtb_ext.BidTypeBanner
 }
+
+
+

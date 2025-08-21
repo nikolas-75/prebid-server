@@ -1,4 +1,4 @@
-package rulesengine
+﻿package rulesengine
 
 import (
 	"encoding/json"
@@ -67,3 +67,6 @@ func (tm *treeManager) Run(c cacher) error {
 func (tm *treeManager) Shutdown() {
 	close(tm.done)
 }
+
+
+

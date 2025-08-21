@@ -1,4 +1,4 @@
-package insticator
+﻿package insticator
 
 import (
 	"encoding/json"
@@ -55,3 +55,6 @@ var invalidParams = []string{
 	`{"publisherId": true, "adUnitId": "fakesiteid6"}`, // publisherId should be a string, got boolean
 	`{"publisherId": "inview", "adUnitId": [1, 2, 3]}`, // adUnitId should be a string, got array
 }
+
+
+

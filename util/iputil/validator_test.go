@@ -1,4 +1,4 @@
-package iputil
+﻿package iputil
 
 import (
 	"net"
@@ -220,3 +220,6 @@ func TestVersionIPValidator(t *testing.T) {
 		assert.Equal(t, test.expected, result)
 	}
 }
+
+
+

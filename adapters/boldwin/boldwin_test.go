@@ -1,4 +1,4 @@
-package boldwin
+﻿package boldwin
 
 import (
 	"testing"
@@ -18,3 +18,6 @@ func TestJsonSamples(t *testing.T) {
 
 	adapterstest.RunJSONBidderTest(t, "boldwintest", bidder)
 }
+
+
+

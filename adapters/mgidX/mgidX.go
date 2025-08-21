@@ -1,4 +1,4 @@
-package mgidX
+﻿package mgidX
 
 import (
 	"encoding/json"
@@ -158,3 +158,6 @@ func getBidMediaType(bid *openrtb2.Bid) (openrtb_ext.BidType, error) {
 
 	return extBid.Prebid.Type, nil
 }
+
+
+

@@ -1,4 +1,4 @@
-package tradplus
+﻿package tradplus
 
 import (
 	"encoding/json"
@@ -137,3 +137,6 @@ func getMediaTypeForBid(bid openrtb2.Bid) (openrtb_ext.BidType, error) {
 		return "", fmt.Errorf("unrecognized bid type in response from tradplus for bid %s", bid.ImpID)
 	}
 }
+
+
+

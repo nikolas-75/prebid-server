@@ -1,4 +1,4 @@
-package router
+﻿package router
 
 import (
 	"encoding/json"
@@ -228,3 +228,6 @@ func TestBidderParamsCompactedOutput(t *testing.T) {
 	// Assertions
 	assert.Equal(t, expectedFormattedResponse, recorder.Body.String())
 }
+
+
+

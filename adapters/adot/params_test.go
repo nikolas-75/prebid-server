@@ -1,4 +1,4 @@
-package adot
+﻿package adot
 
 import (
 	"encoding/json"
@@ -56,3 +56,6 @@ var invalidParams = []string{
 	`{"placementId": "test-114", "parallax": 1}`,
 	`{"placementId": "test-114", "parallax": true, "publisherPath": 111}`,
 }
+
+
+

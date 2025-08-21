@@ -1,4 +1,4 @@
-package db_provider
+﻿package db_provider
 
 import (
 	"errors"
@@ -284,3 +284,6 @@ func TestConnStringPostgres(t *testing.T) {
 		assert.Equal(t, test.expectedError, err)
 	}
 }
+
+
+

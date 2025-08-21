@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 import "encoding/json"
 
@@ -19,3 +19,6 @@ type VideoTargeting struct {
 	HbCacheID  string `json:"hb_cache_id,omitempty"`
 	HbDeal     string `json:"hb_deal,omitempty"`
 }
+
+
+

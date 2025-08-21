@@ -1,4 +1,4 @@
-package screencore
+﻿package screencore
 
 import (
 	"encoding/json"
@@ -176,3 +176,6 @@ func getMediaTypeForImp(bid openrtb2.Bid) (openrtb_ext.BidType, error) {
 		return "", fmt.Errorf("unsupported MType %d", bid.MType)
 	}
 }
+
+
+

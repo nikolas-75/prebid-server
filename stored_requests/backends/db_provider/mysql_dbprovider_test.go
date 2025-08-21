@@ -1,4 +1,4 @@
-package db_provider
+﻿package db_provider
 
 import (
 	"fmt"
@@ -239,3 +239,6 @@ func TestConnStringMySql(t *testing.T) {
 		assert.Equal(t, test.connString, connString, "Strings did not match")
 	}
 }
+
+
+

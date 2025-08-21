@@ -1,4 +1,4 @@
-package stored_requests
+﻿package stored_requests
 
 import (
 	"context"
@@ -176,3 +176,6 @@ func TestMultiFetcherAccountNotFound(t *testing.T) {
 	assert.Nil(t, account)
 	assert.EqualError(t, errs[0], NotFoundError{"MISSING", "Account"}.Error())
 }
+
+
+

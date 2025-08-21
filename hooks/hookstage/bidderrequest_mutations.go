@@ -1,4 +1,4 @@
-package hookstage
+﻿package hookstage
 
 import (
 	"errors"
@@ -97,3 +97,6 @@ func (c ChangeSetBApp[T]) Update(bapp []string) {
 		return p, err
 	}, MutationUpdate, "bidrequest", "bapp")
 }
+
+
+

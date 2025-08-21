@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 import "encoding/json"
 
@@ -7,3 +7,6 @@ type ExtImpGrid struct {
 	Uid      int             `json:"uid"`
 	Keywords json.RawMessage `json:"keywords,omitempty"`
 }
+
+
+

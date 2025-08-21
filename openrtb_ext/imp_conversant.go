@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 type ExtImpConversant struct {
 	SiteID      string   `json:"site_id"`
@@ -11,3 +11,6 @@ type ExtImpConversant struct {
 	Protocols   []int8   `json:"protocols"`
 	MaxDuration *int64   `json:"maxduration"`
 }
+
+
+

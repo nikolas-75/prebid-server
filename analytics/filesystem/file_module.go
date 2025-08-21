@@ -1,4 +1,4 @@
-package filesystem
+﻿package filesystem
 
 import (
 	"bytes"
@@ -290,3 +290,6 @@ func jsonifyNotificationEventObject(ne *analytics.NotificationEvent) string {
 		return fmt.Sprintf("Transactional Logs Error: NotificationEvent object badly formed %v", err)
 	}
 }
+
+
+

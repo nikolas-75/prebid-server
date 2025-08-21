@@ -1,4 +1,4 @@
-package ortb
+﻿package ortb
 
 import (
 	"encoding/json"
@@ -558,3 +558,6 @@ func TestSetDefaultsImp(t *testing.T) {
 		})
 	}
 }
+
+
+

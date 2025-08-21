@@ -1,4 +1,4 @@
-package file_fetcher
+﻿package file_fetcher
 
 import (
 	"context"
@@ -250,3 +250,6 @@ func validateStoredResponse[T any](t *testing.T, storedInfo map[string]json.RawM
 		t.Errorf(`Bad data in stored response of id: "%s": %v`, id, err)
 	}
 }
+
+
+

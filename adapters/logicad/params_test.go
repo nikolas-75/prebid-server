@@ -1,4 +1,4 @@
-package logicad
+﻿package logicad
 
 import (
 	"encoding/json"
@@ -44,3 +44,6 @@ var invalidParams = []string{
 	`true`,
 	`{"tid": 42}`,
 }
+
+
+

@@ -1,4 +1,4 @@
-package vidoomy
+﻿package vidoomy
 
 import (
 	"testing"
@@ -33,3 +33,6 @@ func TestJsonSamples(t *testing.T) {
 
 	adapterstest.RunJSONBidderTest(t, "vidoomytest", bidder)
 }
+
+
+

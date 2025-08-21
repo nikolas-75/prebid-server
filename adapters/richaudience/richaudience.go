@@ -1,4 +1,4 @@
-package richaudience
+﻿package richaudience
 
 import (
 	"encoding/json"
@@ -258,3 +258,6 @@ func getMediaType(impId string, imp openrtb2.Imp) openrtb_ext.BidType {
 	}
 	return "no bidtype assigned"
 }
+
+
+

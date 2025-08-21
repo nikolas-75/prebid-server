@@ -1,4 +1,4 @@
-package bidtheatre
+﻿package bidtheatre
 
 import (
 	"github.com/prebid/openrtb/v20/openrtb2"
@@ -88,3 +88,6 @@ func TestReplaceMacros(t *testing.T) {
 	}
 
 }
+
+
+

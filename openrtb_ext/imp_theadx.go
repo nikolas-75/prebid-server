@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 import (
 	"encoding/json"
@@ -10,3 +10,6 @@ type ExtImpTheadx struct {
 	MemberID          int         `json:"pid,omitempty"`
 	PlacementName     string      `json:"pname,omitempty"`
 }
+
+
+

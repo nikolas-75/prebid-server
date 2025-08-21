@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 import "slices"
 
@@ -59,3 +59,6 @@ type ExtBidDSATransparency struct {
 	Domain string `json:"domain,omitempty"`
 	Params []int  `json:"dsaparams,omitempty"`
 }
+
+
+

@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 // ExtImpCriteo defines the contract for bidrequest.imp[i].ext.prebid.bidder.criteo
 type ExtImpCriteo struct {
@@ -7,3 +7,6 @@ type ExtImpCriteo struct {
 	UID       int64  `json:"uid"`
 	PubID     string `json:"pubid"`
 }
+
+
+

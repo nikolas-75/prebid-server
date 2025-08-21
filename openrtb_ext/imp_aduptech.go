@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 import "encoding/json"
 
@@ -10,3 +10,6 @@ type ExtImpAduptech struct {
 	Debug     bool            `json:"debug,omitempty"`
 	Ext       json.RawMessage `json:"ext,omitempty"`
 }
+
+
+

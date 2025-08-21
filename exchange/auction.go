@@ -1,4 +1,4 @@
-package exchange
+﻿package exchange
 
 import (
 	"context"
@@ -403,3 +403,6 @@ type auction struct {
 	// vastCacheIds stores UUIDS from Prebid cache for fetching the VAST markup to video bids.
 	vastCacheIds map[*openrtb2.Bid]string
 }
+
+
+

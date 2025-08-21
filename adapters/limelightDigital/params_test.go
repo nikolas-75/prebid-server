@@ -1,4 +1,4 @@
-package limelightDigital
+﻿package limelightDigital
 
 import (
 	"encoding/json"
@@ -81,3 +81,6 @@ var invalidParams = []string{
 	`{"host": "example.com", "publisherId": -42}`,
 	`{"host": "example.com", "publisherId": "-42"}`,
 }
+
+
+

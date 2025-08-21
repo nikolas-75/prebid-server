@@ -1,4 +1,4 @@
-// Package hookanalytics provides basic primitives for use by the hook modules.
+﻿// Package hookanalytics provides basic primitives for use by the hook modules.
 //
 // Structures of the package allow modules to provide information
 // about what activity has been performed against the hook payload.
@@ -43,3 +43,6 @@ const (
 	ResultStatusModify ResultStatus = "success-modify"
 	ResultStatusError  ResultStatus = "error"
 )
+
+
+

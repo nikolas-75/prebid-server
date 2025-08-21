@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 // ExtImpOutbrain defines the contract for bidrequest.imp[i].ext.prebid.bidder.outbrain
 type ExtImpOutbrain struct {
@@ -13,3 +13,6 @@ type ExtImpOutbrainPublisher struct {
 	Name   string `json:"name"`
 	Domain string `json:"domain"`
 }
+
+
+

@@ -1,4 +1,4 @@
-package feedad
+﻿package feedad
 
 import (
 	"encoding/json"
@@ -77,3 +77,6 @@ var invalidParams = []string{
 	`{"clientToken":"some-clienttoken","placementId":"some-placementid","sdkOptions":{"hybrid_platform":{}}}`,
 	`{"clientToken":"some-clienttoken","placementId":"some-placementid","sdkOptions":{"limit_ad_tracking":{}}}`,
 }
+
+
+

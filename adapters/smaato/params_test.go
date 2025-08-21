@@ -1,4 +1,4 @@
-package smaato
+﻿package smaato
 
 import (
 	"encoding/json"
@@ -65,3 +65,6 @@ var invalidParams = []string{
 	`{"instl": 0,"secure": 0}`,
 	`{"publisherId":"test-id-1234-smaato","instl": 0,"secure": 0}`,
 }
+
+
+

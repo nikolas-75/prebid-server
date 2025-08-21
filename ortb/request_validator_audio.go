@@ -1,4 +1,4 @@
-package ortb
+﻿package ortb
 
 import (
 	"fmt"
@@ -32,3 +32,6 @@ func validateAudio(audio *openrtb2.Audio, impIndex int) error {
 
 	return nil
 }
+
+
+

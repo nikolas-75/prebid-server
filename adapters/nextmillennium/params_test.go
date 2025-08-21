@@ -1,4 +1,4 @@
-package nextmillennium
+﻿package nextmillennium
 
 import (
 	"encoding/json"
@@ -46,3 +46,6 @@ var invalidParams = []string{
 	`true`,
 	`{}`,
 }
+
+
+

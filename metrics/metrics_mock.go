@@ -1,4 +1,4 @@
-package metrics
+﻿package metrics
 
 import (
 	"time"
@@ -230,3 +230,6 @@ func (me *MetricsEngineMock) RecordModuleTimeout(labels ModuleLabels) {
 func (me *MetricsEngineMock) RecordAdapterThrottled(adapterName openrtb_ext.BidderName) {
 	me.Called(adapterName)
 }
+
+
+

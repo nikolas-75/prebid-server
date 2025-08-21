@@ -1,4 +1,4 @@
-package adprime
+﻿package adprime
 
 import (
 	"encoding/json"
@@ -178,3 +178,6 @@ func getBidMediaType(bid *openrtb2.Bid) (openrtb_ext.BidType, error) {
 		return "", fmt.Errorf("Unable to fetch mediaType in multi-format: %s", bid.ImpID)
 	}
 }
+
+
+

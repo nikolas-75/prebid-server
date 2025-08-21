@@ -1,7 +1,10 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 type ExtImpAdot struct {
 	Parallax      bool   `json:"parallax,omitempty"`
 	PlacementId   string `json:"placementId,omitempty"`
 	PublisherPath string `json:"publisherPath,omitempty"`
 }
+
+
+

@@ -1,4 +1,4 @@
-package ortb2blocking
+﻿package ortb2blocking
 
 import (
 	"errors"
@@ -422,3 +422,6 @@ func validateCondition(conditions Conditions) error {
 	}
 	return nil
 }
+
+
+

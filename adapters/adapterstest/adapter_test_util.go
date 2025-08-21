@@ -1,4 +1,4 @@
-package adapterstest
+﻿package adapterstest
 
 import (
 	"fmt"
@@ -68,3 +68,6 @@ func VerifyBannerSize(banner *openrtb2.Banner, expectedWidth int, expectedHeight
 	VerifyIntValue(int(*(banner.W)), expectedWidth, t)
 	VerifyIntValue(int(*(banner.H)), expectedHeight, t)
 }
+
+
+

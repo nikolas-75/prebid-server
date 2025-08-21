@@ -1,4 +1,4 @@
-package currency
+﻿package currency
 
 import (
 	"github.com/prebid/prebid-server/v3/openrtb_ext"
@@ -40,3 +40,6 @@ func GetAuctionCurrencyRates(currencyConverter *RateConverter, requestRates *ope
 	// prioritize custom rates over PBS rates whenever a currency rate is found in both
 	return NewAggregateConversions(NewRates(requestRates.ConversionRates), currencyConverter.Rates())
 }
+
+
+

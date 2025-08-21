@@ -1,4 +1,4 @@
-package beachfront
+﻿package beachfront
 
 import (
 	"encoding/json"
@@ -808,3 +808,6 @@ func getBannerImpIDs(bfs []beachfrontSlot) []string {
 	}
 	return impIDs
 }
+
+
+

@@ -1,4 +1,4 @@
-package pubstack
+﻿package pubstack
 
 import (
 	"fmt"
@@ -257,3 +257,6 @@ func (p *PubstackModule) closeAllEventChannels() {
 		delete(p.eventChannels, key)
 	}
 }
+
+
+

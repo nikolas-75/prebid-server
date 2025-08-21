@@ -1,4 +1,4 @@
-package usersync
+﻿package usersync
 
 import (
 	"strings"
@@ -64,3 +64,6 @@ func (f UniformBidderFilter) Allowed(bidder string) bool {
 func NewUniformBidderFilter(mode BidderFilterMode) BidderFilter {
 	return UniformBidderFilter{mode: mode}
 }
+
+
+

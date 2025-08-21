@@ -1,4 +1,4 @@
-package vidazoo
+﻿package vidazoo
 
 import (
 	"encoding/json"
@@ -40,3 +40,6 @@ var validParams = []string{
 var invalidParams = []string{
 	`{"cId": 3898334}`,
 }
+
+
+

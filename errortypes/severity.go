@@ -1,4 +1,4 @@
-package errortypes
+﻿package errortypes
 
 // Severity represents the severity level of a bid processing error.
 type Severity int
@@ -64,3 +64,6 @@ func WarningOnly(errs []error) []error {
 
 	return errsWarning
 }
+
+
+

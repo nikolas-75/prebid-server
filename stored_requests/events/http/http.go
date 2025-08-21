@@ -1,4 +1,4 @@
-package http
+﻿package http
 
 import (
 	"bytes"
@@ -215,3 +215,6 @@ type responseContract struct {
 	StoredResponses map[string]json.RawMessage `json:"responses"`
 	Accounts        map[string]json.RawMessage `json:"accounts"`
 }
+
+
+

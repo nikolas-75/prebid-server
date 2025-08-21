@@ -1,4 +1,4 @@
-package gdpr
+﻿package gdpr
 
 import (
 	tcf2 "github.com/prebid/go-gdpr/vendorconsent/tcf2"
@@ -55,3 +55,6 @@ func (be *BasicEnforcement) applyEnforceOverrides(overrides Overrides) (enforceP
 	}
 	return
 }
+
+
+

@@ -1,4 +1,4 @@
-package mediasquare
+﻿package mediasquare
 
 import (
 	"fmt"
@@ -129,3 +129,6 @@ func (a *adapter) MakeBids(request *openrtb2.BidRequest, requestData *adapters.R
 
 	return bidderResponse, errs
 }
+
+
+

@@ -1,4 +1,4 @@
-package openx
+﻿package openx
 
 import (
 	"encoding/json"
@@ -60,3 +60,6 @@ func assertCurrencyInBidResponse(t *testing.T, expectedCurrency string, currency
 	}
 	assert.Equal(t, expectedCurrency, bidResponse.Currency)
 }
+
+
+

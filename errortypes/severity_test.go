@@ -1,4 +1,4 @@
-package errortypes
+﻿package errortypes
 
 import (
 	"errors"
@@ -141,3 +141,6 @@ func TestWarningOnly(t *testing.T) {
 		assert.ElementsMatch(t, tc.errsShouldBeWarning, result)
 	}
 }
+
+
+

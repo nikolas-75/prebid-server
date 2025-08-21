@@ -1,4 +1,4 @@
-package hookstage
+﻿package hookstage
 
 import (
 	"context"
@@ -36,3 +36,6 @@ func (parp *ProcessedAuctionRequestPayload) GetBidderRequestPayload() *openrtb_e
 func (parp *ProcessedAuctionRequestPayload) SetBidderRequestPayload(br *openrtb_ext.RequestWrapper) {
 	parp.Request = br
 }
+
+
+

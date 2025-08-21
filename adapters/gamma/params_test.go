@@ -1,4 +1,4 @@
-package gamma
+﻿package gamma
 
 import (
 	"encoding/json"
@@ -56,3 +56,6 @@ var invalidParams = []string{
 	`[]`,
 	`{}`,
 }
+
+
+

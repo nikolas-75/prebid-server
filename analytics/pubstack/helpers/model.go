@@ -1,4 +1,4 @@
-package helpers
+﻿package helpers
 
 import (
 	"time"
@@ -54,3 +54,6 @@ type logAMP struct {
 	StartTime            time.Time
 	HookExecutionOutcome []hookexecution.StageOutcome
 }
+
+
+

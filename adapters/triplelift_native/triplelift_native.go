@@ -1,4 +1,4 @@
-package triplelift_native
+﻿package triplelift_native
 
 import (
 	"encoding/json"
@@ -238,3 +238,6 @@ func getDefaultExtraInfo() TripleliftNativeExtInfo {
 		PublisherWhitelist: []string{},
 	}
 }
+
+
+

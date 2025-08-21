@@ -1,4 +1,4 @@
-package adnuntius
+﻿package adnuntius
 
 import (
 	"testing"
@@ -47,3 +47,6 @@ func AssignDefaultValues(bidder adapters.Bidder) {
 		time: time.Date(2016, 1, 1, 12, 30, 15, 0, time.UTC),
 	}
 }
+
+
+

@@ -1,4 +1,4 @@
-package hookexecution
+﻿package hookexecution
 
 import (
 	"encoding/json"
@@ -104,3 +104,6 @@ func findCorrespondingHookResult(hookID HookID, group GroupOutcome) *HookOutcome
 	}
 	return nil
 }
+
+
+

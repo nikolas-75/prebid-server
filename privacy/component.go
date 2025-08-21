@@ -1,4 +1,4 @@
-package privacy
+﻿package privacy
 
 import (
 	"strings"
@@ -23,3 +23,6 @@ func (c Component) MatchesName(v string) bool {
 func (c Component) MatchesType(v string) bool {
 	return strings.EqualFold(c.Type, v)
 }
+
+
+

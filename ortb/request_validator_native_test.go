@@ -1,4 +1,4 @@
-package ortb
+﻿package ortb
 
 import (
 	"testing"
@@ -426,3 +426,6 @@ func TestValidateNativeAssetData(t *testing.T) {
 		}
 	}
 }
+
+
+

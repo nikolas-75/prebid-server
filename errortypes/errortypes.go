@@ -1,4 +1,4 @@
-package errortypes
+﻿package errortypes
 
 // Timeout should be used to flag that a bidder failed to return a response because the PBS timeout timer
 // expired before a result was received.
@@ -308,3 +308,6 @@ func (err *InvalidImpFirstPartyData) Code() int {
 func (err *InvalidImpFirstPartyData) Severity() Severity {
 	return SeverityFatal
 }
+
+
+

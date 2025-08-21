@@ -1,4 +1,4 @@
-package lmt
+﻿package lmt
 
 import (
 	"encoding/json"
@@ -322,3 +322,6 @@ func TestModifyForIOS142OrGreater(t *testing.T) {
 		assert.Equal(t, test.expectedLMT, request.Device.Lmt, test.description)
 	}
 }
+
+
+

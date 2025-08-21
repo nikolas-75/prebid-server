@@ -1,4 +1,4 @@
-package ptrutil
+﻿package ptrutil
 
 import (
 	"testing"
@@ -43,3 +43,6 @@ func TestValueOrDefault(t *testing.T) {
 		assert.Equal(t, "something", r)
 	})
 }
+
+
+

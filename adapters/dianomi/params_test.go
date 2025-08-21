@@ -1,4 +1,4 @@
-package dianomi
+﻿package dianomi
 
 import (
 	"encoding/json"
@@ -58,3 +58,6 @@ var invalidParams = []string{
 	`{"smartadID":"smartadId"}`,
 	`{"SmartadId":"123","priceType":"GROSS"}`,
 }
+
+
+

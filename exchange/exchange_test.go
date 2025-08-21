@@ -1,4 +1,4 @@
-package exchange
+﻿package exchange
 
 import (
 	"bytes"
@@ -101,16 +101,16 @@ func TestNewExchange(t *testing.T) {
 // and check whether the returned request successfully prints any '&' characters as it should
 // To do so, we:
 //  1. Write the endpoint adapter URL with an '&' character into a new config,Configuration struct
-//     as specified in https://github.com/prebid/prebid-server/issues/465
+//     as specified in https://github.com/prebid/prebid-server/v3/issues/465
 //  2. Initialize a new exchange with said configuration
 //  3. Build all the parameters e.buildBidResponse(ctx.Background(), liveA... ) needs including the
-//     sample request as specified in https://github.com/prebid/prebid-server/issues/465
+//     sample request as specified in https://github.com/prebid/prebid-server/v3/issues/465
 //  4. Build a BidResponse struct using exchange.buildBidResponse(ctx.Background(), liveA... )
 //  5. Assert we have no '&' characters in the response that exchange.buildBidResponse returns
 func TestCharacterEscape(t *testing.T) {
 
 	// 1) Adapter with a '& char in its endpoint property
-	//    https://github.com/prebid/prebid-server/issues/465
+	//    https://github.com/prebid/prebid-server/v3/issues/465
 	cfg := &config.Configuration{}
 	biddersInfo := config.BidderInfos{"appnexus": config.BidderInfo{Endpoint: "http://ib.adnxs.com/openrtb2?query1&query2"}} //Note the '&' character in there
 
@@ -145,7 +145,7 @@ func TestCharacterEscape(t *testing.T) {
 	adapterBids := make(map[openrtb_ext.BidderName]*entities.PbsOrtbSeatBid, 1)
 	adapterBids["appnexus"] = &entities.PbsOrtbSeatBid{Currency: "USD"}
 
-	//An openrtb2.BidRequest struct as specified in https://github.com/prebid/prebid-server/issues/465
+	//An openrtb2.BidRequest struct as specified in https://github.com/prebid/prebid-server/v3/issues/465
 	bidRequest := &openrtb_ext.RequestWrapper{
 		BidRequest: &openrtb2.BidRequest{
 			ID: "some-request-id",
@@ -6722,3 +6722,6 @@ func TestAmpEnv(t *testing.T) {
 		assert.Equalf(t, test.expectedEnvInResponse, responseExt.Prebid.Targeting["hb_env"], "Response mismatch")
 	}
 }
+
+
+

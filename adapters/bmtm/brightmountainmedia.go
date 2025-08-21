@@ -1,4 +1,4 @@
-package bmtm
+﻿package bmtm
 
 import (
 	"encoding/json"
@@ -153,3 +153,6 @@ func getMediaTypeForBid(impID string, imps []openrtb2.Imp) openrtb_ext.BidType {
 	}
 	return openrtb_ext.BidTypeBanner
 }
+
+
+

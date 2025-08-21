@@ -1,4 +1,4 @@
-package consumable
+﻿package consumable
 
 import (
 	"encoding/json"
@@ -59,3 +59,6 @@ var invalidParams = []string{
 	`{"siteId": 1, "networkId": 22, "unitName": 11}`,                        // unitId must be present
 	`{"placementId": "---abjk;jkewj;k;jwejklfs}`,                            // placementId must be alphanumeric
 }
+
+
+

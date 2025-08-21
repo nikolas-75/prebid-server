@@ -1,4 +1,4 @@
-package floors
+﻿package floors
 
 import (
 	"errors"
@@ -258,3 +258,6 @@ func updateBidExtWithFloors(reqImp *openrtb_ext.ImpWrapper, bid *entities.PbsOrt
 		bid.BidFloors = &bidExtFloors
 	}
 }
+
+
+

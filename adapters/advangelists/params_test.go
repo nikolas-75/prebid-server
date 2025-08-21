@@ -1,4 +1,4 @@
-package advangelists
+﻿package advangelists
 
 import (
 	"encoding/json"
@@ -44,3 +44,6 @@ var invalidParams = []string{
 	`[]`,
 	`true`,
 }
+
+
+

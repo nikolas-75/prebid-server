@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 import (
 	"encoding/json"
@@ -448,3 +448,6 @@ func TestMoveRewardedFromPrebidExtTo26(t *testing.T) {
 		assert.Equal(t, test.expectedImp, *w.Imp, test.description)
 	}
 }
+
+
+

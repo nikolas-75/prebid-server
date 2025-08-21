@@ -1,4 +1,4 @@
-package hookstage
+﻿package hookstage
 
 import (
 	"context"
@@ -27,3 +27,6 @@ type RawBidderResponsePayload struct {
 	BidderResponse *adapters.BidderResponse
 	Bidder         string
 }
+
+
+

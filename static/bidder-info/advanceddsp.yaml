@@ -1,0 +1,18 @@
+name: "advanceddsp"
+maintainer:
+  email: "dev@ad-vanced.media"
+capabilities:
+  app:
+    mediaTypes: ["banner","video"]
+  site:
+    mediaTypes: ["banner","video"]
+  dooh:
+    mediaTypes: ["banner"]   # keep or delete this whole dooh: block if you don't do DOOH
+usersync:
+  supportsCORS: false
+  iframe:
+    enabled: false
+  redirect:
+    enabled: false
+endpointCompression: false
+disabled: false

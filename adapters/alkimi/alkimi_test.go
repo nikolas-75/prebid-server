@@ -1,4 +1,4 @@
-package alkimi
+﻿package alkimi
 
 import (
 	"testing"
@@ -55,3 +55,6 @@ func buildBidder() (adapters.Bidder, error) {
 		config.Server{ExternalUrl: "http://hosturl.com", GvlID: 1, DataCenter: "2"},
 	)
 }
+
+
+

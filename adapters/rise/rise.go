@@ -1,4 +1,4 @@
-package rise
+﻿package rise
 
 import (
 	"encoding/json"
@@ -126,3 +126,6 @@ func getMediaTypeForBid(bid openrtb2.Bid) (openrtb_ext.BidType, error) {
 		return "", fmt.Errorf("unsupported MType %d", bid.MType)
 	}
 }
+
+
+

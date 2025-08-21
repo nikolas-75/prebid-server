@@ -1,4 +1,4 @@
-package adman
+﻿package adman
 
 import (
 	"encoding/json"
@@ -138,3 +138,6 @@ func getMediaTypeForImp(impID string, imps []openrtb2.Imp) (openrtb_ext.BidType,
 		Message: fmt.Sprintf("Failed to find impression \"%s\" ", impID),
 	}
 }
+
+
+

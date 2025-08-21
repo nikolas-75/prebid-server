@@ -1,4 +1,4 @@
-package exchange
+﻿package exchange
 
 import (
 	"errors"
@@ -63,3 +63,6 @@ func Test_httpInfoToNonBidReason(t *testing.T) {
 		})
 	}
 }
+
+
+

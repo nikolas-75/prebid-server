@@ -1,4 +1,4 @@
-/*
+﻿/*
 	parse-bid-type-check tests
 	https://semgrep.dev/docs/writing-rules/testing-rules
 	"ruleid" prefix in comment indicates patterns that should be flagged by semgrep
@@ -27,3 +27,6 @@ func getMediaTypeForBid(bid openrtb2.Bid) (openrtb_ext.BidType, error) {
 
 	return bidType, err
 }
+
+
+

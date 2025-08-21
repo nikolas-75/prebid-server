@@ -1,4 +1,4 @@
-package bidscube
+﻿package bidscube
 
 import (
 	"encoding/json"
@@ -46,3 +46,6 @@ var invalidParams = []string{
 	`{"placementID": ""}`,
 	`{"placementId": 234}`,
 }
+
+
+

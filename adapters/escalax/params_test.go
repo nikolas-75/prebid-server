@@ -1,4 +1,4 @@
-package escalax
+﻿package escalax
 
 import (
 	"encoding/json"
@@ -50,3 +50,6 @@ func TestInvalidParams(t *testing.T) {
 		}
 	}
 }
+
+
+

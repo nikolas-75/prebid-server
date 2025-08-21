@@ -1,4 +1,4 @@
-package bidmachine
+﻿package bidmachine
 
 import (
 	"encoding/json"
@@ -76,3 +76,6 @@ var invalidParams = []string{
 	`{"seller_id": [], "path": [], host: []}`,
 	`{"seller_id": {}, "path": {}, host: {}}`,
 }
+
+
+

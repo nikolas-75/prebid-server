@@ -1,4 +1,4 @@
-package openrtb2
+﻿package openrtb2
 
 import (
 	"context"
@@ -2503,3 +2503,6 @@ func TestAmpAuctionDebugWarningsOnly(t *testing.T) {
 		assert.Equal(t, test.expectedWarnings, response.ORTB2.Ext.Warnings)
 	}
 }
+
+
+

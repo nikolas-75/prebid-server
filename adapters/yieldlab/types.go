@@ -1,4 +1,4 @@
-package yieldlab
+﻿package yieldlab
 
 import (
 	"strconv"
@@ -29,7 +29,7 @@ type dsaResponse struct {
 // openRTBExtRegsWithDSA defines the contract for bidrequest.regs.ext with the missing DSA property.
 //
 // The openrtb_ext.ExtRegs needs to be extended on yieldlab adapter level until DSA has been implemented
-// by the prebid server team (https://github.com/prebid/prebid-server/issues/3424).
+// by the prebid server team (https://github.com/prebid/prebid-server/v3/issues/3424).
 type openRTBExtRegsWithDSA struct {
 	openrtb_ext.ExtRegs
 	DSA *dsaRequest `json:"dsa,omitempty"`
@@ -44,7 +44,7 @@ type responseExtWithDSA struct {
 // as specified by the OpenRTB 2.X DSA Transparency community extension.
 //
 // Should rather come from openrtb_ext package but will be defined here until DSA has been
-// implemented by the prebid server team (https://github.com/prebid/prebid-server/issues/3424).
+// implemented by the prebid server team (https://github.com/prebid/prebid-server/v3/issues/3424).
 type dsaRequest struct {
 	Required     *int              `json:"dsarequired"`
 	PubRender    *int              `json:"pubrender"`
@@ -70,3 +70,6 @@ var defaultWeekGenerator weekGenerator = func() string {
 	_, week := time.Now().ISOWeek()
 	return strconv.Itoa(week)
 }
+
+
+

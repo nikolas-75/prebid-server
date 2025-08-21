@@ -1,4 +1,4 @@
-package hookexecution
+﻿package hookexecution
 
 import (
 	"context"
@@ -354,3 +354,6 @@ func (executor EmptyHookExecutor) ExecuteAllProcessedBidResponsesStage(_ map[ope
 }
 
 func (executor EmptyHookExecutor) ExecuteAuctionResponseStage(_ *openrtb2.BidResponse) {}
+
+
+

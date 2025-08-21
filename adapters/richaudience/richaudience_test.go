@@ -1,4 +1,4 @@
-package richaudience
+﻿package richaudience
 
 import (
 	"net/http"
@@ -157,3 +157,6 @@ func TestEmptyConfig(t *testing.T) {
 	assert.NoError(t, buildErr)
 	assert.Empty(t, bidder)
 }
+
+
+

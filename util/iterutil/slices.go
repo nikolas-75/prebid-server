@@ -1,4 +1,4 @@
-package iterutil
+﻿package iterutil
 
 import "iter"
 
@@ -23,3 +23,6 @@ func SlicePointerValues[Slice ~[]T, T any](s Slice) iter.Seq[*T] {
 		}
 	}
 }
+
+
+

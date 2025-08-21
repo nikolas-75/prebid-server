@@ -1,4 +1,4 @@
-package trafficgate
+﻿package trafficgate
 
 import (
 	"encoding/json"
@@ -46,3 +46,6 @@ var invalidParams = []string{
 	`{"placementID": "", "HOST": "example"}`,
 	`{"placementId": 234}`,
 }
+
+
+

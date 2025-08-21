@@ -1,4 +1,4 @@
-package copper6ssp
+﻿package copper6ssp
 
 import (
 	"testing"
@@ -18,3 +18,6 @@ func TestJsonSamples(t *testing.T) {
 
 	adapterstest.RunJSONBidderTest(t, "copper6ssptest", bidder)
 }
+
+
+

@@ -1,4 +1,4 @@
-package adoppler
+﻿package adoppler
 
 import (
 	"encoding/json"
@@ -241,3 +241,6 @@ func head(s []string) string {
 
 	return s[0]
 }
+
+
+

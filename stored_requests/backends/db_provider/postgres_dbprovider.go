@@ -1,4 +1,4 @@
-package db_provider
+﻿package db_provider
 
 import (
 	"bytes"
@@ -188,3 +188,6 @@ func (provider *PostgresDbProvider) createIdList(numSoFar int, numArgs int) stri
 
 	return final.String()
 }
+
+
+

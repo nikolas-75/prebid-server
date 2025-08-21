@@ -1,4 +1,4 @@
-package intertech
+﻿package intertech
 
 import (
 	"fmt"
@@ -224,3 +224,6 @@ func getBidType(bid openrtb2.Bid) (openrtb_ext.BidType, error) {
 
 	return "", fmt.Errorf("could not define media type for impression: %s", bid.ImpID)
 }
+
+
+

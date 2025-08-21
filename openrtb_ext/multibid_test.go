@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 import (
 	"fmt"
@@ -302,3 +302,6 @@ func Test_addMultiBid(t *testing.T) {
 		})
 	}
 }
+
+
+

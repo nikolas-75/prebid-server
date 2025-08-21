@@ -1,4 +1,4 @@
-package blue
+﻿package blue
 
 import (
 	"encoding/json"
@@ -49,3 +49,6 @@ var invalidParams = []string{
 	`{}`,
 	`{"placementId":"12345"}`,
 }
+
+
+

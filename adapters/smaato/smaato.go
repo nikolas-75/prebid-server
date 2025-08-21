@@ -1,4 +1,4 @@
-package smaato
+﻿package smaato
 
 import (
 	"encoding/json"
@@ -592,3 +592,6 @@ func extractBidExt(bid *openrtb2.Bid) (bidExt, error) {
 	}
 	return bidExt, nil
 }
+
+
+

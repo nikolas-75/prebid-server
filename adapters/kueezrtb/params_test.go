@@ -1,4 +1,4 @@
-package kueezrtb
+﻿package kueezrtb
 
 import (
 	"encoding/json"
@@ -48,3 +48,6 @@ var invalidParams = []string{
 	`{"cid": "valid_cid"}`,
 	`{"cId": "invalid_chars_!@#$%^&*()"}`,
 }
+
+
+

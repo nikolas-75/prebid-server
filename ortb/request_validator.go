@@ -1,4 +1,4 @@
-package ortb
+﻿package ortb
 
 import (
 	"encoding/json"
@@ -193,3 +193,6 @@ func (srv *standardRequestValidator) validateStoredBidResponses(prebid *openrtb_
 func generateStoredBidResponseValidationError(impID string) error {
 	return fmt.Errorf("request validation failed. Stored bid responses are specified for imp %s. Bidders specified in imp.ext should match with bidders specified in imp.ext.prebid.storedbidresponse", impID)
 }
+
+
+

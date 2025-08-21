@@ -1,4 +1,4 @@
-package macros
+﻿package macros
 
 import "strings"
 
@@ -7,3 +7,6 @@ type Replacer interface {
 	// if any error the error will be returned
 	Replace(result *strings.Builder, url string, macroProvider *MacroProvider)
 }
+
+
+

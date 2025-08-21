@@ -1,4 +1,4 @@
-package nexx360
+﻿package nexx360
 
 import (
 	"encoding/json"
@@ -224,3 +224,6 @@ func getBidType(bid openrtb2.Bid) (openrtb_ext.BidType, error) {
 		Message: fmt.Sprintf("unable to fetch mediaType in multi-format: %s", bid.ImpID),
 	}
 }
+
+
+

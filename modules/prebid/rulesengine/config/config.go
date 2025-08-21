@@ -1,4 +1,4 @@
-package config
+﻿package config
 
 import (
 	"bytes"
@@ -131,3 +131,6 @@ func NewConfig(jsonCfg json.RawMessage, validator *gojsonschema.Schema) (*PbRule
 
 	return cfg, nil
 }
+
+
+

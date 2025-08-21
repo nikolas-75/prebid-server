@@ -1,4 +1,4 @@
-package currency
+﻿package currency
 
 import (
 	"fmt"
@@ -32,3 +32,6 @@ func ValidateCustomRates(bidReqCurrencyRates *openrtb_ext.ExtRequestCurrency) er
 	}
 	return nil
 }
+
+
+

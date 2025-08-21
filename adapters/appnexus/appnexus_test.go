@@ -1,4 +1,4 @@
-package appnexus
+﻿package appnexus
 
 import (
 	"net/url"
@@ -53,3 +53,6 @@ func (f FakeRandomNumberGenerator) GenerateInt63() int64 {
 func (f FakeRandomNumberGenerator) Intn(n int) int {
 	return int(f.Number)
 }
+
+
+

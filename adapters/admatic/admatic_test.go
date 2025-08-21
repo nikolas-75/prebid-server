@@ -1,4 +1,4 @@
-package admatic
+﻿package admatic
 
 import (
 	"testing"
@@ -27,3 +27,6 @@ func TestEndpointTemplateMalformed(t *testing.T) {
 
 	assert.Error(t, buildErr)
 }
+
+
+

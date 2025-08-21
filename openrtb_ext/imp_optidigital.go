@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 type ImpExtOptidigital struct {
 	PublisherID  string `json:"publisherId"`
@@ -6,3 +6,6 @@ type ImpExtOptidigital struct {
 	PageTemplate string `json:"pageTemplate,omitempty"`
 	DivID        string `json:"divId,omitempty"`
 }
+
+
+

@@ -1,4 +1,4 @@
-package currency
+﻿package currency
 
 import (
 	"errors"
@@ -73,3 +73,6 @@ func (r *Rates) GetRate(from, to string) (float64, error) {
 func (r *Rates) GetRates() *map[string]map[string]float64 {
 	return &r.Conversions
 }
+
+
+

@@ -1,4 +1,4 @@
-package pbs
+﻿package pbs
 
 import (
 	"crypto/tls"
@@ -95,3 +95,6 @@ func (deps *UserSyncDeps) OptOut(w http.ResponseWriter, r *http.Request, _ httpr
 		http.Redirect(w, r, deps.HostCookieConfig.OptOutURL, http.StatusMovedPermanently)
 	}
 }
+
+
+

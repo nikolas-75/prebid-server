@@ -1,4 +1,4 @@
-package filesystem
+﻿package filesystem
 
 import (
 	"time"
@@ -59,3 +59,6 @@ type logNotificationEvent struct {
 	Request *analytics.EventRequest `json:"request"`
 	Account *config.Account         `json:"account"`
 }
+
+
+

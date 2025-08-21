@@ -1,4 +1,4 @@
-package usersync
+﻿package usersync
 
 import (
 	"testing"
@@ -40,3 +40,6 @@ func TestShuffler(t *testing.T) {
 		assert.ElementsMatch(t, givenCopy, test.given, test.description)
 	}
 }
+
+
+

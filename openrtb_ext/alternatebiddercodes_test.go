@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 import (
 	"errors"
@@ -326,3 +326,6 @@ func TestIsBidderInAlternateBidderCodes(t *testing.T) {
 		})
 	}
 }
+
+
+

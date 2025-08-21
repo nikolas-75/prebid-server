@@ -1,4 +1,4 @@
-package lmt
+﻿package lmt
 
 import (
 	"strings"
@@ -65,3 +65,6 @@ func modifyForIOS142OrGreater(req *openrtb2.BidRequest) {
 		req.Device.Lmt = &int8Zero
 	}
 }
+
+
+

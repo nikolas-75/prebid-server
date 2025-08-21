@@ -1,4 +1,4 @@
-package bwx
+﻿package bwx
 
 import (
 	"encoding/json"
@@ -158,3 +158,6 @@ func getMediaTypeForBid(bid openrtb2.Bid) (openrtb_ext.BidType, error) {
 		return "", fmt.Errorf("failed to parse bid mtype (%d) for impression id \"%s\"", bid.MType, bid.ImpID)
 	}
 }
+
+
+

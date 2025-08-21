@@ -1,4 +1,4 @@
-package iosutil
+﻿package iosutil
 
 import (
 	"testing"
@@ -229,3 +229,6 @@ func TestDetectVersionClassification(t *testing.T) {
 		assert.Equal(t, test.expected, result, test.given)
 	}
 }
+
+
+

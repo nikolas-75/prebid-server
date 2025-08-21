@@ -1,4 +1,4 @@
-package httputil
+﻿package httputil
 
 import _ "embed"
 
@@ -13,3 +13,6 @@ var Pixel1x1PNG = Pixel{
 	Content:     pixelContent,
 	ContentType: "image/png",
 }
+
+
+

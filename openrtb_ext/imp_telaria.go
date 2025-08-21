@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 import "encoding/json"
 
@@ -7,3 +7,6 @@ type ExtImpTelaria struct {
 	SeatCode string          `json:"seatCode"`
 	Extra    json.RawMessage `json:"extra,omitempty"`
 }
+
+
+

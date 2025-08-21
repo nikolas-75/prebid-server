@@ -1,4 +1,4 @@
-package sliceutil
+﻿package sliceutil
 
 import (
 	"testing"
@@ -68,3 +68,6 @@ func TestContainsStringIgnoreCase(t *testing.T) {
 		assert.Equal(t, test.expected, result, test.description)
 	}
 }
+
+
+

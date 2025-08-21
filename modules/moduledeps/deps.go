@@ -1,4 +1,4 @@
-package moduledeps
+﻿package moduledeps
 
 import (
 	"net/http"
@@ -12,3 +12,6 @@ type ModuleDeps struct {
 	HTTPClient    *http.Client
 	RateConvertor *currency.RateConverter
 }
+
+
+

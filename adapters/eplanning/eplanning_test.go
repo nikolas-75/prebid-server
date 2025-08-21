@@ -1,4 +1,4 @@
-package eplanning
+﻿package eplanning
 
 import (
 	"github.com/prebid/prebid-server/v3/adapters"
@@ -24,3 +24,6 @@ func setTesting(bidder adapters.Bidder) {
 	bidderEplanning := bidder.(*EPlanningAdapter)
 	bidderEplanning.testing = true
 }
+
+
+

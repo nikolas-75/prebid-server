@@ -1,4 +1,4 @@
-package outbrain
+﻿package outbrain
 
 import (
 	"encoding/json"
@@ -48,3 +48,6 @@ var invalidParams = []string{
 	`{"publisher": {"id": "pub-id"}, "badv": "not-array"}`,
 	`{"publisher": {"id": "pub-id"}, "badv": [1234]}`,
 }
+
+
+

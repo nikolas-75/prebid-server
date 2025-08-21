@@ -1,4 +1,4 @@
-package axonix
+﻿package axonix
 
 import (
 	"encoding/json"
@@ -57,3 +57,6 @@ var invalidParams = []string{
 	`[]`,
 	`{}`,
 }
+
+
+

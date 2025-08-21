@@ -1,4 +1,4 @@
-package smartadserver
+﻿package smartadserver
 
 import (
 	"encoding/json"
@@ -186,3 +186,6 @@ func getBidTypeFromMarkupType(mtype openrtb2.MarkupType) openrtb_ext.BidType {
 		return openrtb_ext.BidTypeBanner
 	}
 }
+
+
+

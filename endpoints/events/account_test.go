@@ -1,4 +1,4 @@
-package events
+﻿package events
 
 import (
 	"errors"
@@ -161,3 +161,6 @@ func vast(t *testing.T, cfg *config.Configuration, fetcher stored_requests.Accou
 		r:    httptest.NewRequest("POST", "/vtrack?a="+accountID, strings.NewReader(vtrackBody)),
 	}
 }
+
+
+

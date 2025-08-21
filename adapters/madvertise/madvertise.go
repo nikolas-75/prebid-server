@@ -1,4 +1,4 @@
-package madvertise
+﻿package madvertise
 
 import (
 	"encoding/json"
@@ -164,3 +164,6 @@ func getMediaTypeForBid(attr []adcom1.CreativeAttribute) openrtb_ext.BidType {
 	}
 	return openrtb_ext.BidTypeBanner
 }
+
+
+

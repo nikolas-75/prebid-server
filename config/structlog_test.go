@@ -1,4 +1,4 @@
-package config
+﻿package config
 
 import (
 	"bytes"
@@ -56,3 +56,6 @@ func TestBasic(t *testing.T) {
 		t.Errorf("Did not log properly.\ndesired:%s\nfound:%s\nsource: %v", expected, result, testCfg)
 	}
 }
+
+
+

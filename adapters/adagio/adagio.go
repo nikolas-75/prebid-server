@@ -1,4 +1,4 @@
-package adagio
+﻿package adagio
 
 import (
 	"encoding/json"
@@ -136,3 +136,6 @@ func getBidExt(ext json.RawMessage) (openrtb_ext.ExtBid, error) {
 	err := jsonutil.Unmarshal(ext, &bidExt)
 	return bidExt, err
 }
+
+
+

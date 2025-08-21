@@ -1,4 +1,4 @@
-package optidigital
+﻿package optidigital
 
 import (
 	"encoding/json"
@@ -60,3 +60,6 @@ var invalidParams = []string{
 	`{"publisherId":"","placementId":"foo-placement"}`,
 	`{"publisherId":"p","placementId":"foo-placement"}`,
 }
+
+
+

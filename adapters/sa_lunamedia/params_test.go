@@ -1,4 +1,4 @@
-package salunamedia
+﻿package salunamedia
 
 import (
 	"encoding/json"
@@ -50,3 +50,6 @@ func TestInvalidParams(t *testing.T) {
 		}
 	}
 }
+
+
+

@@ -1,4 +1,4 @@
-package bwx
+﻿package bwx
 
 import (
 	"testing"
@@ -32,3 +32,6 @@ func TestEndpointTemplateMalformed(t *testing.T) {
 
 	assert.Error(t, buildErr)
 }
+
+
+

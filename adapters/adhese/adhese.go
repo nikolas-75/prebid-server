@@ -1,4 +1,4 @@
-package adhese
+﻿package adhese
 
 import (
 	"fmt"
@@ -197,3 +197,6 @@ func Builder(name openrtb_ext.BidderName, config config.Adapter, server config.S
 
 	return bidder, nil
 }
+
+
+

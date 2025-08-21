@@ -1,4 +1,4 @@
-package rtbhouse
+﻿package rtbhouse
 
 import (
 	"encoding/json"
@@ -265,3 +265,6 @@ func resolveMacros(bid *openrtb2.Bid) {
 		bid.AdM = strings.Replace(bid.AdM, "${AUCTION_PRICE}", price, -1)
 	}
 }
+
+
+

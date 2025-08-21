@@ -1,4 +1,4 @@
-package adscert
+﻿package adscert
 
 import (
 	"crypto/rand"
@@ -41,3 +41,6 @@ func newInProcessSigner(inProcessSignerConfig config.AdsCertInProcess) (*inProce
 			[]string{inProcessSignerConfig.PrivateKey}),
 	}, nil
 }
+
+
+

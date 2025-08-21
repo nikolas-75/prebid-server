@@ -1,4 +1,4 @@
-package oms
+﻿package oms
 
 import (
 	"encoding/json"
@@ -60,3 +60,6 @@ var invalidParams = []string{
 	`{"publisherId": 9999}`,
 	`{"publisherId": "99999"}`,
 }
+
+
+

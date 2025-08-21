@@ -1,4 +1,4 @@
-package hooks
+﻿package hooks
 
 import (
 	"testing"
@@ -19,3 +19,6 @@ func TestEmptyPlanBuilder(t *testing.T) {
 	assert.Len(t, planBuilder.PlanForAllProcessedBidResponsesStage(endpoint, nil), 0, message, StageAllProcessedBidResponses)
 	assert.Len(t, planBuilder.PlanForAuctionResponseStage(endpoint, nil), 0, message, StageAuctionResponse)
 }
+
+
+

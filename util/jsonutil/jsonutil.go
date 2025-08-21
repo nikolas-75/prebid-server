@@ -1,4 +1,4 @@
-package jsonutil
+﻿package jsonutil
 
 import (
 	"bytes"
@@ -253,3 +253,6 @@ func (codec *rawMessageCodec) Encode(ptr unsafe.Pointer, stream *jsoniter.Stream
 func (codec *rawMessageCodec) IsEmpty(ptr unsafe.Pointer) bool {
 	return ptr == nil || len(*((*json.RawMessage)(ptr))) == 0
 }
+
+
+

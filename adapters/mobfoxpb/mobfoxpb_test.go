@@ -1,4 +1,4 @@
-package mobfoxpb
+﻿package mobfoxpb
 
 import (
 	"testing"
@@ -16,3 +16,6 @@ func TestJsonSamples(t *testing.T) {
 	}
 	adapterstest.RunJSONBidderTest(t, "mobfoxpbtest", bidder)
 }
+
+
+

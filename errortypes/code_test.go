@@ -1,4 +1,4 @@
-package errortypes
+﻿package errortypes
 
 import (
 	"errors"
@@ -22,3 +22,6 @@ func TestReadCodeWithCodeNotDefined(t *testing.T) {
 
 	assert.Equal(t, result, UnknownErrorCode)
 }
+
+
+

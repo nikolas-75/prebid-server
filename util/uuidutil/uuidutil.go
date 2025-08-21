@@ -1,4 +1,4 @@
-package uuidutil
+﻿package uuidutil
 
 import (
 	"github.com/gofrs/uuid"
@@ -17,3 +17,6 @@ func (UUIDRandomGenerator) Generate() (string, error) {
 	}
 	return id.String(), nil
 }
+
+
+

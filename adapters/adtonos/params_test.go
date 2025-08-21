@@ -1,4 +1,4 @@
-package adtonos
+﻿package adtonos
 
 import (
 	"encoding/json"
@@ -41,3 +41,6 @@ var validParams = []string{
 var invalidParams = []string{
 	`{"supplierId": 42}`,
 }
+
+
+

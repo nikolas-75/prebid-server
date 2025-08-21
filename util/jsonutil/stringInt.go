@@ -1,4 +1,4 @@
-package jsonutil
+﻿package jsonutil
 
 import (
 	"github.com/buger/jsonparser"
@@ -27,3 +27,6 @@ func (st *StringInt) UnmarshalJSON(b []byte) error {
 	*st = StringInt(i)
 	return nil
 }
+
+
+

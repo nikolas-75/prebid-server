@@ -1,4 +1,4 @@
-package adhese
+﻿package adhese
 
 import (
 	"github.com/prebid/openrtb/v20/openrtb2"
@@ -80,3 +80,6 @@ func TestEndpointTemplateMalformed(t *testing.T) {
 
 	assert.Error(t, buildErr)
 }
+
+
+

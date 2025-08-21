@@ -1,4 +1,4 @@
-package db_provider
+﻿package db_provider
 
 import (
 	"bytes"
@@ -259,3 +259,6 @@ func (provider *MySqlDbProvider) createIdList(numArgs int) string {
 
 	return result.String()
 }
+
+
+

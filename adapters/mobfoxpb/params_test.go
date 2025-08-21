@@ -1,4 +1,4 @@
-package mobfoxpb
+﻿package mobfoxpb
 
 import (
 	"encoding/json"
@@ -49,3 +49,6 @@ var invalidParams = []string{
 	`{"key": 1}`,
 	`{"key":""}`,
 }
+
+
+

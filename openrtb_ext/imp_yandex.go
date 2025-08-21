@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 type ExtImpYandex struct {
 	/*
@@ -14,3 +14,6 @@ type ExtImpYandex struct {
 	// Deprecated: in favor of `PlacementID`
 	ImpID int64 `json:"imp_id"`
 }
+
+
+

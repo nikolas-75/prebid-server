@@ -1,4 +1,4 @@
-package adapterstest
+﻿package adapterstest
 
 import (
 	"encoding/json"
@@ -488,3 +488,6 @@ func testMakeBidsImpl(t *testing.T, filename string, spec *testSpec, bidder adap
 		}
 	}
 }
+
+
+

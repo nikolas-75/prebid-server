@@ -1,4 +1,4 @@
-package usersync
+﻿package usersync
 
 import (
 	"testing"
@@ -50,3 +50,6 @@ func TestSyncTypeFilter(t *testing.T) {
 		assert.ElementsMatch(t, test.expectedSyncTypes, syncTypes, test.description)
 	}
 }
+
+
+

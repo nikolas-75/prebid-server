@@ -1,4 +1,4 @@
-package loopme
+﻿package loopme
 
 import (
 	"encoding/json"
@@ -114,3 +114,6 @@ func Builder(bidderName openrtb_ext.BidderName, cfg config.Adapter, serverCfg co
 	}
 	return bidder, nil
 }
+
+
+

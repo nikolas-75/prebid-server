@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 // ExtSmartyAds defines the contract for bidrequest.imp[i].ext.prebid.bidder.smartyads
 type ExtSmartyAds struct {
@@ -6,3 +6,6 @@ type ExtSmartyAds struct {
 	SourceID  string `json:"sourceid"`
 	Host      string `json:"host"`
 }
+
+
+

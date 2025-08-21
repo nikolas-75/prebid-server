@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 type ImpExtAdnunitus struct {
 	Auid      string `json:"auId"`
@@ -7,3 +7,6 @@ type ImpExtAdnunitus struct {
 	MaxDeals  int    `json:"maxDeals"`
 	BidType   string `json:"bidType,omitempty"`
 }
+
+
+

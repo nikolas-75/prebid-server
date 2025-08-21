@@ -1,4 +1,4 @@
-package openrtb2
+﻿package openrtb2
 
 import (
 	"bytes"
@@ -6394,3 +6394,6 @@ func TestValidateUser(t *testing.T) {
 		})
 	}
 }
+
+
+

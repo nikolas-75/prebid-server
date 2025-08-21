@@ -1,4 +1,4 @@
-package lmt
+﻿package lmt
 
 import "github.com/prebid/openrtb/v20/openrtb2"
 
@@ -31,3 +31,6 @@ func (p Policy) CanEnforce() bool {
 func (p Policy) ShouldEnforce(bidder string) bool {
 	return p.SignalProvided && p.Signal == trackingRestricted
 }
+
+
+

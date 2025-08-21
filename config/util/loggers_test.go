@@ -1,4 +1,4 @@
-package util
+﻿package util
 
 import (
 	"bytes"
@@ -30,3 +30,6 @@ This is test line 3
 
 	assert.EqualValues(t, expected, buf.String())
 }
+
+
+

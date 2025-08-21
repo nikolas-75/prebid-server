@@ -1,4 +1,4 @@
-package macros
+﻿package macros
 
 import (
 	"testing"
@@ -462,3 +462,6 @@ func TestTruncate(t *testing.T) {
 		})
 	}
 }
+
+
+

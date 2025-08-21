@@ -1,4 +1,4 @@
-package lmkiviads
+﻿package lmkiviads
 
 import (
 	"encoding/json"
@@ -161,3 +161,6 @@ func prepareBidResponse(seats []openrtb2.SeatBid) (*adapters.BidderResponse, []e
 
 	return bidResponse, errs
 }
+
+
+

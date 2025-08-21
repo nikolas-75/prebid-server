@@ -1,4 +1,4 @@
-package madsense
+﻿package madsense
 
 import (
 	"fmt"
@@ -97,3 +97,6 @@ func getMediaTypeForBid(bid *openrtb2.Bid) (openrtb_ext.BidType, error) {
 		}
 	}
 }
+
+
+

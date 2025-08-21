@@ -1,4 +1,4 @@
-package openrtb2
+﻿package openrtb2
 
 import (
 	"bytes"
@@ -1742,3 +1742,6 @@ func (m mockUpdateHook) HandleRawAuctionHook(
 ) (hookstage.HookResult[hookstage.RawAuctionRequestPayload], error) {
 	return hookstage.HookResult[hookstage.RawAuctionRequestPayload]{}, nil
 }
+
+
+

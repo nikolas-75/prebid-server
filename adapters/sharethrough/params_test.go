@@ -1,4 +1,4 @@
-package sharethrough
+﻿package sharethrough
 
 import (
 	"encoding/json"
@@ -59,3 +59,6 @@ var invalidParams = []string{
 	`{"bcat": ["IAB-1", "IAB-2"], "badv": ["other.advertiser.com"]}`,
 	`{"pkey": 123, "bcat": ["IAB-1", "IAB-2"], "badv": ["other.advertiser.com"]}`,
 }
+
+
+

@@ -1,4 +1,4 @@
-package lmt
+﻿package lmt
 
 import (
 	"testing"
@@ -188,3 +188,6 @@ func TestShouldEnforce(t *testing.T) {
 		assert.Equal(t, test.expected, result, test.description)
 	}
 }
+
+
+

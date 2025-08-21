@@ -1,4 +1,4 @@
-package adquery
+﻿package adquery
 
 import "github.com/prebid/prebid-server/v3/openrtb_ext"
 
@@ -43,3 +43,6 @@ type AdQueryMediaType struct {
 	Width  string              `json:"width"`
 	Height string              `json:"height"`
 }
+
+
+

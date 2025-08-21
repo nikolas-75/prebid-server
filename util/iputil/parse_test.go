@@ -1,4 +1,4 @@
-package iputil
+﻿package iputil
 
 import (
 	"net"
@@ -28,3 +28,6 @@ func TestParseIP(t *testing.T) {
 		assert.Equal(t, test.expectedIP, ip)
 	}
 }
+
+
+

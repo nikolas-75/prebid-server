@@ -1,4 +1,4 @@
-package rubicon
+﻿package rubicon
 
 import (
 	"encoding/json"
@@ -1146,3 +1146,6 @@ func TestJsonSamples(t *testing.T) {
 
 	adapterstest.RunJSONBidderTest(t, "rubicontest", bidder)
 }
+
+
+

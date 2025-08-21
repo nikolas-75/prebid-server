@@ -1,4 +1,4 @@
-package adocean
+﻿package adocean
 
 import (
 	"errors"
@@ -406,3 +406,6 @@ func (a *AdOceanAdapter) prepareAdCodeForBid(bid ResponseAdUnit) (string, error)
 
 	return adCode, nil
 }
+
+
+

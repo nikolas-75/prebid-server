@@ -1,4 +1,4 @@
-package info
+﻿package info
 
 import (
 	"encoding/json"
@@ -190,3 +190,6 @@ func mapMediaTypes(m []openrtb_ext.BidType) []string {
 
 	return mediaTypes
 }
+
+
+

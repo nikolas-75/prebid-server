@@ -1,4 +1,4 @@
-package adxcg
+﻿package adxcg
 
 import (
 	"encoding/json"
@@ -121,3 +121,6 @@ func getReturnTypeFromMtypeForImp(mType openrtb2.MarkupType) (openrtb_ext.BidTyp
 		return "", &errortypes.BadServerResponse{Message: "Unsupported return type"}
 	}
 }
+
+
+

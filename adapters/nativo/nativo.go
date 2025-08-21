@@ -1,4 +1,4 @@
-package nativo
+﻿package nativo
 
 import (
 	"encoding/json"
@@ -94,3 +94,6 @@ func getMediaTypeForImp(impID string, imps []openrtb2.Imp) (openrtb_ext.BidType,
 	}
 	return "", fmt.Errorf("Unrecognized impression type in response from nativo: %s", impID)
 }
+
+
+

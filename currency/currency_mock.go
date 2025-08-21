@@ -1,4 +1,4 @@
-package currency
+﻿package currency
 
 import (
 	"io"
@@ -18,3 +18,6 @@ func (m *MockCurrencyRatesHttpClient) Do(req *http.Request) (*http.Response, err
 		Body:       io.NopCloser(strings.NewReader(m.ResponseBody)),
 	}, nil
 }
+
+
+

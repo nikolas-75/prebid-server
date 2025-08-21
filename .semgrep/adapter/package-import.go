@@ -1,4 +1,4 @@
-import (
+﻿import (
 	// ok: package-import-check
 	"fmt"
 	// ok: package-import-check
@@ -45,3 +45,6 @@ import copy "github.com/mitchellh/copystructure"
 
 // ok: package-import-check
 import "fmt"  
+
+
+

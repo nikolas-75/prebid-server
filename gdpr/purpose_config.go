@@ -1,4 +1,4 @@
-package gdpr
+﻿package gdpr
 
 import (
 	"github.com/prebid/go-gdpr/consentconstants"
@@ -35,3 +35,6 @@ func (pc *purposeConfig) vendorException(name string) bool {
 	_, found := pc.VendorExceptionMap[name]
 	return found
 }
+
+
+

@@ -1,4 +1,4 @@
-package escalax
+﻿package escalax
 
 import (
 	"encoding/json"
@@ -161,3 +161,6 @@ func determineImpressionMediaType(bid openrtb2.Bid) (openrtb_ext.BidType, error)
 		}
 	}
 }
+
+
+

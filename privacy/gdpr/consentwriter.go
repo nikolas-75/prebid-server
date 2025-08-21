@@ -1,4 +1,4 @@
-package gdpr
+﻿package gdpr
 
 import (
 	"github.com/prebid/openrtb/v20/openrtb2"
@@ -32,3 +32,6 @@ func (c ConsentWriter) Write(req *openrtb2.BidRequest) error {
 
 	return nil
 }
+
+
+

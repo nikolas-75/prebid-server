@@ -1,4 +1,4 @@
-package gdpr
+﻿package gdpr
 
 import (
 	"errors"
@@ -65,3 +65,6 @@ func getSpecVersion(policyVersion uint8) uint16 {
 	}
 	return 2
 }
+
+
+

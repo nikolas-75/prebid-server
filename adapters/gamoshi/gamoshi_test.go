@@ -1,4 +1,4 @@
-package gamoshi
+﻿package gamoshi
 
 import (
 	"testing"
@@ -28,3 +28,6 @@ func TestJsonSamplesWithHardcodedURI(t *testing.T) {
 
 	adapterstest.RunJSONBidderTest(t, "gamoshitest", bidder)
 }
+
+
+

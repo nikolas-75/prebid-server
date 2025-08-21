@@ -1,4 +1,4 @@
-package freewheelssp
+﻿package freewheelssp
 
 import (
 	"encoding/json"
@@ -113,3 +113,6 @@ func Builder(bidderName openrtb_ext.BidderName, config config.Adapter, server co
 	}
 	return bidder, nil
 }
+
+
+

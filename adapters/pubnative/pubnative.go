@@ -1,4 +1,4 @@
-package pubnative
+﻿package pubnative
 
 import (
 	"encoding/json"
@@ -190,3 +190,6 @@ func getMediaTypeForImp(impId string, imps []openrtb2.Imp) openrtb_ext.BidType {
 	}
 	return mediaType
 }
+
+
+

@@ -1,4 +1,4 @@
-package sovrn
+﻿package sovrn
 
 import (
 	"encoding/json"
@@ -51,3 +51,6 @@ var invalidParams = []string{
 	`[]`,
 	`{}`,
 }
+
+
+

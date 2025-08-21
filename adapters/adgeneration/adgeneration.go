@@ -1,4 +1,4 @@
-package adgeneration
+﻿package adgeneration
 
 import (
 	"errors"
@@ -293,3 +293,6 @@ func Builder(bidderName openrtb_ext.BidderName, config config.Adapter, server co
 	}
 	return bidder, nil
 }
+
+
+

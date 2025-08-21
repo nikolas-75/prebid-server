@@ -1,4 +1,4 @@
-package adapters
+﻿package adapters
 
 import (
 	"fmt"
@@ -298,3 +298,6 @@ func IsMultiFormatSupported(bidderInfo config.BidderInfo) bool {
 	}
 	return true
 }
+
+
+

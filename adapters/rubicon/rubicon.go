@@ -1,4 +1,4 @@
-package rubicon
+﻿package rubicon
 
 import (
 	"encoding/json"
@@ -1123,3 +1123,6 @@ func updateBidExtWithMeta(bid rubiconBid, buyer int, seat string) json.RawMessag
 	}
 	return nil
 }
+
+
+

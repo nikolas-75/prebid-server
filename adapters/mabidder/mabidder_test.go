@@ -1,4 +1,4 @@
-package mabidder
+﻿package mabidder
 
 import (
 	"testing"
@@ -19,3 +19,6 @@ func TestJsonSamples(t *testing.T) {
 
 	adapterstest.RunJSONBidderTest(t, "mabiddertest", bidder)
 }
+
+
+

@@ -1,4 +1,4 @@
-package rulesengine
+﻿package rulesengine
 
 import (
 	"encoding/json"
@@ -432,3 +432,6 @@ func getMalformedJsonConfig() *json.RawMessage {
 	rv := json.RawMessage(`malformed`)
 	return &rv
 }
+
+
+

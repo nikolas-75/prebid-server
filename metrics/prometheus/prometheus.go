@@ -1,4 +1,4 @@
-package prometheusmetrics
+﻿package prometheusmetrics
 
 import (
 	"fmt"
@@ -1101,3 +1101,6 @@ func (m *Metrics) RecordAdapterThrottled(adapterName openrtb_ext.BidderName) {
 		adapterLabel: strings.ToLower(string(adapterName)),
 	}).Inc()
 }
+
+
+

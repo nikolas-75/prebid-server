@@ -1,4 +1,4 @@
-package macros
+﻿package macros
 
 import (
 	"net/url"
@@ -142,3 +142,6 @@ func truncate(text string, width uint) string {
 	trunc := r[:width]
 	return string(trunc)
 }
+
+
+

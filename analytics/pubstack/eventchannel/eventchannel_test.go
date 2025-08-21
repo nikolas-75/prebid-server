@@ -1,4 +1,4 @@
-package eventchannel
+﻿package eventchannel
 
 import (
 	"bytes"
@@ -145,3 +145,6 @@ func TestEventChannelPush(t *testing.T) {
 	data, _ := readChanOrTimeout(t, dataSent)
 	assert.ElementsMatch(t, []byte{'1', '2', '3'}, []byte(readGz(data)))
 }
+
+
+

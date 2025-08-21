@@ -1,4 +1,4 @@
-package task_test
+﻿package task_test
 
 import (
 	"sync"
@@ -85,3 +85,6 @@ func TestStartWithPeriodicRun(t *testing.T) {
 	time.Sleep(50 * time.Millisecond)
 	assert.Equal(t, expectedRuns, runner.RunCount(), "runner should not run after Stop is called")
 }
+
+
+

@@ -1,4 +1,4 @@
-package gdpr
+﻿package gdpr
 
 import (
 	"context"
@@ -63,3 +63,6 @@ type fakePurposeEnforcerBuilder struct {
 func (fpeb fakePurposeEnforcerBuilder) Builder(consentconstants.Purpose, string) PurposeEnforcer {
 	return fpeb.purposeEnforcer
 }
+
+
+

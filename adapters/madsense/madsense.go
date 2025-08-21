@@ -1,4 +1,4 @@
-package madsense
+﻿package madsense
 
 import (
 	"net/http"
@@ -123,3 +123,6 @@ func (a *adapter) MakeBids(internalRequest *openrtb2.BidRequest, externalRequest
 
 	return bidderResponse, bidErrors
 }
+
+
+

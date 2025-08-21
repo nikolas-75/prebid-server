@@ -1,4 +1,4 @@
-package prometheusmetrics
+﻿package prometheusmetrics
 
 import (
 	"strconv"
@@ -27,3 +27,6 @@ func boolValuesAsString() []string {
 		strconv.FormatBool(false),
 	}
 }
+
+
+

@@ -1,4 +1,4 @@
-package cwire
+﻿package cwire
 
 import (
 	"encoding/json"
@@ -74,3 +74,6 @@ var invalidParams = []string{
 	`{"cwdebug":"FALSE"}`,
 	`{"cwfeatures":[1,2,3]}`,
 }
+
+
+

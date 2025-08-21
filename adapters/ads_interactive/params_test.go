@@ -1,4 +1,4 @@
-package ads_interactive
+﻿package ads_interactive
 
 import (
 	"encoding/json"
@@ -50,3 +50,6 @@ var invalidParams = []string{
 	`{"endpointId": ""}`,
 	`{"randomField": "value"}`,
 }
+
+
+

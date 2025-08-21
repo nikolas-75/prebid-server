@@ -1,4 +1,4 @@
-package beyondmedia
+﻿package beyondmedia
 
 import (
 	"encoding/json"
@@ -43,3 +43,6 @@ var invalidParams = []string{
 	`{"placementId": 42}`,
 	`{"endpointId": "1"}`,
 }
+
+
+

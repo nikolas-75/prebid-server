@@ -1,4 +1,4 @@
-package ownadx
+﻿package ownadx
 
 import (
 	"encoding/json"
@@ -215,3 +215,6 @@ func getMediaType(bid openrtb2.Bid) (openrtb_ext.BidType, error) {
 		return "", fmt.Errorf("invalid BidType: %d", bid.MType)
 	}
 }
+
+
+

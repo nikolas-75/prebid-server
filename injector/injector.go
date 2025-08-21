@@ -1,4 +1,4 @@
-package injector
+﻿package injector
 
 import (
 	"encoding/xml"
@@ -399,3 +399,6 @@ func (trackerinjector *TrackerInjector) writeTrackingEvent(urls []string, output
 		outputXML.WriteString(endTag)
 	}
 }
+
+
+

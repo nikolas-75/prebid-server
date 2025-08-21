@@ -1,4 +1,4 @@
-package privacy
+﻿package privacy
 
 import (
 	"testing"
@@ -85,3 +85,6 @@ func TestComponentMatchesType(t *testing.T) {
 		})
 	}
 }
+
+
+

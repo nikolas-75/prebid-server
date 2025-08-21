@@ -1,4 +1,4 @@
-package oms
+﻿package oms
 
 import (
 	"encoding/json"
@@ -127,3 +127,6 @@ func getBidVideo(bidType openrtb_ext.BidType, bid *openrtb2.Bid) *openrtb_ext.Ex
 		PrimaryCategory: primaryCategory,
 	}
 }
+
+
+

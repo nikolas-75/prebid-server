@@ -1,4 +1,4 @@
-package usersync
+﻿package usersync
 
 import (
 	"strings"
@@ -215,3 +215,6 @@ func (c standardChooser) evaluate(bidder string, syncersSeen map[string]struct{}
 
 	return syncer, BidderEvaluation{Status: StatusOK, Bidder: bidder, SyncerKey: syncer.Key()}
 }
+
+
+

@@ -1,4 +1,4 @@
-package yandex
+﻿package yandex
 
 import (
 	"encoding/json"
@@ -397,3 +397,6 @@ func getBidType(imp openrtb2.Imp) (openrtb_ext.BidType, error) {
 		}
 	}
 }
+
+
+

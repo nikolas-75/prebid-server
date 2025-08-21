@@ -1,4 +1,4 @@
-package copper6ssp
+﻿package copper6ssp
 
 import (
 	"encoding/json"
@@ -45,3 +45,6 @@ var invalidParams = []string{
 	`{"endpointId": 42}`,
 	`{"placementId": "1", "endpointId": "1"}`,
 }
+
+
+

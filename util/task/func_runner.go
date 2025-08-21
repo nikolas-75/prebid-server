@@ -1,4 +1,4 @@
-package task
+﻿package task
 
 import "time"
 
@@ -13,3 +13,6 @@ func (r funcRunner) Run() error {
 func NewTickerTaskFromFunc(interval time.Duration, runner func() error) *TickerTask {
 	return NewTickerTask(interval, funcRunner{run: runner})
 }
+
+
+

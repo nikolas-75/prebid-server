@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 // ExtImpEPlanning defines the contract for bidrequest.imp[i].ext.prebid.bidder.eplanning
 type ExtImpEPlanning struct {
@@ -6,3 +6,6 @@ type ExtImpEPlanning struct {
 	AdUnitCode string `json:"adunit_code"`
 	SizeString string
 }
+
+
+

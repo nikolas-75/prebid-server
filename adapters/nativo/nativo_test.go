@@ -1,4 +1,4 @@
-package nativo
+﻿package nativo
 
 import (
 	"testing"
@@ -19,3 +19,6 @@ func TestBidderNativo(t *testing.T) {
 
 	adapterstest.RunJSONBidderTest(t, "nativotest", bidder)
 }
+
+
+

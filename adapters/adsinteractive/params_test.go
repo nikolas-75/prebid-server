@@ -1,4 +1,4 @@
-package adsinteractive
+﻿package adsinteractive
 
 import (
 	"encoding/json"
@@ -53,3 +53,6 @@ var invalidParams = []string{
 	`53`,
 	`9.1`,
 }
+
+
+

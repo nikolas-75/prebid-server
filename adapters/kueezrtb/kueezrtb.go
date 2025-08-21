@@ -1,4 +1,4 @@
-package kueezrtb
+﻿package kueezrtb
 
 import (
 	"encoding/json"
@@ -130,3 +130,6 @@ func getMediaTypeForBid(bid openrtb2.Bid) (openrtb_ext.BidType, error) {
 		Message: fmt.Sprintf("Could not define bid type for imp: %s", bid.ImpID),
 	}
 }
+
+
+

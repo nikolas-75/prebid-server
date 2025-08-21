@@ -1,4 +1,4 @@
-package mediasquare
+﻿package mediasquare
 
 import (
 	"testing"
@@ -42,3 +42,6 @@ func TestMakeRequests(t *testing.T) {
 	assert.Equal(t, []*adapters.RequestData(nil), resp, "resp, was supposed to be empty result.")
 	assert.Equal(t, expectingErrors, errs, "errs, was supposed to be :", expectingErrors)
 }
+
+
+

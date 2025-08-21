@@ -1,4 +1,4 @@
-package ucfunnel
+﻿package ucfunnel
 
 import (
 	"encoding/json"
@@ -180,3 +180,6 @@ func TestMakeBids(t *testing.T) {
 		}
 	}
 }
+
+
+

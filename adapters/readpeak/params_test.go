@@ -1,4 +1,4 @@
-package readpeak
+﻿package readpeak
 
 import (
 	"encoding/json"
@@ -49,3 +49,6 @@ var invalidParams = []string{
 	`{"publisherId": "Some Pub ID", "siteId": "Some Site ID", bidfloor: "1.5"}`,
 	`{"publisherId": "Some Pub ID", "siteId": "Some Site ID", bidfloor: 1.5, tagId: 1}`,
 }
+
+
+

@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 import (
 	"testing"
@@ -78,3 +78,6 @@ func assertBidParse(t *testing.T, s string, bidType BidType) {
 		t.Errorf("Bid types did not match. Expected %s, got %s", bidType, parsed)
 	}
 }
+
+
+

@@ -1,4 +1,4 @@
-package kidoz
+﻿package kidoz
 
 import (
 	"encoding/json"
@@ -77,3 +77,6 @@ var invalidParams = []string{
 	`{"access_token": 1, "publisher_id":"pub-valid-0"}`,
 	`{"access_token":"token-valid-0", "publisher_id": 1}`,
 }
+
+
+

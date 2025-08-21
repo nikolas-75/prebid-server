@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 type ExtImpSovrn struct {
 	TagId      string      `json:"tagId,omitempty"`
@@ -6,3 +6,6 @@ type ExtImpSovrn struct {
 	BidFloor   interface{} `json:"bidfloor,omitempty"`
 	AdUnitCode string      `json:"adunitcode,omitempty"`
 }
+
+
+

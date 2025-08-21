@@ -1,4 +1,4 @@
-package admatic
+﻿package admatic
 
 import (
 	"encoding/json"
@@ -54,3 +54,6 @@ var invalidParams = []string{
 	`{"host": "layer.serve.admatic.com.tr", "networkId":"1111"}`,
 	`{"host": 1111, "networkId":1111}`,
 }
+
+
+

@@ -1,4 +1,4 @@
-package pulsepoint
+﻿package pulsepoint
 
 import (
 	"encoding/json"
@@ -56,3 +56,6 @@ var invalidParams = []string{
 	`{"cp":1000}`,
 	`{"ct":1000}`,
 }
+
+
+

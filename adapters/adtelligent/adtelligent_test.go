@@ -1,4 +1,4 @@
-package adtelligent
+﻿package adtelligent
 
 import (
 	"testing"
@@ -18,3 +18,6 @@ func TestJsonSamples(t *testing.T) {
 
 	adapterstest.RunJSONBidderTest(t, "adtelligenttest", bidder)
 }
+
+
+

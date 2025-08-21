@@ -1,4 +1,4 @@
-package hookstage
+﻿package hookstage
 
 import (
 	"context"
@@ -29,3 +29,6 @@ type AllProcessedBidResponses interface {
 type AllProcessedBidResponsesPayload struct {
 	Responses map[openrtb_ext.BidderName]*entities.PbsOrtbSeatBid
 }
+
+
+

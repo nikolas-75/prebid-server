@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 type ImpExtTaboola struct {
 	PublisherId     string   `json:"publisherId"`
@@ -11,3 +11,6 @@ type ImpExtTaboola struct {
 	PageType        string   `json:"pageType"`
 	Position        *int     `json:"position"`
 }
+
+
+

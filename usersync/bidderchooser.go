@@ -1,4 +1,4 @@
-package usersync
+﻿package usersync
 
 // bidderChooser determines which bidders to consider for user syncing.
 type bidderChooser interface {
@@ -58,3 +58,6 @@ func (c standardBidderChooser) shuffledAppend(a, b []string) []string {
 	c.shuffler.shuffle(a[startIndex:])
 	return a
 }
+
+
+

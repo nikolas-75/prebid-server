@@ -1,4 +1,4 @@
-package config
+﻿package config
 
 import "github.com/prebid/prebid-server/v3/util/httputil"
 
@@ -19,3 +19,6 @@ func (cfg *CompressionInfo) IsSupported(contentEncoding httputil.ContentEncoding
 	}
 	return false
 }
+
+
+

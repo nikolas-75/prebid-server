@@ -1,4 +1,4 @@
-package aidem
+﻿package aidem
 
 import (
 	"testing"
@@ -28,3 +28,6 @@ func TestEndpointTemplateMalformed(t *testing.T) {
 
 	assert.Error(t, buildErr)
 }
+
+
+

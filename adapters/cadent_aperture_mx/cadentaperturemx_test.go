@@ -1,4 +1,4 @@
-package cadentaperturemx
+﻿package cadentaperturemx
 
 import (
 	"testing"
@@ -25,3 +25,6 @@ func setTesting(bidder adapters.Bidder) {
 	bidderCadentApertureMX, _ := bidder.(*adapter)
 	bidderCadentApertureMX.testing = true
 }
+
+
+

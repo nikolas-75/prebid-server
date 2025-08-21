@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 import "encoding/json"
 
@@ -23,3 +23,6 @@ type ExtImpPubmaticKeyVal struct {
 	Key    string   `json:"key,omitempty"`
 	Values []string `json:"value,omitempty"`
 }
+
+
+

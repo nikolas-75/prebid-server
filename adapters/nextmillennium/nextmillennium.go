@@ -1,4 +1,4 @@
-package nextmillennium
+﻿package nextmillennium
 
 import (
 	"encoding/json"
@@ -230,3 +230,6 @@ func getBidType(mType openrtb2.MarkupType) (openrtb_ext.BidType, error) {
 		return "", &errortypes.BadServerResponse{Message: fmt.Sprintf("Unsupported return mType: %v", mType)}
 	}
 }
+
+
+

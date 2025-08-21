@@ -1,4 +1,4 @@
-package iqx
+﻿package iqx
 
 import (
 	"encoding/json"
@@ -51,3 +51,6 @@ func TestInvalidParams(t *testing.T) {
 		}
 	}
 }
+
+
+

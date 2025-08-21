@@ -1,4 +1,4 @@
-package adservertargeting
+﻿package adservertargeting
 
 import (
 	"github.com/buger/jsonparser"
@@ -162,3 +162,6 @@ func TestVerifyType(t *testing.T) {
 
 	}
 }
+
+
+

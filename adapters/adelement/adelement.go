@@ -1,4 +1,4 @@
-package adelement
+﻿package adelement
 
 import (
 	"encoding/json"
@@ -139,3 +139,6 @@ func getBidType(bid openrtb2.Bid) (openrtb_ext.BidType, error) {
 		Message: fmt.Sprintf("Could not define media type for impression: %s", bid.ImpID),
 	}
 }
+
+
+

@@ -1,4 +1,4 @@
-package timeutil
+﻿package timeutil
 
 import (
 	"time"
@@ -14,3 +14,6 @@ type RealTime struct{}
 func (c *RealTime) Now() time.Time {
 	return time.Now()
 }
+
+
+

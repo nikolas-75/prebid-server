@@ -1,4 +1,4 @@
-package agma
+﻿package agma
 
 import (
 	"compress/gzip"
@@ -131,3 +131,6 @@ func TestSenderErrorReponse(t *testing.T) {
 	err = sender([]byte(testBody))
 	assert.Error(t, err)
 }
+
+
+

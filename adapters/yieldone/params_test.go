@@ -1,4 +1,4 @@
-package yieldone
+﻿package yieldone
 
 import (
 	"encoding/json"
@@ -47,3 +47,6 @@ var invalidParams = []string{
 	`{"invalid_param": "123"}`,
 	`{"placementId": 123}`,
 }
+
+
+

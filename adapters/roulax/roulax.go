@@ -1,4 +1,4 @@
-package roulax
+﻿package roulax
 
 import (
 	"encoding/json"
@@ -116,3 +116,6 @@ func getMediaTypeForBid(bid openrtb2.Bid) (openrtb_ext.BidType, error) {
 		return "", fmt.Errorf("Unable to fetch mediaType in impID: %s, mType: %d", bid.ImpID, bid.MType)
 	}
 }
+
+
+

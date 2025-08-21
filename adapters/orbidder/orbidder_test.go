@@ -1,4 +1,4 @@
-package orbidder
+﻿package orbidder
 
 import (
 	"encoding/json"
@@ -180,3 +180,6 @@ func (m *mockCurrencyConversion) GetRates() *map[string]map[string]float64 {
 	args := m.Called()
 	return args.Get(0).(*map[string]map[string]float64)
 }
+
+
+

@@ -1,4 +1,4 @@
-package config
+﻿package config
 
 import (
 	"context"
@@ -258,3 +258,6 @@ func consolidate(dataType config.DataType, fetchers []stored_requests.AllFetcher
 		return stored_requests.MultiFetcher(fetchers)
 	}
 }
+
+
+

@@ -1,4 +1,4 @@
-package adservertargeting
+﻿package adservertargeting
 
 import (
 	"encoding/json"
@@ -589,3 +589,6 @@ func TestResponseObjectStructure(t *testing.T) {
 		assert.True(t, fieldFound, "field %s is not found in bidResponse object", fieldName)
 	}
 }
+
+
+

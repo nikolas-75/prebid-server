@@ -1,4 +1,4 @@
-package memory
+﻿package memory
 
 import (
 	"context"
@@ -65,3 +65,6 @@ func (c *cache) Invalidate(ctx context.Context, ids []string) {
 		c.cache.Delete(id)
 	}
 }
+
+
+

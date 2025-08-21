@@ -1,4 +1,4 @@
-package openrtb2
+﻿package openrtb2
 
 import (
 	"fmt"
@@ -83,3 +83,6 @@ func genInterstitialFormat(minWidth, maxWidth, minHeight, maxHeight int64) []ope
 	}
 	return formatList
 }
+
+
+

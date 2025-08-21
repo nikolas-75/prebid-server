@@ -1,4 +1,4 @@
-package aso
+﻿package aso
 
 import (
 	"encoding/json"
@@ -152,3 +152,6 @@ func resolveMacros(bid *openrtb2.Bid) {
 	bid.NURL = strings.Replace(bid.NURL, "${AUCTION_PRICE}", price, -1)
 	bid.AdM = strings.Replace(bid.AdM, "${AUCTION_PRICE}", price, -1)
 }
+
+
+

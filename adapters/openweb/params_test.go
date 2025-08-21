@@ -1,4 +1,4 @@
-package openweb
+﻿package openweb
 
 import (
 	"encoding/json"
@@ -58,3 +58,6 @@ var invalidParams = []string{
 	`{"aid":123}`,
 	`{"aid":"123","placementId":"123"}`,
 }
+
+
+

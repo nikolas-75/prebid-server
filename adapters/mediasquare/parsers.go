@@ -1,4 +1,4 @@
-package mediasquare
+﻿package mediasquare
 
 import (
 	"fmt"
@@ -82,3 +82,6 @@ func (parser parserGDPR) getValue(field string, request *openrtb2.BidRequest) (g
 	}
 	return
 }
+
+
+

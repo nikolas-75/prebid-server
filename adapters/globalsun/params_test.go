@@ -1,4 +1,4 @@
-package globalsun
+﻿package globalsun
 
 import (
 	"encoding/json"
@@ -43,3 +43,6 @@ var invalidParams = []string{
 	`{"placementId": ""}`,
 	`{}`,
 }
+
+
+

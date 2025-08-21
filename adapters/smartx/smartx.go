@@ -1,4 +1,4 @@
-package smartx
+﻿package smartx
 
 import (
 	"encoding/json"
@@ -90,3 +90,6 @@ func (a *adapter) MakeBids(request *openrtb2.BidRequest, _ *adapters.RequestData
 
 	return bidResponse, errs
 }
+
+
+

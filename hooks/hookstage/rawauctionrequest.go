@@ -1,4 +1,4 @@
-package hookstage
+﻿package hookstage
 
 import (
 	"context"
@@ -25,3 +25,6 @@ type RawAuctionRequest interface {
 // RawAuctionRequestPayload represents a raw body of the openrtb2.BidRequest.
 // Hooks are allowed to modify body using mutations.
 type RawAuctionRequestPayload []byte
+
+
+

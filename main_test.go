@@ -1,4 +1,4 @@
-package main
+﻿package main
 
 import (
 	"os"
@@ -65,3 +65,6 @@ func TestViperEnv(t *testing.T) {
 	assert.Equal(t, 60, v.Get("host_cookie.ttl_days"), "Config With Underscores")
 	assert.ElementsMatch(t, []string{"1.1.1.1/24", "2.2.2.2/24"}, v.Get("request_validation.ipv4_private_networks"), "Arrays")
 }
+
+
+

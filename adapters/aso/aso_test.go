@@ -1,4 +1,4 @@
-package aso
+﻿package aso
 
 import (
 	"testing"
@@ -27,3 +27,6 @@ func TestEndpointTemplateMalformed(t *testing.T) {
 
 	assert.Error(t, buildErr)
 }
+
+
+

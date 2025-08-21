@@ -1,4 +1,4 @@
-package stringutil
+﻿package stringutil
 
 import (
 	"strconv"
@@ -23,3 +23,6 @@ func StrToInt8Slice(str string) ([]int8, error) {
 
 	return r, nil
 }
+
+
+

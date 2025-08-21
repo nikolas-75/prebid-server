@@ -1,4 +1,4 @@
-package adnuntius
+﻿package adnuntius
 
 import (
 	"encoding/json"
@@ -84,3 +84,6 @@ type adnRequest struct {
 	Context   string             `json:"context,omitempty"`
 	KeyValues interface{}        `json:"kv,omitempty"`
 }
+
+
+

@@ -1,4 +1,4 @@
-package hookstage
+﻿package hookstage
 
 import (
 	"context"
@@ -42,3 +42,6 @@ type RequestUpdater interface {
 	GetBidderRequestPayload() *openrtb_ext.RequestWrapper
 	SetBidderRequestPayload(br *openrtb_ext.RequestWrapper)
 }
+
+
+

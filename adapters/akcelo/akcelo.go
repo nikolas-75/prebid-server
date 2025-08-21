@@ -1,4 +1,4 @@
-package akcelo
+﻿package akcelo
 
 import (
 	"encoding/json"
@@ -185,3 +185,6 @@ func getBidType(bid *openrtb2.Bid) (openrtb_ext.BidType, error) {
 	}
 	return "", fmt.Errorf("missing media type for bid: %s", bid.ID)
 }
+
+
+

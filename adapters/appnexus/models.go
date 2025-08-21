@@ -1,4 +1,4 @@
-package appnexus
+﻿package appnexus
 
 import (
 	"encoding/json"
@@ -47,3 +47,6 @@ type bidReqExtAppnexus struct {
 	HeaderBiddingSource     int    `json:"hb_source,omitempty"`
 	AdPodID                 string `json:"adpod_id,omitempty"`
 }
+
+
+

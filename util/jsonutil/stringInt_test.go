@@ -1,4 +1,4 @@
-package jsonutil
+﻿package jsonutil
 
 import (
 	"testing"
@@ -39,3 +39,6 @@ func TestStringIntUnmarshalJSON(t *testing.T) {
 		assert.EqualError(t, err, "cannot unmarshal jsonutil.Item.ItemId: "+jsonparser.MalformedValueError.Error())
 	})
 }
+
+
+

@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 // ExtImpVideoByte defines the contract for bidrequest.imp[i].ext.prebid.bidder.videobyte
 type ExtImpVideoByte struct {
@@ -6,3 +6,6 @@ type ExtImpVideoByte struct {
 	PlacementId string `json:"placementId"`
 	NetworkId   string `json:"nid"`
 }
+
+
+

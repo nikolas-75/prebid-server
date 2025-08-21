@@ -1,4 +1,4 @@
-package rulesengine
+﻿package rulesengine
 
 import (
 	"fmt"
@@ -218,3 +218,6 @@ func (g *mockRandomGenerator) Intn(n int) int {
 func (g *mockRandomGenerator) GenerateInt63() int64 {
 	return int64(g.returnValue)
 }
+
+
+

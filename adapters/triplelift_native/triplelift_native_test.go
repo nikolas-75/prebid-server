@@ -1,4 +1,4 @@
-package triplelift_native
+﻿package triplelift_native
 
 import (
 	"testing"
@@ -43,3 +43,6 @@ func TestJsonSamples(t *testing.T) {
 
 	adapterstest.RunJSONBidderTest(t, "triplelift_nativetest", bidder)
 }
+
+
+

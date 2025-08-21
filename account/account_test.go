@@ -1,4 +1,4 @@
-package account
+﻿package account
 
 import (
 	"context"
@@ -242,3 +242,6 @@ func TestSetDerivedConfig(t *testing.T) {
 		assert.Equal(t, account.GDPR.Purpose1.EnforceAlgoID, tt.wantEnforceAlgoID, tt.description)
 	}
 }
+
+
+

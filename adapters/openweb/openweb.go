@@ -1,4 +1,4 @@
-package openweb
+﻿package openweb
 
 import (
 	"encoding/json"
@@ -135,3 +135,6 @@ func Builder(_ openrtb_ext.BidderName, config config.Adapter, _ config.Server) (
 	}
 	return bidder, nil
 }
+
+
+

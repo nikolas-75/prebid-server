@@ -1,4 +1,4 @@
-package sliceutil
+﻿package sliceutil
 
 import (
 	"strings"
@@ -12,3 +12,6 @@ func ContainsStringIgnoreCase(s []string, v string) bool {
 	}
 	return false
 }
+
+
+

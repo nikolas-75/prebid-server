@@ -1,6 +1,8 @@
-package exchange
+﻿package exchange
 
 import (
+"github.com/prebid/prebid-server/v3/adapters/advanceddsp"
+
 	"github.com/prebid/prebid-server/v3/adapters"
 	ttx "github.com/prebid/prebid-server/v3/adapters/33across"
 	"github.com/prebid/prebid-server/v3/adapters/aax"
@@ -518,5 +520,10 @@ func newAdapterBuilders() map[openrtb_ext.BidderName]adapters.Builder {
 		openrtb_ext.BidderZeroClickFraud:    zeroclickfraud.Builder,
 		openrtb_ext.BidderZetaGlobalSsp:     zeta_global_ssp.Builder,
 		openrtb_ext.BidderZmaticoo:          zmaticoo.Builder,
+        "advanceddsp": advanceddsp.Builder,
 	}
 }
+
+
+
+

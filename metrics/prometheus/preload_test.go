@@ -1,4 +1,4 @@
-package prometheusmetrics
+﻿package prometheusmetrics
 
 import (
 	"testing"
@@ -62,3 +62,6 @@ func TestRegisterLabelPermutations(t *testing.T) {
 		assert.ElementsMatch(t, test.expectedLabels, resultLabels)
 	}
 }
+
+
+

@@ -1,4 +1,4 @@
-package nil_cache
+﻿package nil_cache
 
 import (
 	"context"
@@ -17,3 +17,6 @@ func (c *NilCache) Save(ctx context.Context, data map[string]json.RawMessage) {
 
 func (c *NilCache) Invalidate(ctx context.Context, ids []string) {
 }
+
+
+

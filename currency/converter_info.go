@@ -1,4 +1,4 @@
-package currency
+﻿package currency
 
 import "time"
 
@@ -36,3 +36,6 @@ func (ci converterInfo) Rates() *map[string]map[string]float64 {
 func (ci converterInfo) AdditionalInfo() interface{} {
 	return ci.additionalInfo
 }
+
+
+

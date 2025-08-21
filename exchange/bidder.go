@@ -1,4 +1,4 @@
-package exchange
+﻿package exchange
 
 import (
 	"bytes"
@@ -890,3 +890,6 @@ func (bidder *BidderAdapter) shouldRequest() bool {
 	}
 	return true
 }
+
+
+

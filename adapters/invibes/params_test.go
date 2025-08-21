@@ -1,4 +1,4 @@
-package invibes
+﻿package invibes
 
 import (
 	"encoding/json"
@@ -53,3 +53,6 @@ var invalidParams = []string{
 	`[]`,
 	`{}`,
 }
+
+
+

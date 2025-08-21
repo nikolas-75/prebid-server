@@ -1,4 +1,4 @@
-package stored_requests
+﻿package stored_requests
 
 import (
 	"context"
@@ -372,3 +372,6 @@ func (c *mockCache) Save(ctx context.Context, data map[string]json.RawMessage) {
 func (c *mockCache) Invalidate(ctx context.Context, ids []string) {
 	c.Called(ctx, ids)
 }
+
+
+

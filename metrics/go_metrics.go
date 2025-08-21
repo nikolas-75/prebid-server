@@ -1,4 +1,4 @@
-package metrics
+﻿package metrics
 
 import (
 	"fmt"
@@ -1178,3 +1178,6 @@ func (me *Metrics) RecordAdapterThrottled(adapterName openrtb_ext.BidderName) {
 
 	am.ThrottledMeter.Mark(1)
 }
+
+
+

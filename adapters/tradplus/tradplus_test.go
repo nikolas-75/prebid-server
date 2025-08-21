@@ -1,4 +1,4 @@
-package tradplus
+﻿package tradplus
 
 import (
 	"testing"
@@ -27,3 +27,6 @@ func TestEndpointTemplateMalformed(t *testing.T) {
 
 	assert.Error(t, buildErr)
 }
+
+
+

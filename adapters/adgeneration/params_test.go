@@ -1,4 +1,4 @@
-package adgeneration
+﻿package adgeneration
 
 import (
 	"encoding/json"
@@ -45,3 +45,6 @@ var invalidParams = []string{
 	`12345`,
 	`{"id":123456}`,
 }
+
+
+

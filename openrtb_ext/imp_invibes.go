@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 type ExtImpInvibes struct {
 	PlacementID string             `json:"placementId,omitempty"`
@@ -10,3 +10,6 @@ type ExtImpInvibesDebug struct {
 	TestBvid string `json:"testBvid,omitempty"`
 	TestLog  bool   `json:"testLog,omitempty"`
 }
+
+
+

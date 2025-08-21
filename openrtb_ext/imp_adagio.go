@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 type ExtImpAdagio struct {
 	OrganizationID string `json:"organizationId"`
@@ -7,3 +7,6 @@ type ExtImpAdagio struct {
 	Pagetype       string `json:"pagetype,omitempty"`
 	Category       string `json:"category,omitempty"`
 }
+
+
+

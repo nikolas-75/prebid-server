@@ -1,4 +1,4 @@
-package mgid
+﻿package mgid
 
 import (
 	"bytes"
@@ -177,3 +177,6 @@ func Builder(bidderName openrtb_ext.BidderName, config config.Adapter, server co
 	}
 	return bidder, nil
 }
+
+
+

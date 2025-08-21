@@ -1,4 +1,4 @@
-package algorix
+﻿package algorix
 
 import (
 	"encoding/json"
@@ -53,3 +53,6 @@ var invalidParams = []string{
 	`{"sid": "11233", "token": "sin", "placementId": 123, "appId": 456}`,
 	`{"sid": "11233", "token": "sin", "region": 123}`,
 }
+
+
+

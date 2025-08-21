@@ -1,4 +1,4 @@
-package filesystem
+﻿package filesystem
 
 import (
 	"net/http"
@@ -122,3 +122,6 @@ func TestFileLoggerShutdown(t *testing.T) {
 
 	mockLogger.AssertNumberOfCalls(t, "Flush", 1)
 }
+
+
+

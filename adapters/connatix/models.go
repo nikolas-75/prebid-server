@@ -1,4 +1,4 @@
-package connatix
+﻿package connatix
 
 import (
 	"github.com/prebid/prebid-server/v3/openrtb_ext"
@@ -28,3 +28,6 @@ type bidExt struct {
 type bidCnxExt struct {
 	MediaType string `json:"mediaType,omitempty"`
 }
+
+
+

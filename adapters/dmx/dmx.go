@@ -1,4 +1,4 @@
-package dmx
+﻿package dmx
 
 import (
 	"encoding/json"
@@ -359,3 +359,6 @@ func checkProtocols(imp *openrtb2.Video) []adcom1.MediaCreativeSubtype {
 	}
 	return protocols
 }
+
+
+

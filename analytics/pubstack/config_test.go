@@ -1,4 +1,4 @@
-package pubstack
+﻿package pubstack
 
 import (
 	"net/http"
@@ -148,3 +148,6 @@ func TestDisableAllFeatures(t *testing.T) {
 	assert.Equal(t, expected, disabled)
 	assert.Same(t, config, disabled)
 }
+
+
+

@@ -1,4 +1,4 @@
-package silverpush
+﻿package silverpush
 
 import (
 	"encoding/json"
@@ -63,3 +63,6 @@ var invalidParams = []string{
 	`{"bidfloor": "1123581321"}`,
 	`{"publisherId":{}}`,
 }
+
+
+

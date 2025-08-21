@@ -1,4 +1,4 @@
-package endpoints
+﻿package endpoints
 
 import (
 	"math/cmplx"
@@ -219,3 +219,6 @@ func newRateConverterMockWithNilInfo() rateConverterMock {
 		shouldReturnNilInfo: true,
 	}
 }
+
+
+

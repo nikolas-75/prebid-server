@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 import (
 	"encoding/json"
@@ -121,3 +121,6 @@ func ParseDeviceExtATTS(deviceExt json.RawMessage) (*IOSAppTrackingStatus, error
 	status := IOSAppTrackingStatus(v)
 	return &status, nil
 }
+
+
+

@@ -1,4 +1,4 @@
-package errortypes
+﻿package errortypes
 
 import (
 	"errors"
@@ -39,3 +39,6 @@ func TestAggregateError(t *testing.T) {
 		assert.Equal(t, test.expected, err.Error(), test.description)
 	}
 }
+
+
+

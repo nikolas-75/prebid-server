@@ -1,4 +1,4 @@
-package endpoints
+﻿package endpoints
 
 import (
 	"net/http"
@@ -26,3 +26,6 @@ func TestStatusWithContent(t *testing.T) {
 		t.Errorf("Bad status body. Expected %s, got %s", "ready", w.Body.String())
 	}
 }
+
+
+

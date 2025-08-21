@@ -1,4 +1,4 @@
-package mobilefuse
+﻿package mobilefuse
 
 import (
 	"encoding/json"
@@ -46,3 +46,6 @@ var validParams = []string{
 var invalidParams = []string{
 	`{"placement_id":"123"}`,
 }
+
+
+

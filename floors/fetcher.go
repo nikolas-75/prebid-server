@@ -1,4 +1,4 @@
-package floors
+﻿package floors
 
 import (
 	"container/heap"
@@ -333,3 +333,6 @@ func validateRules(config config.AccountFloorFetch, priceFloors *openrtb_ext.Pri
 
 	return nil
 }
+
+
+

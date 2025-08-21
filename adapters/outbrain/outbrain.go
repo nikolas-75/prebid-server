@@ -1,4 +1,4 @@
-package outbrain
+﻿package outbrain
 
 import (
 	"encoding/json"
@@ -184,3 +184,6 @@ func transformEventTrackers(nativePayload *nativeResponse.Response) {
 	}
 	nativePayload.EventTrackers = nil
 }
+
+
+

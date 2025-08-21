@@ -1,4 +1,4 @@
-package adgeneration
+﻿package adgeneration
 
 import (
 	"encoding/json"
@@ -271,3 +271,6 @@ func checkBidResponse(t *testing.T, bidderResponse *adapters.BidderResponse, exp
 	assert.Equal(t, expectedCrID, bidderResponse.Bids[0].Bid.CrID)
 	assert.Equal(t, extectedDealID, bidderResponse.Bids[0].Bid.DealID)
 }
+
+
+

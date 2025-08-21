@@ -1,4 +1,4 @@
-package exchange
+﻿package exchange
 
 import (
 	"errors"
@@ -55,3 +55,6 @@ func isBidderUnreachableError(httpInfo *httpCallInfo) bool {
 	isNoSuchHost := errors.As(httpInfo.err, &dnsErr) && dnsErr.IsNotFound
 	return errors.Is(httpInfo.err, syscall.ECONNREFUSED) || isNoSuchHost
 }
+
+
+

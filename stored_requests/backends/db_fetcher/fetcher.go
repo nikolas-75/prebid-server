@@ -1,4 +1,4 @@
-package db_fetcher
+﻿package db_fetcher
 
 import (
 	"context"
@@ -187,3 +187,6 @@ func isBadInput(err error) bool {
 
 	return false
 }
+
+
+

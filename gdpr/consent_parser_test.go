@@ -1,4 +1,4 @@
-package gdpr
+﻿package gdpr
 
 import (
 	"errors"
@@ -158,3 +158,6 @@ func (mcs *mockConsentString) TCFPolicyVersion() uint8                         {
 func (mcs *mockConsentString) MaxVendorID() uint16                             { return 0 }
 func (mcs *mockConsentString) PurposeAllowed(id consentconstants.Purpose) bool { return false }
 func (mcs *mockConsentString) VendorConsent(id uint16) bool                    { return false }
+
+
+

@@ -1,4 +1,4 @@
-package bidmatic
+﻿package bidmatic
 
 import (
 	"testing"
@@ -21,3 +21,6 @@ func TestJsonSamples(t *testing.T) {
 
 	adapterstest.RunJSONBidderTest(t, "bidmatictest", bidder)
 }
+
+
+

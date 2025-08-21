@@ -1,4 +1,4 @@
-package jsonutil
+﻿package jsonutil
 
 import (
 	"bytes"
@@ -322,3 +322,6 @@ func TestEncode(t *testing.T) {
 		},
 	)
 }
+
+
+

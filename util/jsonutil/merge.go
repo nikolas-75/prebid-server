@@ -1,4 +1,4 @@
-package jsonutil
+﻿package jsonutil
 
 import (
 	"encoding/json"
@@ -174,3 +174,6 @@ func (d *extMergeDecoder) Decode(ptr unsafe.Pointer, iter *jsoniter.Iterator) {
 
 	*((*json.RawMessage)(ptr)) = merged
 }
+
+
+

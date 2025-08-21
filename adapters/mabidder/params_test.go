@@ -1,4 +1,4 @@
-package mabidder
+﻿package mabidder
 
 import (
 	"encoding/json"
@@ -48,3 +48,6 @@ var invalidParams = []string{
 	`{}`,
 	`{"ppid": 42}`,
 }
+
+
+

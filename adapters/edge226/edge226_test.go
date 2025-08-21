@@ -1,4 +1,4 @@
-package edge226
+﻿package edge226
 
 import (
 	"testing"
@@ -18,3 +18,6 @@ func TestJsonSamples(t *testing.T) {
 
 	adapterstest.RunJSONBidderTest(t, "edge226test", bidder)
 }
+
+
+

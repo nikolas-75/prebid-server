@@ -1,4 +1,4 @@
-package revcontent
+﻿package revcontent
 
 import (
 	"testing"
@@ -19,3 +19,6 @@ func TestJsonSamples(t *testing.T) {
 
 	adapterstest.RunJSONBidderTest(t, "revcontenttest", bidder)
 }
+
+
+

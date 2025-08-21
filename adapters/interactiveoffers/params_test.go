@@ -1,4 +1,4 @@
-package interactiveoffers
+﻿package interactiveoffers
 
 import (
 	"encoding/json"
@@ -48,3 +48,6 @@ var invalidParams = []string{
 	`abc`,
 	`[]`,
 }
+
+
+

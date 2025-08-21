@@ -1,4 +1,4 @@
-package firstpartydata
+﻿package firstpartydata
 
 import (
 	"encoding/json"
@@ -1490,3 +1490,6 @@ func TestValidateDevice(t *testing.T) {
 		})
 	}
 }
+
+
+

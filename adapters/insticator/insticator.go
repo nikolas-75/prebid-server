@@ -1,4 +1,4 @@
-package insticator
+﻿package insticator
 
 import (
 	"fmt"
@@ -317,3 +317,6 @@ func populatePublisherId(publisherId string, request *openrtb2.BidRequest) {
 		request.App.Publisher.ID = publisherId
 	}
 }
+
+
+

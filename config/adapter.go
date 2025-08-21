@@ -1,4 +1,4 @@
-package config
+﻿package config
 
 type Adapter struct {
 	Endpoint         string
@@ -11,3 +11,6 @@ type Adapter struct {
 	PlatformID string
 	AppSecret  string
 }
+
+
+

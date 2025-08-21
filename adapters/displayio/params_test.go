@@ -1,4 +1,4 @@
-package displayio
+﻿package displayio
 
 import (
 	"encoding/json"
@@ -46,3 +46,6 @@ var invalidParams = []string{
 	`{"inventoryId":"anyInventoryId"}`,
 	`{"publisherId":"anyPublisherId"}`,
 }
+
+
+

@@ -1,4 +1,4 @@
-package rules
+﻿package rules
 
 import (
 	"encoding/json"
@@ -600,3 +600,6 @@ func getRequestRegs(wrapper *openrtb_ext.RequestWrapper) *openrtb2.Regs {
 	}
 	return nil
 }
+
+
+

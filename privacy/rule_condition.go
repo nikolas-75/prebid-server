@@ -1,4 +1,4 @@
-package privacy
+﻿package privacy
 
 // noClausesDefinedResult represents the default return when there is no matching criteria specified.
 const noClausesDefinedResult = true
@@ -82,3 +82,6 @@ func getGPPSID(request ActivityRequest) []int8 {
 
 	return nil
 }
+
+
+

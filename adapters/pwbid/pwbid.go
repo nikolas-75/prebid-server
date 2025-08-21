@@ -1,4 +1,4 @@
-package pwbid
+﻿package pwbid
 
 import (
 	"encoding/json"
@@ -96,3 +96,6 @@ func getMediaTypeForBid(impressions []openrtb2.Imp, bid openrtb2.Bid) (openrtb_e
 		Message: fmt.Sprintf("The impression with ID %s is not present into the request", bid.ImpID),
 	}
 }
+
+
+

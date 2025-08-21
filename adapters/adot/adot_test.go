@@ -1,4 +1,4 @@
-package adot
+﻿package adot
 
 import (
 	"encoding/json"
@@ -94,3 +94,6 @@ func TestGetImpAdotExt(t *testing.T) {
 	emptyAdotExt := getImpAdotExt(emptyExt)
 	assert.Nil(t, emptyAdotExt)
 }
+
+
+

@@ -1,4 +1,4 @@
-package cointraffic
+﻿package cointraffic
 
 import (
 	"encoding/json"
@@ -49,3 +49,6 @@ var invalidParams = []string{
 	`{"placementId": 42}`,
 	`{"placementId": ""}`,
 }
+
+
+

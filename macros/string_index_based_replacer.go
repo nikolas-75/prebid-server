@@ -1,4 +1,4 @@
-package macros
+﻿package macros
 
 import (
 	"strings"
@@ -99,3 +99,6 @@ func (s *stringIndexBasedReplacer) getTemplate(url string) urlMetaTemplate {
 	}
 	return template
 }
+
+
+

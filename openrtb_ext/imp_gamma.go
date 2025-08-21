@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 // ExtImpGamma defines the contract for bidrequest.imp[i].ext.prebid.bidder.gamma
 type ExtImpGamma struct {
@@ -6,3 +6,6 @@ type ExtImpGamma struct {
 	ZoneID    string `json:"zid"`
 	WebID     string `json:"wid"`
 }
+
+
+

@@ -1,4 +1,4 @@
-package analytics
+﻿package analytics
 
 // EventType enumerates the values of events Prebid Server can receive for an ad.
 type EventType string
@@ -51,3 +51,6 @@ type EventRequest struct {
 	Integration string         `json:"integration,omitempty"`
 	VType       VastType       `json:"vtype,omitempty"`
 }
+
+
+

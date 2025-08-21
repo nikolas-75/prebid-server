@@ -1,4 +1,4 @@
-package bidtheatre
+﻿package bidtheatre
 
 import (
 	"encoding/json"
@@ -43,3 +43,6 @@ var invalidParams = []string{
 	`{"publisherId": "73b20b3a-12a0-4869-b54e-8d42b55786eee"}`,
 	`{}`,
 }
+
+
+

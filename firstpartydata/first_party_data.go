@@ -1,4 +1,4 @@
-package firstpartydata
+﻿package firstpartydata
 
 import (
 	"encoding/json"
@@ -490,3 +490,6 @@ func ExtractFPDForBidders(req *openrtb_ext.RequestWrapper) (map[openrtb_ext.Bidd
 
 	return ResolveFPD(req.BidRequest, fbdBidderConfigData, globalFpd, openRtbGlobalFPD, biddersWithGlobalFPD)
 }
+
+
+

@@ -1,4 +1,4 @@
-package audienceNetwork
+﻿package audienceNetwork
 
 import (
 	"testing"
@@ -124,3 +124,6 @@ func TestNewFacebookBidderMissingAppSecret(t *testing.T) {
 	assert.Empty(t, bidder)
 	assert.EqualError(t, err, "AppSecret is not configured. Did you set adapters.facebook.app_secret in the app config?")
 }
+
+
+

@@ -1,4 +1,4 @@
-package macros
+﻿package macros
 
 import (
 	"testing"
@@ -44,3 +44,6 @@ func TestResolveMacros(t *testing.T) {
 		}
 	}
 }
+
+
+

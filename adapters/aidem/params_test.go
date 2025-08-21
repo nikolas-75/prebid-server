@@ -1,4 +1,4 @@
-package aidem
+﻿package aidem
 
 import (
 	"encoding/json"
@@ -55,3 +55,6 @@ var invalidParams = []string{
 	`{"ssiteId":"123","ppublisherId":"123"}`,
 	`{"aid":123, "placementId":"123", "siteId":"321"}`,
 }
+
+
+

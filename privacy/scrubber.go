@@ -1,4 +1,4 @@
-package privacy
+﻿package privacy
 
 import (
 	"encoding/json"
@@ -199,3 +199,6 @@ func scrubExtIDs(ext json.RawMessage, fieldName string) json.RawMessage {
 
 	return ext
 }
+
+
+

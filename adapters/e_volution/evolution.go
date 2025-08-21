@@ -1,4 +1,4 @@
-package evolution
+﻿package evolution
 
 import (
 	"encoding/json"
@@ -114,3 +114,6 @@ func (a *adapter) MakeBids(
 	}
 	return bidResponse, nil
 }
+
+
+

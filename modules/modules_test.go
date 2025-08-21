@@ -1,4 +1,4 @@
-package modules
+﻿package modules
 
 import (
 	"context"
@@ -131,3 +131,6 @@ func (h module) HandleAuctionResponseHook(_ context.Context, _ hookstage.ModuleI
 func (h module) Shutdown() error {
 	return nil
 }
+
+
+

@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 // ExtImpOrbidder defines the contract for bidrequest.imp[i].ext.prebid.bidder.openx
 type ExtImpOrbidder struct {
@@ -6,3 +6,6 @@ type ExtImpOrbidder struct {
 	PlacementId string  `json:"placementId"`
 	BidFloor    float64 `json:"bidfloor"`
 }
+
+
+

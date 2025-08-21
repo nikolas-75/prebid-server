@@ -1,4 +1,4 @@
-package gdpr
+﻿package gdpr
 
 type AuctionPermissions struct {
 	AllowBidRequest bool
@@ -23,3 +23,6 @@ var AllowBidRequestOnly = AuctionPermissions{
 	PassGeo:         false,
 	PassID:          false,
 }
+
+
+

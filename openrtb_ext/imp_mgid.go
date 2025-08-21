@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 // ExtImpMgid defines the contract for bidrequest.imp[i].ext.prebid.bidder.mgid
 type ExtImpMgid struct {
@@ -9,3 +9,6 @@ type ExtImpMgid struct {
 	BidFloor    float64 `json:"bidfloor"`
 	BidFloor2   float64 `json:"bidFloor"`
 }
+
+
+

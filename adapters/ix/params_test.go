@@ -1,4 +1,4 @@
-package ix
+﻿package ix
 
 import (
 	"encoding/json"
@@ -58,3 +58,6 @@ var invalidParams = []string{
 	`[]`,
 	`{}`,
 }
+
+
+

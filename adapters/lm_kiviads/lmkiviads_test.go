@@ -1,4 +1,4 @@
-package lmkiviads
+﻿package lmkiviads
 
 import (
 	"testing"
@@ -25,3 +25,6 @@ func TestJsonSamples(t *testing.T) {
 	assert.NoError(t, buildErr)
 	adapterstest.RunJSONBidderTest(t, "lmkiviadstest", bidder)
 }
+
+
+

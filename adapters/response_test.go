@@ -1,4 +1,4 @@
-package adapters
+﻿package adapters
 
 import (
 	"testing"
@@ -41,3 +41,6 @@ func TestIsResponseStatusCodeNoContent(t *testing.T) {
 	assert.True(t, IsResponseStatusCodeNoContent(&ResponseData{StatusCode: 204}))
 	assert.False(t, IsResponseStatusCodeNoContent(&ResponseData{StatusCode: 200}))
 }
+
+
+

@@ -1,4 +1,4 @@
-package rulesengine
+﻿package rulesengine
 
 import (
 	"github.com/prebid/prebid-server/v3/modules/prebid/rulesengine/config"
@@ -83,3 +83,6 @@ func (tb *treeBuilder[T1, T2]) buildDefaultFunctions() ([]rules.ResultFunction[T
 
 	return defaultFuncs, nil
 }
+
+
+

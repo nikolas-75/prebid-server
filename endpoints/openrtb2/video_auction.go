@@ -1,4 +1,4 @@
-package openrtb2
+﻿package openrtb2
 
 import (
 	"context"
@@ -880,3 +880,6 @@ func isZeroOrNegativeDuration(duration []int) bool {
 	}
 	return false
 }
+
+
+

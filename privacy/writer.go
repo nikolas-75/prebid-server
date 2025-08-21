@@ -1,4 +1,4 @@
-package privacy
+﻿package privacy
 
 import "github.com/prebid/openrtb/v20/openrtb2"
 
@@ -14,3 +14,6 @@ type NilPolicyWriter struct{}
 func (NilPolicyWriter) Write(req *openrtb2.BidRequest) error {
 	return nil
 }
+
+
+

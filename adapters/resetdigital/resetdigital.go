@@ -1,4 +1,4 @@
-package resetdigital
+﻿package resetdigital
 
 import (
 	"encoding/json"
@@ -306,3 +306,6 @@ func GetMediaTypeForImp(reqImp openrtb2.Imp) openrtb_ext.BidType {
 	}
 	return openrtb_ext.BidTypeBanner
 }
+
+
+

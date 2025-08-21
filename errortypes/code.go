@@ -1,4 +1,4 @@
-package errortypes
+﻿package errortypes
 
 // Defines numeric codes for well-known errors.
 const (
@@ -55,3 +55,6 @@ func ReadCode(err error) int {
 	}
 	return UnknownErrorCode
 }
+
+
+

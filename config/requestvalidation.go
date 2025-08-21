@@ -1,4 +1,4 @@
-package config
+﻿package config
 
 import (
 	"errors"
@@ -53,3 +53,6 @@ func parseNetworks(networks []string, networksLen int) ([]net.IPNet, error) {
 
 	return ipNetworks, nil
 }
+
+
+

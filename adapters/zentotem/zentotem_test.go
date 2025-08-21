@@ -1,4 +1,4 @@
-package zentotem
+﻿package zentotem
 
 import (
 	"github.com/prebid/openrtb/v20/openrtb2"
@@ -69,3 +69,6 @@ func TestGetMediaTypeForBid(t *testing.T) {
 		})
 	}
 }
+
+
+

@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 import (
 	"encoding/json"
@@ -572,3 +572,6 @@ func (erp *ExtRequestPrebid) Clone() *ExtRequestPrebid {
 
 	return &clone
 }
+
+
+

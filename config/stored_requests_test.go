@@ -1,4 +1,4 @@
-package config
+﻿package config
 
 import (
 	"errors"
@@ -290,3 +290,6 @@ func TestResolveConfig(t *testing.T) {
 	assertStringsEqual(t, amp.HTTPEvents.Endpoint, cfg.StoredRequests.HTTPEvents.AmpEndpoint)
 	assertStringsEqual(t, amp.CacheEvents.Endpoint, "/storedrequests/amp")
 }
+
+
+

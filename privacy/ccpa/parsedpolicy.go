@@ -1,4 +1,4 @@
-package ccpa
+﻿package ccpa
 
 import (
 	"errors"
@@ -138,3 +138,6 @@ func (p ParsedPolicy) isNoSaleForBidder(bidder string) bool {
 func (p ParsedPolicy) ShouldEnforce(bidder string) bool {
 	return !p.isNoSaleForBidder(bidder) && p.consentOptOutSale
 }
+
+
+

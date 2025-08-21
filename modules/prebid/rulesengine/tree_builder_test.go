@@ -1,4 +1,4 @@
-package rulesengine
+﻿package rulesengine
 
 import (
 	"encoding/json"
@@ -237,3 +237,6 @@ func GetFullConf() json.RawMessage {
  }`)
 
 }
+
+
+

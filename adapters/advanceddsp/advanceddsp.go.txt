@@ -1,0 +1,154 @@
+package advanceddsp
+
+import (
+	"encoding/json"
+	"fmt"
+	"net/http"
+
+	"github.com/prebid/prebid-server/v3/adapters"
+	"github.com/prebid/prebid-server/v3/openrtb2"
+	"github.com/prebid/prebid-server/v3/openrtb_ext"
+)
+
+// AdvancedDSPAdapter implements adapters.Bidder
+type AdvancedDSPAdapter struct {
+	endpoint string
+}
+
+// Builder returns a new instance of the bidder adapter.
+// NOTE: Your repo uses the legacy v3-compatible Builder signature:
+//   Builder(bidderName openrtb_ext.BidderName, cfg adapters.BidderConfig)
+// Keep it exactly as-is to avoid breaking builds.
+func Builder(bidderName openrtb_ext.BidderName, cfg adapters.BidderConfig) (adapters.Bidder, error) {
+	return &AdvancedDSPAdapter{
+		endpoint: "https://yvlwkmetpbbokutsqpfv.supabase.co/functions/v1/prebid-bidder-adapter",
+	}, nil
+}
+
+// extImp holds the bidder params we care about. It should match your
+// openrtb_ext.ExtImpAdvanceddsp. If you've already defined it in
+// openrtb_ext/imp_advanceddsp.go, we import and use that type directly.
+// Keeping a local alias here to avoid tight coupling if that file evolves.
+type extImp = openrtb_ext.ExtImpAdvanceddsp
+
+// pickEndpoint inspects imps for the first endpointOverride and returns it,
+// otherwise returns the adapter's default endpoint.
+func (a *AdvancedDSPAdapter) pickEndpoint(req *openrtb2.BidRequest) string {
+	for _, imp := range req.Imp {
+		// imp.Ext is a raw JSON object like {"bidder":{...},"prebid":{...}}
+		if len(imp.Ext) == 0 {
+			continue
+		}
+		var ext map[string]json.RawMessage
+		if err := json.Unmarshal(imp.Ext, &ext); err != nil {
+			continue
+		}
+		// Prebid v3 typically nests bidder params at "bidder" OR directly under bidder code.
+		// We support both:
+		//   imp.ext.bidder.advanceddsp   (preferred)
+		//   imp.ext.advanceddsp          (direct)
+		var raw json.RawMessage
+
+		if b, ok := ext["bidder"]; ok && len(b) > 0 {
+			var byBidder map[string]json.RawMessage
+			if err := json.Unmarshal(b, &byBidder); err == nil {
+				if raw2, ok2 := byBidder["advanceddsp"]; ok2 {
+					raw = raw2
+				}
+			}
+		}
+		if len(raw) == 0 {
+			if direct, ok := ext["advanceddsp"]; ok {
+				raw = direct
+			}
+		}
+		if len(raw) == 0 {
+			continue
+		}
+
+		var p extImp
+		if err := json.Unmarshal(raw, &p); err != nil {
+			continue
+		}
+		if p.EndpointOverride != "" {
+			return p.EndpointOverride
+		}
+	}
+	return a.endpoint
+}
+
+// mediaTypeIndex builds a quick map of impID -> media type for typing bids.
+// We only distinguish banner vs video here. (Extend to native/audio if needed.)
+func mediaTypeIndex(req *openrtb2.BidRequest) map[string]openrtb_ext.BidType {
+	mt := make(map[string]openrtb_ext.BidType, len(req.Imp))
+	for _, imp := range req.Imp {
+		switch {
+		case imp.Video != nil:
+			mt[imp.ID] = openrtb_ext.BidTypeVideo
+		default:
+			mt[imp.ID] = openrtb_ext.BidTypeBanner
+		}
+	}
+	return mt
+}
+
+// MakeRequests serializes the OpenRTB request and sends it to your endpoint.
+// If any imp provides endpointOverride, we send the whole request to that URL.
+func (a *AdvancedDSPAdapter) MakeRequests(req *openrtb2.BidRequest, reqInfo *adapters.ExtraRequestInfo) ([]*adapters.RequestData, []error) {
+	endpoint := a.pickEndpoint(req)
+
+	body, err := json.Marshal(req)
+	if err != nil {
+		return nil, []error{fmt.Errorf("failed to marshal bid request: %w", err)}
+	}
+
+	r := &adapters.RequestData{
+		Method: http.MethodPost,
+		Uri:    endpoint,
+		Body:   body,
+		Headers: http.Header{
+			"Content-Type": []string{"application/json"},
+		},
+		// NOTE: PBS core enforces overall timeouts. If you later want to honor a per-imp
+		// timeoutMs field at the adapter level, you would need support in RequestData
+		// or split requests by imp. Keeping it simple for now.
+	}
+
+	return []*adapters.RequestData{r}, nil
+}
+
+// MakeBids parses your DSP response and returns bids to Prebid Server.
+func (a *AdvancedDSPAdapter) MakeBids(origReq *openrtb2.BidRequest, requestData *adapters.RequestData, responseData *adapters.ResponseData) ([]*adapters.TypedBid, []error) {
+	// No content => no bids
+	if responseData.StatusCode == http.StatusNoContent {
+		return nil, nil
+	}
+	// Any non-200 is an error
+	if responseData.StatusCode != http.StatusOK {
+		return nil, []error{fmt.Errorf("unexpected status code: %d", responseData.StatusCode)}
+	}
+
+	var bidResp openrtb2.BidResponse
+	if err := json.Unmarshal(responseData.Body, &bidResp); err != nil {
+		return nil, []error{fmt.Errorf("bad server response: %w", err)}
+	}
+
+	// Determine media type per-imp so we can type each bid.
+	mt := mediaTypeIndex(origReq)
+
+	var out []*adapters.TypedBid
+	for _, seat := range bidResp.SeatBid {
+		for i := range seat.Bid {
+			b := seat.Bid[i]
+			bt := openrtb_ext.BidTypeBanner
+			if mtType, ok := mt[b.ImpID]; ok {
+				bt = mtType
+			}
+			out = append(out, &adapters.TypedBid{
+				Bid:     &b,
+				BidType: bt,
+			})
+		}
+	}
+	return out, nil
+}

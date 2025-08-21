@@ -1,4 +1,4 @@
-package zmaticoo
+﻿package zmaticoo
 
 import (
 	"encoding/json"
@@ -150,3 +150,6 @@ func getMediaTypeForBid(bid openrtb2.Bid) (openrtb_ext.BidType, error) {
 		return "", fmt.Errorf("unrecognized bid type in response from zmaticoo for bid %s", bid.ImpID)
 	}
 }
+
+
+

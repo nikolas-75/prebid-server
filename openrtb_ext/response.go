@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 import (
 	"encoding/json"
@@ -143,3 +143,6 @@ type SeatNonBid struct {
 	Seat   string          `json:"seat"`
 	Ext    json.RawMessage `json:"ext,omitempty"`
 }
+
+
+

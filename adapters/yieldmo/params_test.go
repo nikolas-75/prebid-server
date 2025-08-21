@@ -1,4 +1,4 @@
-package yieldmo
+﻿package yieldmo
 
 import (
 	"encoding/json"
@@ -46,3 +46,6 @@ var validParams = []string{
 var invalidParams = []string{
 	`{"invalid_param": "123"}`,
 }
+
+
+

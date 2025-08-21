@@ -1,4 +1,4 @@
-package hooks
+﻿package hooks
 
 import (
 	"fmt"
@@ -157,3 +157,6 @@ func addHook[T any](hooks map[string]T, hook T, id string) (map[string]T, error)
 
 	return hooks, nil
 }
+
+
+

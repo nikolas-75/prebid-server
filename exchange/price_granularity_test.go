@@ -1,4 +1,4 @@
-package exchange
+﻿package exchange
 
 import (
 	"encoding/json"
@@ -199,3 +199,6 @@ func TestGetPriceBucketString(t *testing.T) {
 		}
 	}
 }
+
+
+

@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 import (
 	"fmt"
@@ -179,3 +179,6 @@ func moveRewardedFromPrebidExtTo26(i *ImpWrapper) {
 		i.Rwdd = *rwddPrebidExt
 	}
 }
+
+
+

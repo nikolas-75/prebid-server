@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 // ExtImpAlgoriX defines the contract for bidrequest.imp[i].ext.prebid.bidder.algorix
 type ExtImpAlgorix struct {
@@ -8,3 +8,6 @@ type ExtImpAlgorix struct {
 	AppId       string `json:"appId"`
 	Region      string `json:"region"`
 }
+
+
+

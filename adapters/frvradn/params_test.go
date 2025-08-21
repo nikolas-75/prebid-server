@@ -1,4 +1,4 @@
-package frvradn
+﻿package frvradn
 
 import (
 	"encoding/json"
@@ -46,3 +46,6 @@ var invalidParams = []string{
 	`{"publisher_id": "247f36ed-bda5-4159-86f1-e383849e7810"}`,
 	`{"ad_unit_id": "247f36ed-bda5-4159-86f1-e383849e7810"}`,
 }
+
+
+

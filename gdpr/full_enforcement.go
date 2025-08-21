@@ -1,4 +1,4 @@
-package gdpr
+﻿package gdpr
 
 import (
 	tcf2 "github.com/prebid/go-gdpr/vendorconsent/tcf2"
@@ -100,3 +100,6 @@ func (fe *FullEnforcement) legitInterestEstablished(consent tcf2.ConsentMetadata
 	}
 	return true
 }
+
+
+

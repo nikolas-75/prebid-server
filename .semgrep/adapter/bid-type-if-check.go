@@ -1,4 +1,4 @@
-/*
+﻿/*
 	bid-type-if-check tests
 	https://semgrep.dev/docs/writing-rules/testing-rules
 	"ruleid" prefix in comment indicates patterns that should be flagged by semgrep
@@ -53,3 +53,6 @@ func getMediaTypeForImp(impID string, imps []openrtb2.Imp) (openrtb_ext.BidType,
 		Message: fmt.Sprintf("Failed to find native/banner/video impression \"%s\" ", impID),
 	}
 }
+
+
+

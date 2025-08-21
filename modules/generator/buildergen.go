@@ -1,4 +1,4 @@
-//go:build ignore
+﻿//go:build ignore
 
 package main
 
@@ -69,3 +69,6 @@ func main() {
 
 	fmt.Printf("%s file successfully generated\n", outName)
 }
+
+
+

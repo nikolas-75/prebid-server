@@ -1,4 +1,4 @@
-package rulesengine
+﻿package rulesengine
 
 import "github.com/golang/glog"
 
@@ -20,3 +20,6 @@ func (logger *treeManagerLogger) logInfo(msg string) {
 	glog.Infoln(msg)
 	return
 }
+
+
+

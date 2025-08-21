@@ -1,4 +1,4 @@
-package tpmn
+﻿package tpmn
 
 import (
 	"encoding/json"
@@ -126,3 +126,6 @@ func Builder(_ openrtb_ext.BidderName, config config.Adapter, server config.Serv
 	}
 	return bidder, nil
 }
+
+
+

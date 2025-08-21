@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 type ExtImpRichaudience struct {
 	Pid         string  `json:"pid"`
@@ -7,3 +7,6 @@ type ExtImpRichaudience struct {
 	BidFloorCur string  `json:"bidfloorcur"`
 	Test        bool    `json:"test"`
 }
+
+
+

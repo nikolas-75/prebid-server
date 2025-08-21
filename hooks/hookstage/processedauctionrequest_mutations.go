@@ -1,4 +1,4 @@
-package hookstage
+﻿package hookstage
 
 import (
 	"encoding/json"
@@ -91,3 +91,6 @@ func (c ChangeBidders[T]) Delete(biddersToDelete map[string]struct{}) {
 		return p, err
 	}, MutationDelete, "bidrequest", "imp", "ext", "prebid", "bidders")
 }
+
+
+

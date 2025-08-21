@@ -1,4 +1,4 @@
-package adtarget
+﻿package adtarget
 
 import (
 	"encoding/json"
@@ -62,3 +62,6 @@ var invalidParams = []string{
 	`{"aid":"123","placementId":"123"}`,
 	`{"aid":123, "placementId":"123", "siteId":"321"}`,
 }
+
+
+

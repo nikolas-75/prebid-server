@@ -1,4 +1,4 @@
-package ortb
+﻿package ortb
 
 import (
 	"testing"
@@ -109,3 +109,6 @@ func TestValidateVideo(t *testing.T) {
 		})
 	}
 }
+
+
+

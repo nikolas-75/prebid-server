@@ -1,4 +1,4 @@
-package errortypes
+﻿package errortypes
 
 type Scope int
 
@@ -17,3 +17,6 @@ func ReadScope(err error) Scope {
 	}
 	return ScopeAny
 }
+
+
+

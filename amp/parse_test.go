@@ -1,4 +1,4 @@
-package amp
+﻿package amp
 
 import (
 	"net/http"
@@ -696,3 +696,6 @@ func TestParseGdprApplies(t *testing.T) {
 		assert.Equal(t, tc.expectRegsExtGdpr, parseGdprApplies(tc.inGdprApplies), tc.desc)
 	}
 }
+
+
+

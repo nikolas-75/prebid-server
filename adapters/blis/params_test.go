@@ -1,4 +1,4 @@
-package blis
+﻿package blis
 
 import (
 	"encoding/json"
@@ -59,3 +59,6 @@ func TestInvalidParams(t *testing.T) {
 		},
 	})
 }
+
+
+

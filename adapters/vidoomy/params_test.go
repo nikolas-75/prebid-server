@@ -1,4 +1,4 @@
-package vidoomy
+﻿package vidoomy
 
 import (
 	"encoding/json"
@@ -55,3 +55,6 @@ var invalidParams = []string{
 	`{"zoneId":123}`,
 	`{"zoneId":""}`,
 }
+
+
+

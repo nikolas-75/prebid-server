@@ -1,4 +1,4 @@
-package config
+﻿package config
 
 import (
 	"errors"
@@ -89,3 +89,6 @@ func (cfg *Experiment) validate(errs []error) []error {
 	}
 	return errs
 }
+
+
+

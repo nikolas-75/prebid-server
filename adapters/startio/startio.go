@@ -1,4 +1,4 @@
-package startio
+﻿package startio
 
 import (
 	"fmt"
@@ -144,3 +144,6 @@ func getMediaTypeForBid(bid openrtb2.Bid) (openrtb_ext.BidType, error) {
 func wrapReqError(errorStr string) *errortypes.BadInput {
 	return &errortypes.BadInput{Message: errorStr}
 }
+
+
+

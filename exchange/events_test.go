@@ -1,4 +1,4 @@
-package exchange
+﻿package exchange
 
 import (
 	"testing"
@@ -192,3 +192,6 @@ func Test_isEventAllowed(t *testing.T) {
 		})
 	}
 }
+
+
+

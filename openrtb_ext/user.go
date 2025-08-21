@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 import (
 	"strconv"
@@ -60,3 +60,6 @@ func ParseConsentedProvidersString(cps string) []int {
 
 	return consentedProviders
 }
+
+
+

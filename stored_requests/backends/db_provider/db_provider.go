@@ -1,4 +1,4 @@
-package db_provider
+﻿package db_provider
 
 import (
 	"context"
@@ -49,3 +49,6 @@ type QueryParam struct {
 	Name  string
 	Value interface{}
 }
+
+
+

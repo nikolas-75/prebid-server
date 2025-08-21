@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 // ExtImpSmaato defines the contract for bidrequest.imp[i].ext.prebid.bidder.smaato
 // PublisherId and AdSpaceId are mandatory parameters for non adpod (long-form video) requests, others are optional parameters
@@ -10,3 +10,6 @@ type ExtImpSmaato struct {
 	AdSpaceID   string `json:"adspaceId"`
 	AdBreakID   string `json:"adbreakId"`
 }
+
+
+

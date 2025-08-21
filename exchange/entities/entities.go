@@ -1,4 +1,4 @@
-package entities
+﻿package entities
 
 import (
 	"github.com/prebid/openrtb/v20/openrtb2"
@@ -52,3 +52,6 @@ type PbsOrtbBid struct {
 	TargetBidderCode  string
 	AdapterCode       openrtb_ext.BidderName
 }
+
+
+

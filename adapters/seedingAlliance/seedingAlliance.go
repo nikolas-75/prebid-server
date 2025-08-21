@@ -1,4 +1,4 @@
-package seedingAlliance
+﻿package seedingAlliance
 
 import (
 	"encoding/json"
@@ -170,3 +170,6 @@ func getExtInfo(imp *openrtb2.Imp) (string, error) {
 
 	return accountId, nil
 }
+
+
+

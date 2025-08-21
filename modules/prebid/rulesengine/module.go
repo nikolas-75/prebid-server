@@ -1,4 +1,4 @@
-package rulesengine
+﻿package rulesengine
 
 import (
 	"context"
@@ -136,3 +136,6 @@ func configChanged(oldHash hash, data *json.RawMessage) bool {
 	}
 	return false
 }
+
+
+

@@ -1,4 +1,4 @@
-package floors
+﻿package floors
 
 import (
 	"errors"
@@ -318,3 +318,6 @@ func mergeFloors(reqFloors *openrtb_ext.PriceFloorRules, fetchFloors *openrtb_ex
 
 	return mergedFloors
 }
+
+
+

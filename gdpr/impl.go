@@ -1,4 +1,4 @@
-package gdpr
+﻿package gdpr
 
 import (
 	"context"
@@ -228,3 +228,6 @@ func (a AlwaysAllow) BidderSyncAllowed(ctx context.Context, bidder openrtb_ext.B
 func (a AlwaysAllow) AuctionActivitiesAllowed(ctx context.Context, bidderCoreName openrtb_ext.BidderName, bidder openrtb_ext.BidderName) AuctionPermissions {
 	return AllowAll
 }
+
+
+

@@ -1,4 +1,4 @@
-package nextmillennium
+﻿package nextmillennium
 
 import (
 	"testing"
@@ -31,3 +31,6 @@ func TestWithExtraInfo(t *testing.T) {
 	bidderNextMillennium, _ := bidder.(*adapter)
 	assert.Equal(t, bidderNextMillennium.nmmFlags, []string{"flag1", "flag2"})
 }
+
+
+

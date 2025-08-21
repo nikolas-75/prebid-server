@@ -1,4 +1,4 @@
-package rulesengine
+﻿package rulesengine
 
 import (
 	"crypto/sha256"
@@ -114,3 +114,6 @@ func hashConfig(cfg *json.RawMessage) hash {
 	newHash := sha256.Sum256(*cfg)
 	return hex.EncodeToString(newHash[:])
 }
+
+
+

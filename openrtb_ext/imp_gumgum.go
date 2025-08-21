@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 // ExtImpGumGum defines the contract for bidrequest.imp[i].ext.prebid.bidder.gumgum
 // Either Zone or PubId must be present, others are optional parameters
@@ -27,3 +27,6 @@ type ExtImpAdUnitCode struct {
 		AdUnitCode string `json:"adunitcode,omitempty"`
 	} `json:"prebid,omitempty"`
 }
+
+
+

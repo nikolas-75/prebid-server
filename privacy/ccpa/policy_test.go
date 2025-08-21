@@ -1,4 +1,4 @@
-package ccpa
+﻿package ccpa
 
 import (
 	"encoding/json"
@@ -901,3 +901,6 @@ func (ms mockGPPSection) GetValue() string {
 func (ms mockGPPSection) Encode(bool) []byte {
 	return nil
 }
+
+
+

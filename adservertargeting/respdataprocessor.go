@@ -1,4 +1,4 @@
-package adservertargeting
+﻿package adservertargeting
 
 import (
 	"encoding/json"
@@ -170,3 +170,6 @@ func getRespData(bidderResp *openrtb2.BidResponse, field string) (string, error)
 	}
 
 }
+
+
+

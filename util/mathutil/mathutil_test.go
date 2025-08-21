@@ -1,4 +1,4 @@
-package mathutil
+﻿package mathutil
 
 import (
 	"testing"
@@ -47,3 +47,6 @@ func TestRoundTo4Decimals(t *testing.T) {
 		assert.Equal(t, 0.0, r)
 	})
 }
+
+
+

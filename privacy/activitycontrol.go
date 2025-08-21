@@ -1,4 +1,4 @@
-package privacy
+﻿package privacy
 
 import (
 	"github.com/prebid/prebid-server/v3/config"
@@ -123,3 +123,6 @@ func (p ActivityPlan) Evaluate(target Component, request ActivityRequest) bool {
 	}
 	return p.defaultResult
 }
+
+
+

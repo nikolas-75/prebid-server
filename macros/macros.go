@@ -1,4 +1,4 @@
-package macros
+﻿package macros
 
 import (
 	"bytes"
@@ -44,3 +44,6 @@ func ResolveMacros(aTemplate *template.Template, params interface{}) (string, er
 	res := strBuf.String()
 	return res, nil
 }
+
+
+

@@ -1,4 +1,4 @@
-package usersync
+﻿package usersync
 
 import (
 	"errors"
@@ -274,3 +274,6 @@ func (s standardSyncer) chooseTemplate(syncType SyncType) *template.Template {
 		return nil
 	}
 }
+
+
+

@@ -1,4 +1,4 @@
-package huaweiads
+﻿package huaweiads
 
 import (
 	"testing"
@@ -158,3 +158,6 @@ func TestExtraInfo6(t *testing.T) {
 
 	assert.Equal(t, bidderHuaweiAds.extraInfo.CloseSiteSelectionByCountry, "1")
 }
+
+
+

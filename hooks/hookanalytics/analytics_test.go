@@ -1,4 +1,4 @@
-package hookanalytics
+﻿package hookanalytics
 
 import (
 	"testing"
@@ -54,3 +54,6 @@ func TestAnalytics(t *testing.T) {
 	assert.NoError(t, err, "Failed to marshal analytics: %s", err)
 	assert.JSONEq(t, string(expectedAnalytics), string(gotAnalytics))
 }
+
+
+

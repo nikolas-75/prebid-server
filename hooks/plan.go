@@ -1,4 +1,4 @@
-package hooks
+﻿package hooks
 
 import (
 	"time"
@@ -204,3 +204,6 @@ func getGroup[T any](getHookFn hookFn[T], cfg config.HookExecutionGroup) Group[T
 
 	return group
 }
+
+
+

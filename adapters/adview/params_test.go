@@ -1,4 +1,4 @@
-package adview
+﻿package adview
 
 import (
 	"encoding/json"
@@ -46,3 +46,6 @@ var invalidParams = []string{
 	`{ "placementId": "posid00001" }`,
 	`{ "placementId": "", "accountId": "" }`,
 }
+
+
+

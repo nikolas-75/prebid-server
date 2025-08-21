@@ -1,4 +1,4 @@
-package adot
+﻿package adot
 
 import (
 	"encoding/json"
@@ -155,3 +155,6 @@ func getImpAdotExt(imp *openrtb2.Imp) *openrtb_ext.ExtImpAdot {
 	}
 	return &extImpAdot
 }
+
+
+

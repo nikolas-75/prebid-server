@@ -1,4 +1,4 @@
-package apacdex
+﻿package apacdex
 
 import (
 	"encoding/json"
@@ -54,3 +54,6 @@ var invalidParams = []string{
 	`{"invalid_param": "123"}`,
 	`{"siteId": "123", "placementId": "123123"}`,
 }
+
+
+

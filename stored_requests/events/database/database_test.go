@@ -1,4 +1,4 @@
-package database
+﻿package database
 
 import (
 	"encoding/json"
@@ -492,3 +492,6 @@ func TestFetchDeltaErrors(t *testing.T) {
 		metricsMock.AssertExpectations(t)
 	}
 }
+
+
+

@@ -1,4 +1,4 @@
-package httputil
+﻿package httputil
 
 import (
 	"net"
@@ -263,3 +263,6 @@ type hardcodedResponseIPValidator struct {
 func (v hardcodedResponseIPValidator) IsValid(net.IP, iputil.IPVersion) bool {
 	return v.response
 }
+
+
+

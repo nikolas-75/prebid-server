@@ -1,4 +1,4 @@
-package hookstage
+﻿package hookstage
 
 import (
 	"context"
@@ -28,3 +28,6 @@ type AuctionResponse interface {
 type AuctionResponsePayload struct {
 	BidResponse *openrtb2.BidResponse
 }
+
+
+

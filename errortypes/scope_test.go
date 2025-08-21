@@ -1,4 +1,4 @@
-package errortypes
+﻿package errortypes
 
 import (
 	"errors"
@@ -35,3 +35,6 @@ func TestReadScope(t *testing.T) {
 		})
 	}
 }
+
+
+

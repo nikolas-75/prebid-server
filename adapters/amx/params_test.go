@@ -1,4 +1,4 @@
-package amx
+﻿package amx
 
 import (
 	"encoding/json"
@@ -45,3 +45,6 @@ func TestInValidParams(t *testing.T) {
 		assert.NotNil(t, validator.Validate(openrtb_ext.BidderAMX, json.RawMessage(params)))
 	}
 }
+
+
+

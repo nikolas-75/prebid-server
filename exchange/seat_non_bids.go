@@ -1,4 +1,4 @@
-package exchange
+﻿package exchange
 
 import (
 	"github.com/prebid/prebid-server/v3/exchange/entities"
@@ -75,3 +75,6 @@ func (b SeatNonBidBuilder) append(nonBids ...SeatNonBidBuilder) {
 		}
 	}
 }
+
+
+

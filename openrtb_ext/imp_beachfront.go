@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 type ExtImpBeachfront struct {
 	AppId             string                 `json:"appId"`
@@ -11,3 +11,6 @@ type ExtImpBeachfrontAppIds struct {
 	Video  string `json:"video,omitempty"`
 	Banner string `json:"banner,omitempty"`
 }
+
+
+

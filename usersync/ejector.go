@@ -1,4 +1,4 @@
-package usersync
+﻿package usersync
 
 import (
 	"errors"
@@ -125,3 +125,6 @@ func (p *PriorityBidderEjector) checkSyncerPriority(nonPriorityUids map[string]U
 	}
 	return nil
 }
+
+
+

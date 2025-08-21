@@ -1,4 +1,4 @@
-package visx
+﻿package visx
 
 import (
 	"encoding/json"
@@ -56,3 +56,6 @@ var invalidParams = []string{
 	`{"size": true}`,
 	`{"uid": true, "size":"1234567"}`,
 }
+
+
+

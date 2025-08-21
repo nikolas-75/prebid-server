@@ -1,4 +1,4 @@
-package adnuntius
+﻿package adnuntius
 
 import (
 	"encoding/json"
@@ -350,3 +350,6 @@ func generateAdResponse(ad Ad, imp openrtb2.Imp, html string, mType openrtb2.Mar
 
 	return &bid, nil
 }
+
+
+

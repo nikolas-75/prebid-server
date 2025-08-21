@@ -1,4 +1,4 @@
-package appnexus
+﻿package appnexus
 
 import (
 	"encoding/json"
@@ -86,3 +86,6 @@ var invalidParams = []string{
 	`{"placementId":123, "ext_inv_code": 1}`,
 	`{"placementId":123, "external_imp_id": 2}`,
 }
+
+
+

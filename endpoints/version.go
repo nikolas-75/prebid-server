@@ -1,4 +1,4 @@
-package endpoints
+﻿package endpoints
 
 import (
 	"encoding/json"
@@ -38,3 +38,6 @@ func prepareVersionEndpointResponse(version, revision string) (json.RawMessage, 
 		Version:  version,
 	})
 }
+
+
+

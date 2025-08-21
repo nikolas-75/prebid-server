@@ -1,4 +1,4 @@
-package gdpr
+﻿package gdpr
 
 import (
 	"context"
@@ -81,3 +81,6 @@ type ErrorMalformedConsent struct {
 func (e *ErrorMalformedConsent) Error() string {
 	return "malformed consent string " + e.Consent + ": " + e.Cause.Error()
 }
+
+
+

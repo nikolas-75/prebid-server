@@ -1,4 +1,4 @@
-package config
+﻿package config
 
 // UserSync specifies the static global user sync configuration.
 type UserSync struct {
@@ -12,3 +12,6 @@ type UserSync struct {
 type UserSyncCooperative struct {
 	EnabledByDefault bool `mapstructure:"default"`
 }
+
+
+

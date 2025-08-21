@@ -1,4 +1,4 @@
-package adtarget
+﻿package adtarget
 
 import (
 	"encoding/json"
@@ -202,3 +202,6 @@ func Builder(bidderName openrtb_ext.BidderName, config config.Adapter, server co
 	}
 	return bidder, nil
 }
+
+
+

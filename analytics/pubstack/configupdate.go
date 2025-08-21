@@ -1,4 +1,4 @@
-package pubstack
+﻿package pubstack
 
 import (
 	"fmt"
@@ -59,3 +59,6 @@ func (t *ConfigUpdateHttpTask) Start(stop <-chan struct{}) <-chan *Configuration
 
 	return t.configChan
 }
+
+
+

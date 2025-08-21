@@ -1,4 +1,4 @@
-package httputil
+﻿package httputil
 
 import (
 	"net"
@@ -85,3 +85,6 @@ func findRemoteAddr(r *http.Request, v iputil.IPValidator) (net.IP, iputil.IPVer
 	}
 	return nil, iputil.IPvUnknown
 }
+
+
+

@@ -1,4 +1,4 @@
-package taboola
+﻿package taboola
 
 import (
 	"testing"
@@ -32,3 +32,6 @@ func TestEmptyExternalUrl(t *testing.T) {
 
 	assert.Equal(t, "", bidderTaboola.gvlID)
 }
+
+
+

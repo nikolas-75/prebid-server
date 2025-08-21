@@ -1,4 +1,4 @@
-package eventchannel
+﻿package eventchannel
 
 import (
 	"io"
@@ -38,3 +38,6 @@ func TestBuildEndpointSender_Error(t *testing.T) {
 
 	assert.Error(t, err)
 }
+
+
+

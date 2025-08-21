@@ -1,4 +1,4 @@
-package gothamads
+﻿package gothamads
 
 import (
 	"testing"
@@ -26,3 +26,6 @@ func TestEndpointTemplateMalformed(t *testing.T) {
 
 	assert.Error(t, buildErr)
 }
+
+
+

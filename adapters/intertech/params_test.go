@@ -1,4 +1,4 @@
-package intertech
+﻿package intertech
 
 import (
 	"encoding/json"
@@ -46,3 +46,6 @@ var invalidParams = []string{
 	`{"imp_id": "123"}`,
 	`{}`,
 }
+
+
+

@@ -1,4 +1,4 @@
-package dsa
+﻿package dsa
 
 import (
 	"github.com/prebid/prebid-server/v3/config"
@@ -31,3 +31,6 @@ func (dw Writer) Write(req *openrtb_ext.RequestWrapper) error {
 	regExt.SetDSA(clonedDefaultUnpacked)
 	return nil
 }
+
+
+

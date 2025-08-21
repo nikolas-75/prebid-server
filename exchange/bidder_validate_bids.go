@@ -1,4 +1,4 @@
-package exchange
+﻿package exchange
 
 import (
 	"context"
@@ -141,3 +141,6 @@ func validateBid(bid *entities.PbsOrtbBid, debug bool) (bool, error) {
 
 	return true, nil
 }
+
+
+

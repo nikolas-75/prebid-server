@@ -1,4 +1,4 @@
-package bidadjustment
+﻿package bidadjustment
 
 import (
 	"math"
@@ -68,3 +68,6 @@ func validateAdjustment(adjustment openrtb_ext.Adjustment) bool {
 	}
 	return false
 }
+
+
+

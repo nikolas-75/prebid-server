@@ -1,4 +1,4 @@
-package beachfront
+﻿package beachfront
 
 import (
 	"encoding/json"
@@ -73,3 +73,6 @@ var invalidParams = []string{
 	}`,
 	`{}`,
 }
+
+
+

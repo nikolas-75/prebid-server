@@ -1,4 +1,4 @@
-package server
+﻿package server
 
 import (
 	"net/http"
@@ -32,3 +32,6 @@ type loggerForPrometheus struct{}
 func (loggerForPrometheus) Println(v ...interface{}) {
 	glog.Warningln(v...)
 }
+
+
+

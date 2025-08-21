@@ -1,4 +1,4 @@
-package ccpa
+﻿package ccpa
 
 import (
 	"encoding/json"
@@ -104,3 +104,6 @@ func TestConsentWriterLegacy(t *testing.T) {
 		assert.Equal(t, test.expected, test.request, test.description)
 	}
 }
+
+
+

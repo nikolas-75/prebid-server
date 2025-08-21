@@ -1,4 +1,4 @@
-package limelightDigital
+﻿package limelightDigital
 
 import (
 	"encoding/json"
@@ -182,3 +182,6 @@ func getMediaTypeForBid(impId string, imps []openrtb2.Imp) (openrtb_ext.BidType,
 	}
 	return "", fmt.Errorf("bid contains unknown imp id: %s", impId)
 }
+
+
+

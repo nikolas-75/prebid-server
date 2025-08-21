@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 import "fmt"
 
@@ -83,3 +83,6 @@ func addMultiBid(multiBidMap map[string]struct{}, multiBid *ExtMultiBid) ([]*Ext
 	}
 	return validatedMultiBids, errs
 }
+
+
+

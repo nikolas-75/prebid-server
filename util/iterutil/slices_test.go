@@ -1,4 +1,4 @@
-package iterutil
+﻿package iterutil
 
 import (
 	"testing"
@@ -30,3 +30,6 @@ func TestSlicePointerValues(t *testing.T) {
 		assert.EqualValues(t, 99999, v.Value)
 	}
 }
+
+
+

@@ -1,4 +1,4 @@
-package richaudience
+﻿package richaudience
 
 import (
 	"encoding/json"
@@ -47,3 +47,6 @@ var invalidParams = []string{
 	`{"supplyType":"site"}`,
 	`{}`,
 }
+
+
+

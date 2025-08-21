@@ -1,4 +1,4 @@
-package criteo
+﻿package criteo
 
 import (
 	"fmt"
@@ -56,3 +56,6 @@ func TestParseFledgeAuctionConfigs_Nil(t *testing.T) {
 		})
 	}
 }
+
+
+

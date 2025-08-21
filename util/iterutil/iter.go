@@ -1,4 +1,4 @@
-package iterutil
+﻿package iterutil
 
 import "iter"
 
@@ -23,3 +23,6 @@ func Seconds[T, U any](seq2 iter.Seq2[T, U]) iter.Seq[U] {
 		}
 	}
 }
+
+
+

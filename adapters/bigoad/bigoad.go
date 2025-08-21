@@ -1,4 +1,4 @@
-package bigoad
+﻿package bigoad
 
 import (
 	"encoding/json"
@@ -155,3 +155,6 @@ func getBidType(imp openrtb2.Imp, bid openrtb2.Bid) (openrtb_ext.BidType, error)
 		Message: fmt.Sprintf("unrecognized bid type in response from bigoad %s", imp.ID),
 	}
 }
+
+
+

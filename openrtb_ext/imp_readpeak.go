@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 type ImpExtReadpeak struct {
 	PublisherId string  `json:"publisherId"`
@@ -6,3 +6,6 @@ type ImpExtReadpeak struct {
 	Bidfloor    float64 `json:"bidfloor"`
 	TagId       string  `json:"tagId"`
 }
+
+
+

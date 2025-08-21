@@ -1,4 +1,4 @@
-package telaria
+﻿package telaria
 
 import (
 	"encoding/json"
@@ -49,3 +49,6 @@ var invalidParams = []string{
 	`{"adCode": "string", "originalPublisherid": "string"}`,
 	`{"adCode": "string", "seatCode": 5, "originalPublisherid": "string"}`,
 }
+
+
+

@@ -1,4 +1,4 @@
-package ssl
+﻿package ssl
 
 import (
 	"crypto/x509"
@@ -52,3 +52,6 @@ func TestAppendPEMFileToRootCAPoolFail(t *testing.T) {
 	// Assert AppendPEMFileToRootCAPool correctly throws an error when trying to load an nonexisting file
 	assert.Errorf(t, err, "AppendPEMFileToRootCAPool should throw an error by while loading fake file %s \n", fakeCertificatesFile)
 }
+
+
+

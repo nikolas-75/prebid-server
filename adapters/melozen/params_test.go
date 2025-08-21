@@ -1,4 +1,4 @@
-package melozen
+﻿package melozen
 
 import (
 	"encoding/json"
@@ -48,3 +48,6 @@ var invalidParams = []string{
 	`{"pubId": ""}`,
 	`{"pubId": 12345}`,
 }
+
+
+

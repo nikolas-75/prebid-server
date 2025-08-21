@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 type ExtImpMissena struct {
 	APIKey    string         `json:"apiKey"`
@@ -7,3 +7,6 @@ type ExtImpMissena struct {
 	TestMode  string         `json:"test"`
 	Settings  map[string]any `json:"settings,omitempty"`
 }
+
+
+

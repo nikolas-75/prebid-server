@@ -1,4 +1,4 @@
-package conversant
+﻿package conversant
 
 import (
 	"testing"
@@ -17,3 +17,6 @@ func TestJsonSamples(t *testing.T) {
 
 	adapterstest.RunJSONBidderTest(t, "conversanttest", bidder)
 }
+
+
+

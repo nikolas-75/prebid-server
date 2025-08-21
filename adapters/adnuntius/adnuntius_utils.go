@@ -1,4 +1,4 @@
-package adnuntius
+﻿package adnuntius
 
 import (
 	"encoding/json"
@@ -203,3 +203,6 @@ func convertMarkupTypeToBidType(markupType openrtb2.MarkupType) openrtb_ext.BidT
 	}
 	return openrtb_ext.BidTypeBanner
 }
+
+
+

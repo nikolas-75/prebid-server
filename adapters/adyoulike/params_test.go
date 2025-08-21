@@ -1,4 +1,4 @@
-package adyoulike
+﻿package adyoulike
 
 import (
 	"encoding/json"
@@ -60,3 +60,6 @@ var invalidParams = []string{
 	`{"placement":123}`,
 	`{"placement":"123","campaign":123}`,
 }
+
+
+

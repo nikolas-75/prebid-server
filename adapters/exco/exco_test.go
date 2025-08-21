@@ -1,4 +1,4 @@
-package exco
+﻿package exco
 
 import (
 	"testing"
@@ -25,3 +25,6 @@ func TestJsonSamples(t *testing.T) {
 
 	adapterstest.RunJSONBidderTest(t, "excotest", bidder)
 }
+
+
+

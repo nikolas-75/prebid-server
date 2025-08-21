@@ -1,4 +1,4 @@
-package bluesea
+﻿package bluesea
 
 import (
 	"encoding/json"
@@ -47,3 +47,6 @@ var invalidParams = []string{
 	`{"pubid": "abc", "token": "t35w089r1n92k946"}`,
 	`{"pubid": "1001", "token": "test-token"}`,
 }
+
+
+

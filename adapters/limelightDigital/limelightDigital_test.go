@@ -1,4 +1,4 @@
-package limelightDigital
+﻿package limelightDigital
 
 import (
 	"testing"
@@ -38,3 +38,6 @@ func TestBadConfig(t *testing.T) {
 
 	assert.Error(t, buildErr)
 }
+
+
+

@@ -1,4 +1,4 @@
-package marsmedia
+﻿package marsmedia
 
 import (
 	"encoding/json"
@@ -53,3 +53,6 @@ var invalidParams = []string{
 	`1.2`,
 	`[]`,
 }
+
+
+

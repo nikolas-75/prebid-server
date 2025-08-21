@@ -1,4 +1,4 @@
-package mobkoi
+﻿package mobkoi
 
 import (
 	"errors"
@@ -119,3 +119,6 @@ func (a *adapter) MakeBids(request *openrtb2.BidRequest, requestData *adapters.R
 	}
 	return bidResponse, nil
 }
+
+
+

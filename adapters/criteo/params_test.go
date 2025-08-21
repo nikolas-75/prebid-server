@@ -1,4 +1,4 @@
-package criteo
+﻿package criteo
 
 import (
 	"encoding/json"
@@ -79,3 +79,6 @@ var invalidParams = []string{
 	`{"zoneid": 0, "networkid": 0, "pubid": null}`,
 	`{"zoneid": 0, "networkid": 0, "uid": null}`,
 }
+
+
+

@@ -1,4 +1,4 @@
-package cpmstar
+﻿package cpmstar
 
 import (
 	"encoding/json"
@@ -52,3 +52,6 @@ var invalidParams = []string{
 	`{"placementId": 154, "subpoolId": "123"}`, // placementId and subpoolId should both be numeric
 	`{"invalid_param": 123}`,
 }
+
+
+

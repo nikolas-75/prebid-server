@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 // ExtApp defines the contract for bidrequest.app.ext
 type ExtApp struct {
@@ -10,3 +10,6 @@ type ExtAppPrebid struct {
 	Source  string `json:"source,omitempty"`
 	Version string `json:"version,omitempty"`
 }
+
+
+

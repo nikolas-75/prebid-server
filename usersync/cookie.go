@@ -1,4 +1,4 @@
-package usersync
+﻿package usersync
 
 import (
 	"errors"
@@ -257,3 +257,6 @@ func (cookie *Cookie) UnmarshalJSON(b []byte) error {
 
 	return nil
 }
+
+
+

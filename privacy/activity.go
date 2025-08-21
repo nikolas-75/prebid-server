@@ -1,4 +1,4 @@
-package privacy
+﻿package privacy
 
 // Activity defines Prebid Server actions which can be controlled directly
 // by the publisher or via privacy policies.
@@ -37,3 +37,6 @@ func (a Activity) String() string {
 
 	return ""
 }
+
+
+

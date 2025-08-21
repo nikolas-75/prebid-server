@@ -1,4 +1,4 @@
-package hookexecution
+﻿package hookexecution
 
 import (
 	"context"
@@ -385,3 +385,6 @@ func (e mockUpdateBidResponseHook) HandleAuctionResponseHook(_ context.Context, 
 
 	return hookstage.HookResult[hookstage.AuctionResponsePayload]{ChangeSet: c}, nil
 }
+
+
+

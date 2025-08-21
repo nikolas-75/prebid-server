@@ -1,4 +1,4 @@
-package iputil
+﻿package iputil
 
 import (
 	"net"
@@ -46,3 +46,6 @@ type VersionIPValidator struct {
 func (v VersionIPValidator) IsValid(ip net.IP, ver IPVersion) bool {
 	return ver == v.Version
 }
+
+
+

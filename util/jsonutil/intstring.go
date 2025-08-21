@@ -1,4 +1,4 @@
-package jsonutil
+﻿package jsonutil
 
 import (
 	"errors"
@@ -17,3 +17,6 @@ func (st *IntString) UnmarshalJSON(b []byte) error {
 	*st = IntString(res.String())
 	return nil
 }
+
+
+

@@ -1,4 +1,4 @@
-package gdpr
+﻿package gdpr
 
 import (
 	"context"
@@ -23,7 +23,7 @@ type VendorListFetcher func(ctx context.Context, specVersion uint16, listVersion
 
 // This file provides the vendorlist-fetching function for Prebid Server.
 //
-// For more info, see https://github.com/prebid/prebid-server/issues/504
+// For more info, see https://github.com/prebid/prebid-server/v3/issues/504
 //
 // Nothing in this file is exported. Public APIs can be found in gdpr.go
 
@@ -167,3 +167,6 @@ func newVendorListCache() (save func(specVersion, listVersion uint16, list api.V
 	}
 	return
 }
+
+
+

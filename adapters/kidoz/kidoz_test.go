@@ -1,4 +1,4 @@
-package kidoz
+﻿package kidoz
 
 import (
 	"math"
@@ -129,3 +129,6 @@ func TestGetMediaTypeForImp(t *testing.T) {
 		assert.Equal(t, openrtb_ext.BidTypeAudio, actual)
 	})
 }
+
+
+

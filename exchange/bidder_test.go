@@ -1,4 +1,4 @@
-package exchange
+﻿package exchange
 
 import (
 	"bytes"
@@ -3566,3 +3566,6 @@ func BenchmarkCompressToGZIPOptimized(b *testing.B) {
 		getRequestBody(req, "GZIP")
 	}
 }
+
+
+

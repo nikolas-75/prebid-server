@@ -1,4 +1,4 @@
-package floors
+﻿package floors
 
 import (
 	"fmt"
@@ -117,3 +117,6 @@ func selectValidFloorModelGroups(modelGroups []openrtb_ext.PriceFloorModelGroup,
 	}
 	return validModelGroups, errs
 }
+
+
+

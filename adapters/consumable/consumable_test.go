@@ -1,4 +1,4 @@
-package consumable
+﻿package consumable
 
 import (
 	"encoding/json"
@@ -96,3 +96,6 @@ func TestConsumableMakeBidsWithCategoryDuration(t *testing.T) {
 		t.Errorf("should not have any errors, errors=%v", errors)
 	}
 }
+
+
+

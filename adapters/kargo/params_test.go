@@ -1,4 +1,4 @@
-package kargo
+﻿package kargo
 
 import (
 	"encoding/json"
@@ -51,3 +51,6 @@ var invalidParams = []string{
 	`{}`,
 	`{"placementId": "11523", "adSlotID": "12345"}`, // Can't include both
 }
+
+
+

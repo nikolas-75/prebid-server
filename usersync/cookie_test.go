@@ -1,4 +1,4 @@
-package usersync
+﻿package usersync
 
 import (
 	"errors"
@@ -856,3 +856,6 @@ func ToHTTPCookie(cookie *Cookie) (*http.Cookie, error) {
 		Path:    "/",
 	}, nil
 }
+
+
+

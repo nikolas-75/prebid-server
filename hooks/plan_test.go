@@ -1,4 +1,4 @@
-package hooks
+﻿package hooks
 
 import (
 	"context"
@@ -870,3 +870,6 @@ func (f fakeAuctionResponseHook) HandleAuctionResponseHook(
 ) (hookstage.HookResult[hookstage.AuctionResponsePayload], error) {
 	return hookstage.HookResult[hookstage.AuctionResponsePayload]{}, nil
 }
+
+
+

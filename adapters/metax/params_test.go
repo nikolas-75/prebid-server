@@ -1,4 +1,4 @@
-package metax
+﻿package metax
 
 import (
 	"encoding/json"
@@ -58,3 +58,6 @@ var invalidParams = []string{
 	`{"publisherId": 10000000, "adunit": 0}`,
 	`{"publisherId": 0, "adunit": 100000}`,
 }
+
+
+

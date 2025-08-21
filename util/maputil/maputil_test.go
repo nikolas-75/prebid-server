@@ -1,4 +1,4 @@
-package maputil
+﻿package maputil
 
 import (
 	"testing"
@@ -245,3 +245,6 @@ func TestHasElement(t *testing.T) {
 		assert.Equal(t, test.expected, result, test.description)
 	}
 }
+
+
+

@@ -1,4 +1,4 @@
-package usersync
+﻿package usersync
 
 import (
 	"testing"
@@ -777,3 +777,6 @@ func (p *fakePrivacy) ActivityAllowsUserSync(bidder string) bool {
 func (p *fakePrivacy) GDPRInScope() bool {
 	return p.gdprInScope
 }
+
+
+

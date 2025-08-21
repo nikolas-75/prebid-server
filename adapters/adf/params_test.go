@@ -1,4 +1,4 @@
-package adf
+﻿package adf
 
 import (
 	"encoding/json"
@@ -66,3 +66,6 @@ var invalidParams = []string{
 	`{"mname":"12345"}`,
 	`{"mid":"123","priceType":"GROSS"}`,
 }
+
+
+

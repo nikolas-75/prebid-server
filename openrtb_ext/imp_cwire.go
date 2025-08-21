@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 // ImpExtCwire defines the contract for MakeRequests `request.imp[i].ext.bidder`
 type ImpExtCWire struct {
@@ -9,3 +9,6 @@ type ImpExtCWire struct {
 	CwDebug     bool     `json:"cwdebug,omitempty"`
 	CwFeatures  []string `json:"cwfeatures,omitempty"`
 }
+
+
+

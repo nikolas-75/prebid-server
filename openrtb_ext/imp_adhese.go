@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 type ExtImpAdhese struct {
 	Account  string              `json:"account"`
@@ -6,3 +6,6 @@ type ExtImpAdhese struct {
 	Format   string              `json:"format"`
 	Targets  map[string][]string `json:"targets,omitempty"`
 }
+
+
+

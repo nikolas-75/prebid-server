@@ -1,4 +1,4 @@
-package adapters
+﻿package adapters
 
 import (
 	"errors"
@@ -803,3 +803,6 @@ func (m *mockBidder) MakeRequests(request *openrtb2.BidRequest, reqInfo *ExtraRe
 func (m *mockBidder) MakeBids(internalRequest *openrtb2.BidRequest, externalRequest *RequestData, response *ResponseData) (*BidderResponse, []error) {
 	return nil, []error{errors.New("mock MakeBids error")}
 }
+
+
+

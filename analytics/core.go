@@ -1,4 +1,4 @@
-package analytics
+﻿package analytics
 
 import (
 	"time"
@@ -92,3 +92,6 @@ type NotificationEvent struct {
 	Request *EventRequest   `json:"request"`
 	Account *config.Account `json:"account"`
 }
+
+
+

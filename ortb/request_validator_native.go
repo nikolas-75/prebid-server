@@ -1,4 +1,4 @@
-package ortb
+﻿package ortb
 
 import (
 	"encoding/json"
@@ -271,3 +271,6 @@ func validateNativeVideoProtocol(protocol adcom1.MediaCreativeSubtype, impIndex 
 	}
 	return nil
 }
+
+
+

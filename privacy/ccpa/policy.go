@@ -1,4 +1,4 @@
-package ccpa
+﻿package ccpa
 
 import (
 	"errors"
@@ -140,3 +140,6 @@ func setPrebidNoSaleWrite(noSaleBidders []string, ext *openrtb_ext.RequestExt) {
 	prebid.NoSale = noSaleBidders
 	ext.SetPrebid(prebid)
 }
+
+
+

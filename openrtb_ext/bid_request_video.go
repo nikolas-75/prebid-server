@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 import "github.com/prebid/openrtb/v20/openrtb2"
 
@@ -97,7 +97,7 @@ type BidRequestVideo struct {
 	// Type:
 	//   object; optional
 	// Description:
-	//    Object to tell ad server how much money the “bidder” demand is worth to you
+	//    Object to tell ad server how much money the â€œbidderâ€ demand is worth to you
 	PriceGranularity *PriceGranularity `json:"pricegranularity,omitempty"`
 
 	// Attribute:
@@ -124,7 +124,7 @@ type BidRequestVideo struct {
 	// Type:
 	//   string array
 	// Description:
-	//   Block list of advertisers by their domains (e.g., “ford.com”).
+	//   Block list of advertisers by their domains (e.g., â€œford.comâ€).
 	BAdv []string `json:"badv,omitempty"`
 
 	// Attribute:
@@ -230,3 +230,6 @@ type Cacheconfig struct {
 	//  Time to Live for a cache entry specified in seconds
 	Ttl int `json:"ttl"`
 }
+
+
+

@@ -1,4 +1,4 @@
-// Package mathutil provides utility functions for mathematical operations.
+﻿// Package mathutil provides utility functions for mathematical operations.
 package mathutil
 
 import "math"
@@ -7,3 +7,6 @@ import "math"
 func RoundTo4Decimals(amount float64) float64 {
 	return math.Round(amount*10000) / 10000
 }
+
+
+

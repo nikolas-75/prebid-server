@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 type ExtImpHuaweiAds struct {
 	SlotId              string `json:"slotid"`
@@ -19,3 +19,6 @@ type ExtUserDataDeviceIdHuaweiAds struct {
 	Gaid       []string `json:"gaid,omitempty"`
 	ClientTime []string `json:"clientTime,omitempty"`
 }
+
+
+

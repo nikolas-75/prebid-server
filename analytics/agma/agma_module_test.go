@@ -1,4 +1,4 @@
-package agma
+﻿package agma
 
 import (
 	"io"
@@ -733,3 +733,6 @@ func TestShutdownFlush(t *testing.T) {
 	mockedSender.AssertCalled(t, "Send", mock.Anything)
 	mockedSender.AssertNumberOfCalls(t, "Send", 1)
 }
+
+
+

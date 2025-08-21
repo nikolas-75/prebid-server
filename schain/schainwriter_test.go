@@ -1,4 +1,4 @@
-package schain
+﻿package schain
 
 import (
 	"encoding/json"
@@ -362,3 +362,6 @@ func TestSChainWriter(t *testing.T) {
 		})
 	}
 }
+
+
+

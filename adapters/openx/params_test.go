@@ -1,4 +1,4 @@
-package openx
+﻿package openx
 
 import (
 	"encoding/json"
@@ -66,3 +66,6 @@ var invalidParams = []string{
 	`{"unit": "123", "delDomain": "foo.bar", "customFloor": -0.1}`,
 	`{"unit": "123", "delDomain": "foo.bar", "customParams": "foo: bar"}`,
 }
+
+
+

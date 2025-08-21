@@ -1,4 +1,4 @@
-package adocean
+﻿package adocean
 
 import (
 	"encoding/json"
@@ -51,3 +51,6 @@ var invalidParams = []string{
 	`{"emiter": "myao.adocean.pl", "slaveId": "adoceanmyaozpniqismex"}`,
 	`{"emiter": "", "masterId": "tmYF.DMl7ZBq.Nqt2Bq4FutQTJfTpxCOmtNPZoQUDcL.G7", "slaveId": "adoceanmyaozpniqismex"}`,
 }
+
+
+

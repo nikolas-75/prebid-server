@@ -1,4 +1,4 @@
-package gpp
+﻿package gpp
 
 import (
 	"testing"
@@ -105,3 +105,6 @@ func TestIndexOfSID(t *testing.T) {
 		t.Run(tc.desc, func(t *testing.T) { assert.Equal(t, tc.expected, IndexOfSID(tc.in.gpp, tc.in.sid)) })
 	}
 }
+
+
+

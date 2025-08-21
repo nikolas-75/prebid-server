@@ -1,4 +1,4 @@
-package smartrtb
+﻿package smartrtb
 
 import (
 	"encoding/json"
@@ -198,3 +198,6 @@ func (s *SmartRTBAdapter) MakeBids(
 	}
 	return rv, nil
 }
+
+
+

@@ -1,4 +1,4 @@
-package rules
+﻿package rules
 
 import (
 	"encoding/json"
@@ -169,3 +169,6 @@ type SchemaFuncFactory[T any] func(string, json.RawMessage) (SchemaFunction[T], 
 // and returns a ResultFunction and an error.
 // It is used to create result functions for the tree nodes based on the provided configuration.
 type ResultFuncFactory[T1 any, T2 any] func(string, json.RawMessage) (ResultFunction[T1, T2], error)
+
+
+

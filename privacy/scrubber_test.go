@@ -1,4 +1,4 @@
-package privacy
+﻿package privacy
 
 import (
 	"encoding/json"
@@ -499,3 +499,6 @@ func TestScrubUserExtIDs(t *testing.T) {
 		assert.Equal(t, test.expected, result, test.description)
 	}
 }
+
+
+

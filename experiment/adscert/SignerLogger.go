@@ -1,4 +1,4 @@
-package adscert
+﻿package adscert
 
 import (
 	"fmt"
@@ -36,3 +36,6 @@ func (sl *SignerLogger) Fatalf(format string, args ...interface{}) {
 func (sl *SignerLogger) Panicf(format string, args ...interface{}) {
 	panic(fmt.Sprintf(format, args...))
 }
+
+
+

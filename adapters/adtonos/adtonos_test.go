@@ -1,4 +1,4 @@
-package adtonos
+﻿package adtonos
 
 import (
 	"testing"
@@ -28,3 +28,6 @@ func TestEndpointTemplateMalformed(t *testing.T) {
 
 	assert.Error(t, buildErr)
 }
+
+
+

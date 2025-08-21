@@ -1,4 +1,4 @@
-package exchange
+﻿package exchange
 
 import (
 	gpplib "github.com/prebid/go-gpp"
@@ -49,3 +49,6 @@ func selectEEACountries(hostEEACountries []string, accountEEACountries []string)
 	}
 	return hostEEACountries
 }
+
+
+

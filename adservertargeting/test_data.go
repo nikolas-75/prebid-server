@@ -1,4 +1,4 @@
-package adservertargeting
+﻿package adservertargeting
 
 const (
 	reqValid = `{
@@ -368,3 +368,6 @@ const (
   }
 }`
 )
+
+
+

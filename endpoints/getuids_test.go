@@ -1,4 +1,4 @@
-package endpoints
+﻿package endpoints
 
 import (
 	"net/http"
@@ -39,3 +39,6 @@ func TestGetUIDWIthNoCookie(t *testing.T) {
 	assert.Equal(t, http.StatusOK, res.Code)
 	assert.JSONEq(t, `{}`, res.Body.String(), "GetUIDs endpoint shouldn't return anything if there doesn't exist a PBS cookie")
 }
+
+
+

@@ -1,4 +1,4 @@
-package huaweiads
+﻿package huaweiads
 
 var MccList = map[int]string{
 	202: "gr", //Greece
@@ -173,7 +173,7 @@ var MccList = map[int]string{
 	609: "mr", //Mauritania (Islamic Republic of)
 	610: "ml", //Mali (Republic of)
 	611: "gn", //Guinea (Republic of)
-	612: "ci", //Côte d'Ivoire (Republic of)
+	612: "ci", //CÃ´te d'Ivoire (Republic of)
 	613: "bf", //Burkina Faso
 	614: "ne", //Niger (Republic of the)
 	615: "tg", //Togolese Republic
@@ -241,3 +241,6 @@ var MccList = map[int]string{
 	748: "uy", //Uruguay (Eastern Republic of)
 	750: "fk", //Falkland Islands (Malvinas)
 }
+
+
+

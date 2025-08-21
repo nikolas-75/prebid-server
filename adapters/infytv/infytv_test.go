@@ -1,4 +1,4 @@
-package infytv
+﻿package infytv
 
 import (
 	"testing"
@@ -16,3 +16,6 @@ func TestJsonSamples(t *testing.T) {
 	assert.NoError(t, buildErr)
 	adapterstest.RunJSONBidderTest(t, "infytvtest", bidder)
 }
+
+
+

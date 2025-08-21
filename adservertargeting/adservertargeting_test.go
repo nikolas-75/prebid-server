@@ -1,4 +1,4 @@
-package adservertargeting
+﻿package adservertargeting
 
 import (
 	"encoding/json"
@@ -365,3 +365,6 @@ func TestProcessAdServerTargetingWarnings(t *testing.T) {
 	assert.Equal(t, "value not found for path: ext.custom1 for bidder: rubicon, bid id: bidR3", warnings[16].Message, "Incorrect warning")
 	assert.Equal(t, "value not found for path: ext.custom2 for bidder: rubicon, bid id: bidR3", warnings[17].Message, "Incorrect warning")
 }
+
+
+

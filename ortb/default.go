@@ -1,4 +1,4 @@
-package ortb
+﻿package ortb
 
 import (
 	"github.com/prebid/prebid-server/v3/openrtb_ext"
@@ -140,3 +140,6 @@ func setDefaultsImp(imps []*openrtb_ext.ImpWrapper) bool {
 
 	return modified
 }
+
+
+

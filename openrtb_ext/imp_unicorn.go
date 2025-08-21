@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 // ExtImpUnicorn defines the contract for bidrequest.imp[i].ext.prebid.bidder.unicorn
 type ExtImpUnicorn struct {
@@ -7,3 +7,6 @@ type ExtImpUnicorn struct {
 	MediaID     string `json:"mediaId,omitempty"`
 	AccountID   int    `json:"accountId,omitempty"`
 }
+
+
+

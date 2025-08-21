@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 // ExtImpAdyoulike defines the contract for bidrequest.imp[i].ext.prebid.bidder.adyoulike
 type ExtImpAdyoulike struct {
@@ -16,3 +16,6 @@ type ExtImpAdyoulike struct {
 	// Abitrary Id used for debug purpose
 	Debug string `json:"debug"`
 }
+
+
+

@@ -1,4 +1,4 @@
-package exchange
+﻿package exchange
 
 import (
 	"testing"
@@ -226,3 +226,6 @@ func (ms mockGPPSection) GetValue() string {
 func (ms mockGPPSection) Encode(bool) []byte {
 	return nil
 }
+
+
+

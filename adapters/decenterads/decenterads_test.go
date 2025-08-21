@@ -1,4 +1,4 @@
-package decenterads
+﻿package decenterads
 
 import (
 	"testing"
@@ -16,3 +16,6 @@ func TestJsonSamples(t *testing.T) {
 	}
 	adapterstest.RunJSONBidderTest(t, "decenteradstest", bidder)
 }
+
+
+

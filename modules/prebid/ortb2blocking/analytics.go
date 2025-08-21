@@ -1,4 +1,4 @@
-package ortb2blocking
+﻿package ortb2blocking
 
 import (
 	"github.com/prebid/prebid-server/v3/hooks/hookanalytics"
@@ -92,3 +92,6 @@ func getAnalyticKeyForAttribute(attribute string) string {
 		return attribute
 	}
 }
+
+
+

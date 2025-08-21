@@ -1,4 +1,4 @@
-package adservertargeting
+﻿package adservertargeting
 
 import (
 	"encoding/json"
@@ -139,3 +139,6 @@ func resolve(
 	}
 	return response, warnings
 }
+
+
+

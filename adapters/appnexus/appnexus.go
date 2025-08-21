@@ -1,4 +1,4 @@
-package appnexus
+﻿package appnexus
 
 import (
 	"encoding/json"
@@ -506,3 +506,6 @@ func (a *adapter) buildAdPodRequests(imps []openrtb2.Imp, request *openrtb2.BidR
 
 	return requests, errs
 }
+
+
+

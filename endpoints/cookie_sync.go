@@ -1,4 +1,4 @@
-package endpoints
+﻿package endpoints
 
 import (
 	"context"
@@ -647,3 +647,6 @@ func (p usersyncPrivacy) ActivityAllowsUserSync(bidder string) bool {
 func (p usersyncPrivacy) GDPRInScope() bool {
 	return p.gdprSignal == gdpr.SignalYes
 }
+
+
+

@@ -1,4 +1,4 @@
-package ortb
+﻿package ortb
 
 import (
 	"encoding/json"
@@ -297,3 +297,6 @@ func (v mockBidderParamValidator) Validate(name openrtb_ext.BidderName, ext json
 	return v.Error
 }
 func (v mockBidderParamValidator) Schema(name openrtb_ext.BidderName) string { return "" }
+
+
+

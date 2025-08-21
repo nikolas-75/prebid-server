@@ -1,4 +1,4 @@
-package gdpr
+﻿package gdpr
 
 import (
 	"github.com/prebid/go-gdpr/vendorconsent"
@@ -9,3 +9,6 @@ func ValidateConsent(consent string) bool {
 	_, err := vendorconsent.ParseString(consent)
 	return err == nil
 }
+
+
+

@@ -1,4 +1,4 @@
-package usersync
+﻿package usersync
 
 import (
 	"fmt"
@@ -119,3 +119,6 @@ func chooseSyncerConfig(biddersSyncerConfig []namedSyncerConfig) (namedSyncerCon
 
 	return syncerConfig, nil
 }
+
+
+

@@ -1,4 +1,4 @@
-package hookexecution
+﻿package hookexecution
 
 import (
 	"time"
@@ -96,3 +96,6 @@ type HookID struct {
 type ExecutionTime struct {
 	ExecutionTimeMillis time.Duration `json:"execution_time_millis,omitempty"`
 }
+
+
+

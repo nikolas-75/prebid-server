@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 import "encoding/json"
 
@@ -7,3 +7,6 @@ type ExtImpAkcelo struct {
 	SiteID   json.Number `json:"siteId,omitempty"`
 	Test     json.Number `json:"test,omitempty"`
 }
+
+
+

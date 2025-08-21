@@ -1,4 +1,4 @@
-package empty_fetcher
+﻿package empty_fetcher
 
 import (
 	"context"
@@ -39,3 +39,6 @@ func (fetcher EmptyFetcher) FetchAccount(ctx context.Context, accountDefaultJSON
 func (fetcher EmptyFetcher) FetchCategories(ctx context.Context, primaryAdServer, publisherId, iabCategory string) (string, error) {
 	return "", nil
 }
+
+
+

@@ -1,4 +1,4 @@
-package iputil
+﻿package iputil
 
 import (
 	"net"
@@ -33,3 +33,6 @@ func ParseIP(v string) (net.IP, IPVersion) {
 	}
 	return nil, IPvUnknown
 }
+
+
+

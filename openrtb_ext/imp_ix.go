@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 // ExtImpIx defines the contract for bidrequest.imp[i].ext.prebid.bidder.ix
 type ExtImpIx struct {
@@ -6,3 +6,6 @@ type ExtImpIx struct {
 	Size   []int  `json:"size"`
 	Sid    string `json:"sid"`
 }
+
+
+

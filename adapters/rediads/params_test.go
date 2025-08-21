@@ -1,4 +1,4 @@
-package rediads
+﻿package rediads
 
 import (
 	"encoding/json"
@@ -42,3 +42,6 @@ var validParams = []string{
 var invalidParams = []string{
 	`{"account": 42}`, `{}`,
 }
+
+
+

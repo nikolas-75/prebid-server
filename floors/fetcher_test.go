@@ -1,4 +1,4 @@
-package floors
+﻿package floors
 
 import (
 	"encoding/json"
@@ -1305,3 +1305,6 @@ func TestFetchWhenPriceFloorsDisabled(t *testing.T) {
 	assert.Equal(t, (*openrtb_ext.PriceFloorRules)(nil), data, "floor data should be nil as fetcher instance does not created")
 	assert.Equal(t, openrtb_ext.FetchNone, status, "floor status should be none as fetcher instance does not created")
 }
+
+
+

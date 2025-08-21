@@ -1,4 +1,4 @@
-package rules
+﻿package rules
 
 import (
 	"encoding/json"
@@ -2306,3 +2306,6 @@ func TestCheckNilArgs(t *testing.T) {
 		})
 	}
 }
+
+
+

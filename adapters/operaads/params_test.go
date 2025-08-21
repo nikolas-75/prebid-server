@@ -1,4 +1,4 @@
-package operaads
+﻿package operaads
 
 import (
 	"encoding/json"
@@ -52,3 +52,6 @@ var invalidParams = []string{
 	`{"endpointId": "ep12345", "publisherId": "pub12345"}`,
 	`{"placementId": "", "endpointId": "", "publisherId": ""}`,
 }
+
+
+

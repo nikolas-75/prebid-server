@@ -1,4 +1,4 @@
-package bmtm
+﻿package bmtm
 
 import (
 	"encoding/json"
@@ -42,3 +42,6 @@ var invalidParams = []string{
 	`{"placement_id": "548d4e75w7a5d8e1w7w5r7ee7"}`,
 	`{"placement_id": "42"}`,
 }
+
+
+

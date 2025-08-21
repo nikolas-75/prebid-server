@@ -1,4 +1,4 @@
-package coinzilla
+﻿package coinzilla
 
 import (
 	"encoding/json"
@@ -85,3 +85,6 @@ func (adapter *adapter) MakeBids(openRTBRequest *openrtb2.BidRequest, requestToB
 
 	return bidderResponse, nil
 }
+
+
+

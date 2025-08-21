@@ -1,4 +1,4 @@
-package flipp
+﻿package flipp
 
 import (
 	"encoding/json"
@@ -125,3 +125,6 @@ var invalidParams = []string{
 		}
 	}`,
 }
+
+
+

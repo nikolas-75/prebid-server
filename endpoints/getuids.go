@@ -1,4 +1,4 @@
-package endpoints
+﻿package endpoints
 
 import (
 	"net/http"
@@ -26,3 +26,6 @@ func NewGetUIDsEndpoint(cfg config.HostCookie) httprouter.Handle {
 		json.NewEncoder(w).Encode(userSyncs)
 	})
 }
+
+
+

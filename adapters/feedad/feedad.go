@@ -1,4 +1,4 @@
-package feedad
+﻿package feedad
 
 import (
 	"net/http"
@@ -91,3 +91,6 @@ func Builder(bidderName openrtb_ext.BidderName, config config.Adapter, server co
 	}
 	return bidder, nil
 }
+
+
+

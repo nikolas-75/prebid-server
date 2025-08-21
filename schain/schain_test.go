@@ -1,4 +1,4 @@
-package schain
+﻿package schain
 
 import (
 	"testing"
@@ -102,3 +102,6 @@ func TestBidderToPrebidChainsZeroLengthSChains(t *testing.T) {
 	assert.Nil(t, err)
 	assert.Equal(t, len(output), 0)
 }
+
+
+

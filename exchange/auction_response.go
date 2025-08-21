@@ -1,4 +1,4 @@
-package exchange
+﻿package exchange
 
 import (
 	"github.com/prebid/openrtb/v20/openrtb2"
@@ -18,3 +18,6 @@ func (ar *AuctionResponse) GetSeatNonBid() []openrtb_ext.SeatNonBid {
 	}
 	return nil
 }
+
+
+

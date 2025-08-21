@@ -1,4 +1,4 @@
-package exchange
+﻿package exchange
 
 import (
 	"fmt"
@@ -150,3 +150,6 @@ func mergeRemovedAndDisabledBidderWarningMessages(removed map[string]string, inf
 func IsBidderDisabledDueToWhiteLabelOnly(disabledMessage string) bool {
 	return strings.HasSuffix(disabledMessage, "can only be aliased and cannot be used directly.")
 }
+
+
+

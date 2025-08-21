@@ -1,4 +1,4 @@
-package agma
+﻿package agma
 
 import (
 	"fmt"
@@ -48,3 +48,6 @@ func serializeAnayltics(
 		CreatedAt:   createdAt,
 	})
 }
+
+
+

@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 type ImpExtConcert struct {
 	PartnerId   string   `json:"partnerId"`
@@ -7,3 +7,6 @@ type ImpExtConcert struct {
 	Slot        *string  `json:"slot,omitempty"`
 	Sizes       *[][]int `json:"sizes,omitempty"`
 }
+
+
+

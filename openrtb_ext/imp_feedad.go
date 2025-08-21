@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 type ExtImpFeedAd struct {
 	ClientToken string                  `json:"clientToken"`
@@ -15,3 +15,6 @@ type ExtImpFeedAdSdkOptions struct {
 	HybridPlatform  string `json:"hybrid_platform"`
 	LimitAdTracking bool   `json:"limit_ad_tracking"`
 }
+
+
+

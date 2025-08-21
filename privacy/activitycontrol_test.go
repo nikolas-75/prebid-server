@@ -1,4 +1,4 @@
-package privacy
+﻿package privacy
 
 import (
 	"testing"
@@ -189,3 +189,6 @@ func getTestActivityPlan(result ActivityResult) ActivityPlan {
 		},
 	}
 }
+
+
+

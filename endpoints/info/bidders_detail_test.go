@@ -1,4 +1,4 @@
-package info
+﻿package info
 
 import (
 	"bytes"
@@ -434,3 +434,6 @@ func TestBiddersDetailHandler(t *testing.T) {
 		})
 	}
 }
+
+
+

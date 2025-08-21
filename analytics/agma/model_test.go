@@ -1,4 +1,4 @@
-package agma
+﻿package agma
 
 import (
 	"testing"
@@ -44,3 +44,6 @@ func TestSerializeAmpObject(t *testing.T) {
 	assert.NoError(t, err)
 	assert.Contains(t, string(data), "\"type\":\"amp\"")
 }
+
+
+

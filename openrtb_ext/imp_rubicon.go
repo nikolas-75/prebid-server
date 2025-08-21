@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 import (
 	"encoding/json"
@@ -31,3 +31,6 @@ type rubiconVideoParams struct {
 type impExtRubiconDebug struct {
 	CpmOverride float64 `json:"cpmoverride,omitempty"`
 }
+
+
+

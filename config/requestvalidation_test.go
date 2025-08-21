@@ -1,4 +1,4 @@
-package config
+﻿package config
 
 import (
 	"net"
@@ -143,3 +143,6 @@ func TestParse(t *testing.T) {
 		assert.ElementsMatch(t, requestValidation.IPv6PrivateNetworksParsed, test.ipv6Expected, test.description+":ipv6")
 	}
 }
+
+
+

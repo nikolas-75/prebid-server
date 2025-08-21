@@ -1,0 +1,24 @@
+maintainer:
+  email: dev@ad-vanced.media
+
+capabilities:
+  app:
+    mediaTypes: [banner, video, native, audio]
+  site:
+    mediaTypes: [banner, video, native, audio]
+
+gvlVendorID: 0
+
+endpoint: "https://yvlwkmetpbbokutsqpfv.supabase.co/functions/v1/prebid-bidder-adapter"
+
+userSync:
+  iframe:
+    url: "https://yvlwkmetpbbokutsqpfv.supabase.co/functions/v1/usersync?gdpr={{gdpr}}&gdpr_consent={{gdpr_consent}}&us_privacy={{us_privacy}}&gpp={{gpp}}&gpp_sid={{gpp_sid}}&redirect={{redirect_url}}"
+    supportCORS: false
+
+privacy:
+  gdpr:
+    tcf2:
+      enforcement: basic
+  usp: true
+  gpp: true

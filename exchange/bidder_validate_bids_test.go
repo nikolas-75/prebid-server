@@ -1,4 +1,4 @@
-package exchange
+﻿package exchange
 
 import (
 	"context"
@@ -372,3 +372,6 @@ func (b *mockAdaptedBidder) shouldRequest() bool {
 	// Always return the healthy response.
 	return true
 }
+
+
+

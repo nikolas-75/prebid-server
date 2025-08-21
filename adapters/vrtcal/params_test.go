@@ -1,4 +1,4 @@
-package vrtcal
+﻿package vrtcal
 
 import (
 	"encoding/json"
@@ -44,3 +44,6 @@ func TestInvalidParams(t *testing.T) {
 var validParams = []string{}
 
 var invalidParams = []string{}
+
+
+

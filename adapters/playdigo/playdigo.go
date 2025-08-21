@@ -1,4 +1,4 @@
-package playdigo
+﻿package playdigo
 
 import (
 	"encoding/json"
@@ -159,3 +159,6 @@ func getBidType(bid openrtb2.Bid) (openrtb_ext.BidType, error) {
 
 	return "", fmt.Errorf("could not define media type for impression: %s", bid.ImpID)
 }
+
+
+

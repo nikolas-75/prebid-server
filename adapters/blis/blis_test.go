@@ -1,4 +1,4 @@
-package blis
+﻿package blis
 
 import (
 	"github.com/stretchr/testify/assert"
@@ -27,3 +27,6 @@ func TestJsonSamples(t *testing.T) {
 
 	adapterstest.RunJSONBidderTest(t, "blistest", bidder)
 }
+
+
+

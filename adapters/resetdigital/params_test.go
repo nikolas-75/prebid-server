@@ -1,4 +1,4 @@
-package resetdigital
+﻿package resetdigital
 
 import (
 	"encoding/json"
@@ -56,3 +56,6 @@ var invalidParams = []string{
 	`{"placement_id":}`,
 	`{"placement_id":""}`,
 }
+
+
+

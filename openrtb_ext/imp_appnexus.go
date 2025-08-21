@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 import (
 	"encoding/json"
@@ -93,3 +93,6 @@ func (ks *ExtImpAppnexusKeywords) UnmarshalJSON(b []byte) error {
 func (ks *ExtImpAppnexusKeywords) String() string {
 	return *(*string)(ks)
 }
+
+
+

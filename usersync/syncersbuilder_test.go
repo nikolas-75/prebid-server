@@ -1,4 +1,4 @@
-package usersync
+﻿package usersync
 
 import (
 	"errors"
@@ -345,3 +345,6 @@ func TestChooseSyncerConfig(t *testing.T) {
 		}
 	}
 }
+
+
+

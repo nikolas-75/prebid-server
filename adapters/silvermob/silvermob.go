@@ -1,4 +1,4 @@
-package silvermob
+﻿package silvermob
 
 import (
 	"encoding/json"
@@ -208,3 +208,6 @@ func getBidMediaTypeFromMtype(bid *openrtb2.Bid) (openrtb_ext.BidType, error) {
 		return "", fmt.Errorf("Unable to fetch mediaType for imp: %s", bid.ImpID)
 	}
 }
+
+
+

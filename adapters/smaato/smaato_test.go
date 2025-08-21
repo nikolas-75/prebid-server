@@ -1,4 +1,4 @@
-package smaato
+﻿package smaato
 
 import (
 	"encoding/json"
@@ -118,3 +118,6 @@ type mockTime struct {
 func (mt *mockTime) Now() time.Time {
 	return mt.time
 }
+
+
+

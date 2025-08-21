@@ -1,4 +1,4 @@
-package ttx
+﻿package ttx
 
 import (
 	"encoding/json"
@@ -52,3 +52,6 @@ var invalidParams = []string{
 	`{"productId": "siab", "siteId": 123}`,
 	`{"productId": "siab", "siteId": "fakesiteid2", "zoneId": 123}`,
 }
+
+
+

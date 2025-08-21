@@ -1,4 +1,4 @@
-package gdpr
+﻿package gdpr
 
 import (
 	"testing"
@@ -241,3 +241,6 @@ func TestBasicLegalBasis(t *testing.T) {
 		assert.Equal(t, tt.wantResult, result, tt.description)
 	}
 }
+
+
+

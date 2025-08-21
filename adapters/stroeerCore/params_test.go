@@ -1,4 +1,4 @@
-package stroeerCore
+﻿package stroeerCore
 
 import (
 	"encoding/json"
@@ -48,3 +48,6 @@ var invalidParams = []string{
 	`{"something":"else"}`,
 	`{"sid":false}`,
 }
+
+
+

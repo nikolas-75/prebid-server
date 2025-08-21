@@ -1,4 +1,4 @@
-package appnexus
+﻿package appnexus
 
 var iabCategoryMap = map[string]string{
 	"1":   "IAB20-3",
@@ -97,3 +97,6 @@ var iabCategoryMap = map[string]string{
 	"182": "IAB8-9",
 	"183": "IAB3-5",
 }
+
+
+

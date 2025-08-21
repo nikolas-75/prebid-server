@@ -1,4 +1,4 @@
-package router
+﻿package router
 
 import (
 	"net/http"
@@ -25,3 +25,6 @@ func Admin(rateConverter *currency.RateConverter, rateConverterFetchingInterval 
 	mux.HandleFunc("/version", endpoints.NewVersionEndpoint(version.Ver, version.Rev))
 	return mux
 }
+
+
+

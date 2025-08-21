@@ -1,4 +1,4 @@
-package zeta_global_ssp
+﻿package zeta_global_ssp
 
 import (
 	"testing"
@@ -28,3 +28,6 @@ func TestEndpointTemplateMalformed(t *testing.T) {
 
 	assert.Error(t, buildErr)
 }
+
+
+

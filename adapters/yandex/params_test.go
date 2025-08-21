@@ -1,4 +1,4 @@
-package yandex
+﻿package yandex
 
 import (
 	"encoding/json"
@@ -85,3 +85,6 @@ var invalidPlacementIds = []openrtb_ext.ExtImpYandex{
 	{PlacementID: "B-A-123123"},
 	{PlacementID: "C-B-A-123123"},
 }
+
+
+

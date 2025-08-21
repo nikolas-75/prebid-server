@@ -1,4 +1,4 @@
-package trafficgate
+﻿package trafficgate
 
 import (
 	"encoding/json"
@@ -181,3 +181,6 @@ func Builder(bidderName openrtb_ext.BidderName, config config.Adapter, server co
 	}
 	return bidder, nil
 }
+
+
+

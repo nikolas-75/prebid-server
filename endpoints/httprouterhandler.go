@@ -1,4 +1,4 @@
-package endpoints
+﻿package endpoints
 
 import (
 	"net/http"
@@ -9,3 +9,6 @@ import (
 type HTTPRouterHandler interface {
 	Handle(http.ResponseWriter, *http.Request, httprouter.Params)
 }
+
+
+

@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 import (
 	"github.com/prebid/openrtb/v20/openrtb2"
@@ -48,3 +48,6 @@ func ReadDealTiersFromImp(imp openrtb2.Imp) (DealTierBidderMap, error) {
 
 	return dealTiers, nil
 }
+
+
+

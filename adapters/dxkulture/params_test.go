@@ -1,4 +1,4 @@
-package dxkulture
+﻿package dxkulture
 
 import (
 	"encoding/json"
@@ -51,3 +51,6 @@ var invalidParams = []string{
 	`{"ub", "placementId": "plac"}`,
 	`{}`,
 }
+
+
+

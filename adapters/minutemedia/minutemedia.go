@@ -1,4 +1,4 @@
-package minutemedia
+﻿package minutemedia
 
 import (
 	"encoding/json"
@@ -132,3 +132,6 @@ func getMediaTypeForBid(bid openrtb2.Bid) (openrtb_ext.BidType, error) {
 		}
 	}
 }
+
+
+

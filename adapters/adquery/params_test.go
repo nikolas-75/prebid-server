@@ -1,4 +1,4 @@
-package adquery
+﻿package adquery
 
 import (
 	"encoding/json"
@@ -47,3 +47,6 @@ var invalidParams = []string{
 	`{"placementId": "too_short", "type": "banner"}`,
 	`{"placementId": "6d93f2a0e5f0fe2cc3a6e9e3ade964b43b07f897", "type": ""}`,
 }
+
+
+

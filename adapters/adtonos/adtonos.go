@@ -1,4 +1,4 @@
-package adtonos
+﻿package adtonos
 
 import (
 	"encoding/json"
@@ -141,3 +141,6 @@ func getMediaTypeForBid(bid openrtb2.Bid, requestImps []openrtb2.Imp) (openrtb_e
 		Message: fmt.Sprintf("Failed to find impression: \"%s\"", bid.ImpID),
 	}
 }
+
+
+

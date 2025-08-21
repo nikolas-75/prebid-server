@@ -1,4 +1,4 @@
-package http_fetcher
+﻿package http_fetcher
 
 import (
 	"context"
@@ -490,3 +490,6 @@ func assertMapKeys(t *testing.T, m map[string]json.RawMessage, keys ...string) {
 		}
 	}
 }
+
+
+

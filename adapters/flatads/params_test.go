@@ -1,4 +1,4 @@
-package flatads
+﻿package flatads
 
 import (
 	"encoding/json"
@@ -49,3 +49,6 @@ var invalidParams = []string{
 	`{"token": "66668888", "publisherId": ""}`,
 	`{"token": "", "publisherId": ""}`,
 }
+
+
+

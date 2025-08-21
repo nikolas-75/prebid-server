@@ -1,4 +1,4 @@
-package bidstack
+﻿package bidstack
 
 import (
 	"encoding/json"
@@ -126,3 +126,6 @@ func getBidderExt(imp openrtb2.Imp) (bidderImpExt openrtb_ext.ImpExtBidstack, er
 	}
 	return bidderImpExt, nil
 }
+
+
+

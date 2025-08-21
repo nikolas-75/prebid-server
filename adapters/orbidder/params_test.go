@@ -1,4 +1,4 @@
-package orbidder
+﻿package orbidder
 
 import (
 	"encoding/json"
@@ -64,3 +64,6 @@ var invalidParams = []string{
 	`{"placementId":"123","bidfloor":"0.5"}`,
 	`{"accountId":"orbidder-test","bidfloor":"0.5"}`,
 }
+
+
+

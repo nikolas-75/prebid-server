@@ -1,4 +1,4 @@
-package bidadjustment
+﻿package bidadjustment
 
 import (
 	"github.com/prebid/prebid-server/v3/errortypes"
@@ -99,3 +99,6 @@ func mergeForMediaType(reqAdj, acctAdj map[openrtb_ext.BidderName]openrtb_ext.Ad
 	}
 	return reqAdj
 }
+
+
+

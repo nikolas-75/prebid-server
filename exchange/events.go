@@ -1,4 +1,4 @@
-package exchange
+﻿package exchange
 
 import (
 	"time"
@@ -134,3 +134,6 @@ func (ev *eventTracking) makeEventURL(evType analytics.EventType, pbsBid *entiti
 func (ev *eventTracking) isEventAllowed() bool {
 	return ev.enabledForAccount || ev.enabledForRequest
 }
+
+
+

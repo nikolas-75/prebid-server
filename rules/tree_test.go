@@ -1,4 +1,4 @@
-package rules
+﻿package rules
 
 import (
 	"errors"
@@ -647,3 +647,6 @@ func (sf *errorProneResultFunction) Call(param *struct{}, modifiables *runTestAs
 func (sf *errorProneResultFunction) Name() string {
 	return "faultyResultFunction"
 }
+
+
+

@@ -1,4 +1,4 @@
-package hookexecution
+﻿package hookexecution
 
 import (
 	"fmt"
@@ -67,3 +67,6 @@ func CastRejectErr(err error) (*RejectError, bool) {
 	rejectErr, ok := err.(*RejectError)
 	return rejectErr, ok
 }
+
+
+

@@ -1,4 +1,4 @@
-package maputil
+﻿package maputil
 
 // ReadEmbeddedMap reads element k from the map m as a map[string]interface{}.
 func ReadEmbeddedMap(m map[string]interface{}, k string) (map[string]interface{}, bool) {
@@ -48,3 +48,6 @@ func HasElement(m map[string]interface{}, k ...string) bool {
 
 	return exists
 }
+
+
+

@@ -1,4 +1,4 @@
-package gdpr
+﻿package gdpr
 
 import (
 	"testing"
@@ -29,3 +29,6 @@ func TestValidateConsent(t *testing.T) {
 		assert.Equal(t, test.expected, result, test.description)
 	}
 }
+
+
+

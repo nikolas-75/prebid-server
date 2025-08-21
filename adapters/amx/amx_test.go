@@ -1,4 +1,4 @@
-package amx
+﻿package amx
 
 import (
 	"encoding/json"
@@ -245,3 +245,6 @@ func TestMakeBids(t *testing.T) {
 	}
 
 }
+
+
+

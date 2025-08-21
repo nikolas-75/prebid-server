@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 // ExtImpLoopme defines the contract for bidrequest.imp[i].ext.prebid.bidder.loopme
 type ExtImpLoopme struct {
@@ -6,3 +6,6 @@ type ExtImpLoopme struct {
 	BundleId    string `json:"bundleId"`
 	PlacementId string `json:"placementId"`
 }
+
+
+

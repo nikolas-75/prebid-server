@@ -1,4 +1,4 @@
-/*
+﻿/*
 Package iterutil provides a set of iterutil for various data structures.
 
 # Elements of slices as pointers
@@ -34,3 +34,6 @@ the [WalkGjsonLeaves] iterator is available, which will yield the json paths to 
 the [gjson.Result] for each leaf.
 */
 package iterutil
+
+
+

@@ -1,4 +1,4 @@
-package medianet
+﻿package medianet
 
 import (
 	"encoding/json"
@@ -118,3 +118,6 @@ func buildEndpoint(mnetUrl, hostUrl string) string {
 	urlObject.RawQuery = values.Encode()
 	return urlObject.String()
 }
+
+
+

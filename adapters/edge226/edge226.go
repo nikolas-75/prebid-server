@@ -1,4 +1,4 @@
-package edge226
+﻿package edge226
 
 import (
 	"encoding/json"
@@ -145,3 +145,6 @@ func getBidMediaType(bid *openrtb2.Bid) (openrtb_ext.BidType, error) {
 		return "", fmt.Errorf("Unable to fetch mediaType in multi-format: %s", bid.ImpID)
 	}
 }
+
+
+

@@ -1,4 +1,4 @@
-package cointraffic
+﻿package cointraffic
 
 import (
 	"testing"
@@ -49,3 +49,6 @@ func TestEndpointTemplateMalformed(t *testing.T) {
 
 	assert.Nil(t, buildErr)
 }
+
+
+

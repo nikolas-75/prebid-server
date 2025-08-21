@@ -1,4 +1,4 @@
-package concert
+﻿package concert
 
 import (
 	"encoding/json"
@@ -138,3 +138,6 @@ func getBidderExt(imp openrtb2.Imp) (bidderImpExt openrtb_ext.ImpExtConcert, err
 	}
 	return bidderImpExt, nil
 }
+
+
+

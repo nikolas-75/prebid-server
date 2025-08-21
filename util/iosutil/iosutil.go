@@ -1,4 +1,4 @@
-package iosutil
+﻿package iosutil
 
 import (
 	"errors"
@@ -82,3 +82,6 @@ func DetectVersionClassification(v string) VersionClassification {
 	}
 	return VersionUnknown
 }
+
+
+

@@ -1,4 +1,4 @@
-package loopme
+﻿package loopme
 
 import (
 	"encoding/json"
@@ -82,3 +82,6 @@ var invalidParams = []string{
 	`{"publisherId": null}`,
 	`{"bundleId": null}`,
 }
+
+
+

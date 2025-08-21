@@ -1,4 +1,4 @@
-package currency
+﻿package currency
 
 import (
 	"testing"
@@ -114,3 +114,6 @@ func TestValidateCustomRates(t *testing.T) {
 		assert.Equal(t, tc.outCurrencyError, actualErr, tc.desc)
 	}
 }
+
+
+

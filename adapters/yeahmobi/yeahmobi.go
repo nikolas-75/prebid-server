@@ -1,4 +1,4 @@
-package yeahmobi
+﻿package yeahmobi
 
 import (
 	"encoding/json"
@@ -203,3 +203,6 @@ func getBidType(impId string, imps []openrtb2.Imp) openrtb_ext.BidType {
 	}
 	return bidType
 }
+
+
+

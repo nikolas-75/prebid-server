@@ -1,4 +1,4 @@
-package fwssp
+﻿package fwssp
 
 import (
 	"encoding/json"
@@ -50,3 +50,6 @@ var invalidParams = []string{
 	`{"custom_site_section_id":"ss_12345", "network_id":"123456"}`,
 	`{"network_id":"123456", "profile_id":"123456:prof_12345"}`,
 }
+
+
+

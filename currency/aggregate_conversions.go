@@ -1,4 +1,4 @@
-package currency
+﻿package currency
 
 // AggregateConversions contains both the request-defined currency rate
 // map found in request.ext.prebid.currency and the currencies conversion
@@ -39,3 +39,6 @@ func (re *AggregateConversions) GetRate(from string, to string) (float64, error)
 func (r *AggregateConversions) GetRates() *map[string]map[string]float64 {
 	return nil
 }
+
+
+

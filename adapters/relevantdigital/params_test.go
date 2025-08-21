@@ -1,4 +1,4 @@
-package relevantdigital
+﻿package relevantdigital
 
 import (
 	"encoding/json"
@@ -40,3 +40,6 @@ var validParams = []string{
 var invalidParams = []string{
 	`{"accountId": 123, "placementId" : 123, "pbsHost" : ""}`,
 }
+
+
+

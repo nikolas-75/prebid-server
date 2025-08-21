@@ -1,4 +1,4 @@
-package operaads
+﻿package operaads
 
 import (
 	"encoding/json"
@@ -249,3 +249,6 @@ func parseOriginImpId(impId string) (originId string, bidType openrtb_ext.BidTyp
 	}
 	return strings.Join(items[:len(items)-2], ":"), openrtb_ext.BidType(items[len(items)-1])
 }
+
+
+

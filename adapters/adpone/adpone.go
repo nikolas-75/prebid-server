@@ -1,4 +1,4 @@
-package adpone
+﻿package adpone
 
 import (
 	"encoding/json"
@@ -126,3 +126,6 @@ func newBadInputError(message string) error {
 		Message: message,
 	}
 }
+
+
+

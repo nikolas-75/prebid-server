@@ -1,4 +1,4 @@
-package logan
+﻿package logan
 
 import (
 	"encoding/json"
@@ -43,3 +43,6 @@ var invalidParams = []string{
 	`{"placementId": null}`,
 	`{"placementId": ""}`,
 }
+
+
+

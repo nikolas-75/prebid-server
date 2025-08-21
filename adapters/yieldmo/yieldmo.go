@@ -1,4 +1,4 @@
-package yieldmo
+﻿package yieldmo
 
 import (
 	"encoding/json"
@@ -186,3 +186,6 @@ func getMediaTypeForImp(bid openrtb2.Bid) (openrtb_ext.BidType, error) {
 		return "", fmt.Errorf("invalid BidType: %s", bidExt.MediaType)
 	}
 }
+
+
+

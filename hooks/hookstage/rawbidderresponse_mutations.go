@@ -1,4 +1,4 @@
-package hookstage
+﻿package hookstage
 
 import (
 	"errors"
@@ -42,3 +42,6 @@ func (c ChangeSetBids[T]) UpdateBids(bids []*adapters.TypedBid) {
 		return p, errors.New("failed to cast RawBidderResponsePayload")
 	}, MutationUpdate, "bids")
 }
+
+
+

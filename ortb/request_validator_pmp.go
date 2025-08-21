@@ -1,4 +1,4 @@
-package ortb
+﻿package ortb
 
 import (
 	"fmt"
@@ -18,3 +18,6 @@ func validatePmp(pmp *openrtb2.PMP, impIndex int) error {
 	}
 	return nil
 }
+
+
+

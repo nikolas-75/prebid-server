@@ -1,4 +1,4 @@
-package aduptech
+﻿package aduptech
 
 import (
 	"errors"
@@ -159,3 +159,6 @@ func getBidType(markupType openrtb2.MarkupType) (openrtb_ext.BidType, error) {
 		}
 	}
 }
+
+
+

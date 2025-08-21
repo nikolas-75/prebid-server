@@ -1,4 +1,4 @@
-package smoot
+﻿package smoot
 
 import (
 	"encoding/json"
@@ -55,3 +55,6 @@ var invalidParams = []string{
 	`{"endpointId": ""}`,
 	`{"placementId": "", "endpointId": ""}`,
 }
+
+
+

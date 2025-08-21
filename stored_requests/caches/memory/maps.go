@@ -1,4 +1,4 @@
-package memory
+﻿package memory
 
 import (
 	"encoding/json"
@@ -66,3 +66,6 @@ func (m *pbsLRUCache) Set(id string, value json.RawMessage) {
 func (m *pbsLRUCache) Delete(id string) {
 	m.Cache.Del([]byte(id))
 }
+
+
+

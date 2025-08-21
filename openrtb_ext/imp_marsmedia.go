@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 import "encoding/json"
 
@@ -6,3 +6,6 @@ import "encoding/json"
 type ExtImpMarsmedia struct {
 	ZoneID json.Number `json:"zoneId"`
 }
+
+
+

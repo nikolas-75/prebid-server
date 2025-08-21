@@ -1,4 +1,4 @@
-package dmx
+﻿package dmx
 
 import (
 	"encoding/json"
@@ -52,3 +52,6 @@ var invalidParams = []string{
 	// ...more invalid param scenarios
 	//
 }
+
+
+

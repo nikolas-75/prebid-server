@@ -1,4 +1,4 @@
-package dianomi
+﻿package dianomi
 
 import (
 	"encoding/json"
@@ -159,3 +159,6 @@ func getMediaTypeForBid(bid openrtb2.Bid) (openrtb_ext.BidType, error) {
 		Message: fmt.Sprintf("Failed to parse impression \"%s\" mediatype", bid.ImpID),
 	}
 }
+
+
+

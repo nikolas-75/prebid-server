@@ -1,4 +1,4 @@
-package kidoz
+﻿package kidoz
 
 import (
 	"encoding/json"
@@ -191,3 +191,6 @@ func GetMediaTypeForImp(impID string, imps []openrtb2.Imp) openrtb_ext.BidType {
 	}
 	return bidType
 }
+
+
+

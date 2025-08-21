@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 type ExtBlasto struct {
 	AccountID   string `json:"accountId"`
@@ -6,3 +6,6 @@ type ExtBlasto struct {
 	Host        string `json:"host"`
 	PlacementID string `json:"placementId"`
 }
+
+
+

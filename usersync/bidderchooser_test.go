@@ -1,4 +1,4 @@
-package usersync
+﻿package usersync
 
 import (
 	"testing"
@@ -275,3 +275,6 @@ func (reverseShuffler) shuffle(a []string) {
 		a[i], a[j] = a[j], a[i]
 	}
 }
+
+
+

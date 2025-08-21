@@ -1,4 +1,4 @@
-package yahooAds
+﻿package yahooAds
 
 import (
 	"encoding/json"
@@ -55,3 +55,6 @@ var invalidParams = []string{
 	`{"dcn":"123"}`,
 	`{"dcn":123,"pos":"gross"}`,
 }
+
+
+

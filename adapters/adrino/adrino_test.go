@@ -1,4 +1,4 @@
-package adrino
+﻿package adrino
 
 import (
 	"testing"
@@ -27,3 +27,6 @@ func TestEndpointTemplateMalformed(t *testing.T) {
 
 	assert.Nil(t, buildErr)
 }
+
+
+

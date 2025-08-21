@@ -1,4 +1,4 @@
-package gdpr
+﻿package gdpr
 
 import (
 	"testing"
@@ -157,3 +157,6 @@ func TestPurposeConfigVendorException(t *testing.T) {
 		assert.Equal(t, tt.wantFound, found, tt.description)
 	}
 }
+
+
+

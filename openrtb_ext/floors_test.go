@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 import (
 	"reflect"
@@ -480,3 +480,6 @@ func TestFloorRuleDeepCopyNil(t *testing.T) {
 		t.Errorf("PriceFloorRules.DeepCopy() = %v, want %v", got, nil)
 	}
 }
+
+
+

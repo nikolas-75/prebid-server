@@ -1,4 +1,4 @@
-package smaato
+﻿package smaato
 
 import (
 	"encoding/json"
@@ -27,3 +27,6 @@ func extractAdmNative(adMarkup string) (string, error) {
 	}
 	return string(adm), nil
 }
+
+
+

@@ -1,4 +1,4 @@
-package bluesea
+﻿package bluesea
 
 import (
 	"encoding/json"
@@ -161,3 +161,6 @@ func getMediaTypeForBid(bid *openrtb2.Bid) (openrtb_ext.BidType, error) {
 		return "", fmt.Errorf("Unknown bid type, %v", bidExt.MediaType)
 	}
 }
+
+
+

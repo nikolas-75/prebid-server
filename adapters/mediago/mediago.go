@@ -1,4 +1,4 @@
-package mediago
+﻿package mediago
 
 import (
 	"encoding/json"
@@ -209,3 +209,6 @@ func getBidType(bid openrtb2.Bid, imps []openrtb2.Imp) (openrtb_ext.BidType, err
 	}
 
 }
+
+
+

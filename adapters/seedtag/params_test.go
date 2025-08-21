@@ -1,4 +1,4 @@
-package seedtag
+﻿package seedtag
 
 import (
 	"encoding/json"
@@ -42,3 +42,6 @@ var invalidParams = []string{
 	`{"adUnitId": ""}`,
 	`{}`,
 }
+
+
+

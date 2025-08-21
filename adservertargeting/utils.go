@@ -1,4 +1,4 @@
-package adservertargeting
+﻿package adservertargeting
 
 import (
 	"fmt"
@@ -57,3 +57,6 @@ func verifyType(dataType jsonparser.ValueType) bool {
 	}
 	return typeAllowed
 }
+
+
+

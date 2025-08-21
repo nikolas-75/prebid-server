@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 type ExtImpTappx struct {
 	Host     string   `json:"host,omitempty"` //DEPRECATED
@@ -9,3 +9,6 @@ type ExtImpTappx struct {
 	Bcid     []string `json:"bcid,omitempty"`
 	Bcrid    []string `json:"bcrid,omitempty"`
 }
+
+
+

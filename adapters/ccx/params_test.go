@@ -1,4 +1,4 @@
-package ccx
+﻿package ccx
 
 import (
 	"encoding/json"
@@ -46,3 +46,6 @@ var invalidParams = []string{
 	`{"placementId": ""}`,
 	`{"placementId": "123456789"}`,
 }
+
+
+

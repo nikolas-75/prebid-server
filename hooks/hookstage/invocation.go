@@ -1,4 +1,4 @@
-package hookstage
+﻿package hookstage
 
 import (
 	"encoding/json"
@@ -36,3 +36,6 @@ type ModuleInvocationContext struct {
 // ModuleContext holds arbitrary data passed between module hooks at different stages.
 // We use interface as we do not know exactly how the modules will use their inner context.
 type ModuleContext map[string]interface{}
+
+
+

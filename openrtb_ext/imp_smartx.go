@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 type ExtImpSmartclip struct {
 	TagID       string `json:"tagId"`
@@ -8,3 +8,6 @@ type ExtImpSmartclip struct {
 	BundleID    string `json:"bundleId"`
 	StoreURL    string `json:"storeUrl"`
 }
+
+
+

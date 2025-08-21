@@ -1,4 +1,4 @@
-package flipp
+﻿package flipp
 
 import (
 	"encoding/json"
@@ -79,3 +79,6 @@ func TestParamsUserKeyPermitted(t *testing.T) {
 		assert.False(t, result, "param user key not permitted because Prebid transmitEids activity is disallowed")
 	})
 }
+
+
+

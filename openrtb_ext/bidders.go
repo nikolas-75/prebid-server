@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 import (
 	"bytes"
@@ -47,6 +47,7 @@ var coreBidderNames []BidderName = []BidderName{
 	BidderAdtelligent,
 	BidderAdTonos,
 	BidderAdUpTech,
+	BidderAdvanceddsp,
 	BidderAdvangelists,
 	BidderAdverxo,
 	BidderAdView,
@@ -415,6 +416,7 @@ const (
 	BidderAdTonos           BidderName = "adtonos"
 	BidderAdtelligent       BidderName = "adtelligent"
 	BidderAdUpTech          BidderName = "aduptech"
+	BidderAdvanceddsp 	BidderName = "advanceddsp"
 	BidderAdvangelists      BidderName = "advangelists"
 	BidderAdverxo           BidderName = "adverxo"
 	BidderAdView            BidderName = "adview"
@@ -819,3 +821,6 @@ func (validator *bidderParamValidator) Validate(name BidderName, ext json.RawMes
 func (validator *bidderParamValidator) Schema(name BidderName) string {
 	return validator.schemaContents[name]
 }
+
+
+

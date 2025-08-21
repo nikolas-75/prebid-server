@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 // ExtImpMediaGo defines the contract for bidrequest.imp[i].ext.prebid.bidder.mediago
 type ExtImpMediaGo struct {
@@ -11,3 +11,6 @@ type ExtMediaGo struct {
 	Token  string `json:"token"`
 	Region string `json:"region"`
 }
+
+
+

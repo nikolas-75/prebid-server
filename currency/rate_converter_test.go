@@ -1,4 +1,4 @@
-package currency
+﻿package currency
 
 import (
 	"io"
@@ -377,3 +377,6 @@ func (m *mockHttpClient) Do(req *http.Request) (*http.Response, error) {
 		Body:       io.NopCloser(strings.NewReader(m.responseBody)),
 	}, nil
 }
+
+
+

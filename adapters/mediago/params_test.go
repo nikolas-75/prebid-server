@@ -1,4 +1,4 @@
-package mediago
+﻿package mediago
 
 import (
 	"encoding/json"
@@ -48,3 +48,6 @@ var invalidParams = []string{
 	`{"region": "US"}`,
 	`{"tn": "f9f2b1ef23fe2759c2cad0953029a94b", "region": "EU"}`,
 }
+
+
+

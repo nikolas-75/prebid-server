@@ -1,4 +1,4 @@
-package openrtb_ext_test
+﻿package openrtb_ext_test
 
 import (
 	"testing"
@@ -26,3 +26,6 @@ func TestValidSiteExt(t *testing.T) {
 	assert.NoError(t, jsonutil.UnmarshalValid([]byte(`{"amp":      1   }`), &s))
 	assert.EqualValues(t, 1, s.AMP)
 }
+
+
+

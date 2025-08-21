@@ -1,4 +1,4 @@
-package hooks
+﻿package hooks
 
 import (
 	"github.com/prebid/prebid-server/v3/config"
@@ -36,3 +36,6 @@ func (e EmptyPlanBuilder) PlanForAllProcessedBidResponsesStage(endpoint string, 
 func (e EmptyPlanBuilder) PlanForAuctionResponseStage(endpoint string, account *config.Account) Plan[hookstage.AuctionResponse] {
 	return nil
 }
+
+
+

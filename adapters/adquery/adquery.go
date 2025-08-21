@@ -1,4 +1,4 @@
-package adquery
+﻿package adquery
 
 import (
 	"encoding/json"
@@ -230,3 +230,6 @@ func getImpSizes(imp *openrtb2.Imp) string {
 
 	return ""
 }
+
+
+

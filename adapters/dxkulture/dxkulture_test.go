@@ -1,4 +1,4 @@
-package dxkulture
+﻿package dxkulture
 
 import (
 	"testing"
@@ -15,3 +15,6 @@ func TestJsonSamples(t *testing.T) {
 	}
 	adapterstest.RunJSONBidderTest(t, "dxkulturetest", bidder)
 }
+
+
+

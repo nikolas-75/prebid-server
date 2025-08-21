@@ -1,4 +1,4 @@
-package endpoints
+﻿package endpoints
 
 import (
 	"net/http"
@@ -71,3 +71,6 @@ func NewCurrencyRatesEndpoint(rateConverter rateConverter, fetchingInterval time
 		w.Write(jsonOutput)
 	}
 }
+
+
+

@@ -1,4 +1,4 @@
-package errortypes
+﻿package errortypes
 
 import (
 	"bytes"
@@ -46,3 +46,6 @@ func (e AggregateError) Error() string {
 
 	return b.String()
 }
+
+
+

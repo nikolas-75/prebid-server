@@ -1,4 +1,4 @@
-package infytv
+﻿package infytv
 
 import (
 	"encoding/json"
@@ -42,3 +42,6 @@ var invalidParams = []string{
 	`{"publisherId": 42}`,
 	`{"publisherId": 42, "placementId":9898}`,
 }
+
+
+

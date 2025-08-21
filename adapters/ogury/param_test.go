@@ -1,4 +1,4 @@
-package ogury
+﻿package ogury
 
 import (
 	"encoding/json"
@@ -48,3 +48,6 @@ var invalidParams = []string{
 	`{"adUnitId": 12, "assetKey": "OGY"}`,
 	`{"adUnitId": "45test", "assetKey": false}`,
 }
+
+
+

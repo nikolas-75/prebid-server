@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 import (
 	"encoding/json"
@@ -108,3 +108,6 @@ func TestParseDeviceExtATTS(t *testing.T) {
 		assert.Equal(t, test.expectedStatus, status, test.description+":status")
 	}
 }
+
+
+

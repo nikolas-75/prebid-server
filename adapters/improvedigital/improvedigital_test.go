@@ -1,4 +1,4 @@
-package improvedigital
+﻿package improvedigital
 
 import (
 	"testing"
@@ -18,3 +18,6 @@ func TestJsonSamples(t *testing.T) {
 
 	adapterstest.RunJSONBidderTest(t, "improvedigitaltest", bidder)
 }
+
+
+

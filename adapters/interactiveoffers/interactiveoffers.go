@@ -1,4 +1,4 @@
-package interactiveoffers
+﻿package interactiveoffers
 
 import (
 	"encoding/json"
@@ -112,3 +112,6 @@ func (a *adapter) buildEndpointURL(params *openrtb_ext.ExtImpInteractiveoffers) 
 	endpointParams := macros.EndpointTemplateParams{AccountID: params.PartnerId}
 	return macros.ResolveMacros(a.endpoint, endpointParams)
 }
+
+
+

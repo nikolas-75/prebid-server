@@ -1,4 +1,4 @@
-package ucfunnel
+﻿package ucfunnel
 
 import (
 	"encoding/json"
@@ -147,3 +147,6 @@ func getBidType(bidReq openrtb2.BidRequest, impid string) openrtb_ext.BidType {
 type ExtBidderUcfunnel struct {
 	Bidder openrtb_ext.ExtImpUcfunnel `json:"bidder"`
 }
+
+
+

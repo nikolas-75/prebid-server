@@ -1,4 +1,4 @@
-package huaweiads
+﻿package huaweiads
 
 import (
 	"bytes"
@@ -1640,3 +1640,6 @@ func getDigestAuthorization(huaweiAdsImpExt *openrtb_ext.ExtImpHuaweiAds, isTest
 		"response=" + computeHmacSha256(nonce+":POST:/ppsadx/getResult", apiKey) + "," +
 		"algorithm=HmacSHA256,usertype=1,keyid=" + key_id
 }
+
+
+

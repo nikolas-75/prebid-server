@@ -1,4 +1,4 @@
-package bidmatic
+﻿package bidmatic
 
 import (
 	"encoding/json"
@@ -205,3 +205,6 @@ func validateImpression(imp *openrtb2.Imp) (int, error) {
 func Builder(bidderName openrtb_ext.BidderName, config config.Adapter, server config.Server) (adapters.Bidder, error) {
 	return &adapter{endpoint: config.Endpoint}, nil
 }
+
+
+

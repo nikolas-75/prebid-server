@@ -1,4 +1,4 @@
-package thetradedesk
+﻿package thetradedesk
 
 import (
 	"encoding/json"
@@ -595,3 +595,6 @@ func TestResolveAuctionPriceMacros(t *testing.T) {
 		})
 	}
 }
+
+
+

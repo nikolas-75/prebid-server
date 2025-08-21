@@ -1,4 +1,4 @@
-package vox
+﻿package vox
 
 import (
 	"encoding/json"
@@ -54,3 +54,6 @@ var invalidParams = []string{
 	`{"placementId":"id", "imageUrl": "http://some.url", "displaySizes": {}}`,
 	`{"placementId":"id", "imageUrl": "http://some.url", "displaySizes": "String"}`,
 }
+
+
+

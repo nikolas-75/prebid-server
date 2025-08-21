@@ -1,4 +1,4 @@
-package yieldlab
+﻿package yieldlab
 
 import (
 	"encoding/json"
@@ -549,3 +549,6 @@ func splitSize(size string) (uint64, uint64, error) {
 func impIsTypeBannerOnly(impression openrtb2.Imp) bool {
 	return impression.Banner != nil && impression.Audio == nil && impression.Video == nil && impression.Native == nil
 }
+
+
+

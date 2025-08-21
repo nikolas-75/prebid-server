@@ -1,4 +1,4 @@
-package bidmyadz
+﻿package bidmyadz
 
 import (
 	"encoding/json"
@@ -47,3 +47,6 @@ func TestInvalidParams(t *testing.T) {
 		}
 	}
 }
+
+
+

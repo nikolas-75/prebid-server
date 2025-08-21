@@ -1,4 +1,4 @@
-package file_fetcher
+﻿package file_fetcher
 
 import (
 	"context"
@@ -165,3 +165,6 @@ func appendErrors(dataType string, ids []string, data map[string]json.RawMessage
 	}
 	return errs
 }
+
+
+

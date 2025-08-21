@@ -1,4 +1,4 @@
-package gdpr
+﻿package gdpr
 
 import (
 	"encoding/json"
@@ -97,3 +97,6 @@ func TestConsentWriter(t *testing.T) {
 		}
 	}
 }
+
+
+

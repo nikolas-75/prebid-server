@@ -1,4 +1,4 @@
-package mobilefuse
+﻿package mobilefuse
 
 import (
 	"encoding/json"
@@ -215,3 +215,6 @@ func getBidType(bid openrtb2.Bid) openrtb_ext.BidType {
 
 	return openrtb_ext.BidTypeBanner
 }
+
+
+

@@ -1,4 +1,4 @@
-package db_provider
+﻿package db_provider
 
 import (
 	"fmt"
@@ -152,3 +152,6 @@ func TestPrepareQuery(t *testing.T) {
 		assert.Equal(t, tt.postgresArgs, postgresArgs, fmt.Sprintf("Postgres: %s", tt.description))
 	}
 }
+
+
+

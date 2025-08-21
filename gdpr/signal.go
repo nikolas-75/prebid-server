@@ -1,4 +1,4 @@
-package gdpr
+﻿package gdpr
 
 import (
 	"strconv"
@@ -52,3 +52,6 @@ func SignalNormalize(signal Signal, gdprDefaultValue string) Signal {
 
 	return SignalYes
 }
+
+
+

@@ -1,4 +1,4 @@
-package ogury
+﻿package ogury
 
 import (
 	"testing"
@@ -19,3 +19,6 @@ func TestJsonSamples(t *testing.T) {
 
 	adapterstest.RunJSONBidderTest(t, "ogurytest", bidder)
 }
+
+
+

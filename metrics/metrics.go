@@ -1,4 +1,4 @@
-package metrics
+﻿package metrics
 
 import (
 	"time"
@@ -474,3 +474,6 @@ type MetricsEngine interface {
 	RecordModuleTimeout(labels ModuleLabels)
 	RecordAdapterThrottled(adapterName openrtb_ext.BidderName)
 }
+
+
+

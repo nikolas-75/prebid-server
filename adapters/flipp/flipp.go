@@ -1,4 +1,4 @@
-package flipp
+﻿package flipp
 
 import (
 	"encoding/base64"
@@ -302,3 +302,6 @@ func paramsUserKeyPermitted(request *openrtb2.BidRequest) bool {
 	}
 	return true
 }
+
+
+

@@ -1,4 +1,4 @@
-package nexx360
+﻿package nexx360
 
 import (
 	"encoding/json"
@@ -53,3 +53,6 @@ var invalidParams = []string{
 	`{"tagId": "", "placement": "testnexx"}`,
 	`{}`,
 }
+
+
+

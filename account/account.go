@@ -1,4 +1,4 @@
-package account
+﻿package account
 
 import (
 	"context"
@@ -142,3 +142,6 @@ func setDerivedConfig(account *config.Account) {
 		}
 	}
 }
+
+
+

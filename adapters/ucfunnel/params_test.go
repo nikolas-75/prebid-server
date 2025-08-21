@@ -1,4 +1,4 @@
-package ucfunnel
+﻿package ucfunnel
 
 import (
 	"encoding/json"
@@ -46,3 +46,6 @@ var validParams = []string{
 var invalidParams = []string{
 	`{"adunitid": "","partnerid": ""}`,
 }
+
+
+

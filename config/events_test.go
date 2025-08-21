@@ -1,4 +1,4 @@
-package config
+﻿package config
 
 import (
 	"testing"
@@ -327,3 +327,6 @@ func TestValidateVASTEvents(t *testing.T) {
 		assert.Equal(t, !test.expectErr, err == nil, test.description)
 	}
 }
+
+
+

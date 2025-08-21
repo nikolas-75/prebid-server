@@ -1,4 +1,4 @@
-package avocet
+﻿package avocet
 
 import (
 	"encoding/json"
@@ -309,3 +309,6 @@ var validVideoBidResponseBody = []byte(`{
 		}
 	]
 }`)
+
+
+

@@ -1,4 +1,4 @@
-package usersync
+﻿package usersync
 
 import (
 	"testing"
@@ -809,3 +809,6 @@ func TestSyncerChooseTemplate(t *testing.T) {
 		assert.Equal(t, test.expectedTemplate, result, test.description)
 	}
 }
+
+
+

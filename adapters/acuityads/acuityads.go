@@ -1,4 +1,4 @@
-package acuityads
+﻿package acuityads
 
 import (
 	"encoding/json"
@@ -194,3 +194,6 @@ func getMediaTypeForImp(impId string, imps []openrtb2.Imp) openrtb_ext.BidType {
 	}
 	return mediaType
 }
+
+
+

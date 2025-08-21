@@ -1,4 +1,4 @@
-package teads
+﻿package teads
 
 import (
 	"encoding/json"
@@ -38,3 +38,6 @@ type teadsPrebidMeta struct {
 	RendererVersion string          `json:"rendererVersion"`
 	RendererData    json.RawMessage `json:"rendererData"`
 }
+
+
+

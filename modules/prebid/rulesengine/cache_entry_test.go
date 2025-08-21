@@ -1,4 +1,4 @@
-package rulesengine
+﻿package rulesengine
 
 import (
 	"encoding/json"
@@ -468,3 +468,6 @@ func getValidJsonConfig() *json.RawMessage {
 `)
 	return &rv
 }
+
+
+

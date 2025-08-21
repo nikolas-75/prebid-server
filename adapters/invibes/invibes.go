@@ -1,4 +1,4 @@
-package invibes
+﻿package invibes
 
 import (
 	"encoding/json"
@@ -346,3 +346,6 @@ func getImpIDs(bidParamsProperties map[string]InvibesPlacementProperty) []string
 	}
 	return impIDs
 }
+
+
+

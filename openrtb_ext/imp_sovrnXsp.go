@@ -1,4 +1,4 @@
-package openrtb_ext
+﻿package openrtb_ext
 
 type ExtImpSovrnXsp struct {
 	PubID    string `json:"pub_id,omitempty"`
@@ -6,3 +6,6 @@ type ExtImpSovrnXsp struct {
 	ZoneID   string `json:"zone_id,omitempty"`
 	ForceBid bool   `json:"force_bid,omitempty"`
 }
+
+
+

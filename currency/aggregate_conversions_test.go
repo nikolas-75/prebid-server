@@ -1,4 +1,4 @@
-package currency
+﻿package currency
 
 import (
 	"errors"
@@ -93,3 +93,6 @@ func TestGroupedGetRate(t *testing.T) {
 		}
 	}
 }
+
+
+

@@ -1,4 +1,4 @@
-package criteo
+﻿package criteo
 
 import (
 	"encoding/json"
@@ -148,3 +148,6 @@ func getBidMeta(ext BidExt) *openrtb_ext.ExtBidPrebidMeta {
 	}
 	return bidMeta
 }
+
+
+

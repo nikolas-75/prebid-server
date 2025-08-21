@@ -1,4 +1,4 @@
-package smaato
+﻿package smaato
 
 import (
 	"fmt"
@@ -20,3 +20,6 @@ func extractAdmBanner(adMarkup string, curls []string) string {
 
 	return adMarkup
 }
+
+
+

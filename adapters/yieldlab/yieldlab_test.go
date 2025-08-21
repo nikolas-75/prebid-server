@@ -1,4 +1,4 @@
-package yieldlab
+﻿package yieldlab
 
 import (
 	"encoding/json"
@@ -351,7 +351,7 @@ func Test_getDSA_invalidRequestExt(t *testing.T) {
 
 func TestYieldlabAdapter_makeEndpointURL_invalidEndpoint(t *testing.T) {
 	bidder, buildErr := Builder(openrtb_ext.BidderYieldlab, config.Adapter{
-		Endpoint: "test$:/something§"}, config.Server{ExternalUrl: "http://hosturl.com", GvlID: 1, DataCenter: "2"})
+		Endpoint: "test$:/somethingÂ§"}, config.Server{ExternalUrl: "http://hosturl.com", GvlID: 1, DataCenter: "2"})
 
 	if buildErr != nil {
 		t.Fatalf("Builder returned unexpected error %v", buildErr)
@@ -361,3 +361,6 @@ func TestYieldlabAdapter_makeEndpointURL_invalidEndpoint(t *testing.T) {
 	_, err := bidderYieldlab.makeEndpointURL(nil, nil)
 	assert.Error(t, err)
 }
+
+
+

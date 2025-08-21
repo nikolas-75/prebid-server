@@ -1,0 +1,162 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "AdvancedDSP Params",
+  "type": "object",
+  "description": "Bidder params for AdvancedDSP placed under imp.ext.advanceddsp",
+  "properties": {
+    "placementId": {
+      "type": "string",
+      "description": "Internal placement identifier at AdvancedDSP (required for routing).",
+      "minLength": 1
+    },
+    "publisherId": {
+      "type": "string",
+      "description": "Publisher/account identifier at AdvancedDSP."
+    },
+    "seatId": {
+      "type": "string",
+      "description": "Buyer seat ID if you want to attribute spend to a specific seat."
+    },
+    "campaignId": {
+      "type": "string",
+      "description": "Optional campaign identifier for targeting/attribution on DSP side."
+    },
+    "lineItemId": {
+      "type": "string",
+      "description": "Optional line item identifier for granular pacing/budget."
+    },
+    "adUnitCode": {
+      "type": "string",
+      "description": "Optional: page ad unit code to help DSP map placements."
+    },
+
+    "floor": {
+      "type": "number",
+      "description": "Explicit floor price (CPM). If omitted, DSP can infer or use Prebid floors."
+    },
+    "currency": {
+      "type": "string",
+      "description": "Currency for the floor (ISO 4217).",
+      "minLength": 3,
+      "maxLength": 3
+    },
+    "enforceFloor": {
+      "type": "boolean",
+      "description": "If true, bids below 'floor' should not be returned by DSP."
+    },
+
+    "creativeTypes": {
+      "type": "array",
+      "description": "Allowable creative types for this impression.",
+      "items": { "type": "string", "enum": ["banner", "video"] },
+      "uniqueItems": true
+    },
+
+    "bannerSizes": {
+      "type": "array",
+      "description": "Allowed banner sizes to prefer (DSP may still inspect imp.banner.format).",
+      "items": {
+        "type": "object",
+        "properties": {
+          "w": { "type": "integer", "minimum": 1 },
+          "h": { "type": "integer", "minimum": 1 }
+        },
+        "required": ["w", "h"],
+        "additionalProperties": false
+      },
+      "uniqueItems": true
+    },
+
+    "video": {
+      "type": "object",
+      "description": "Video rendering preferences (DSP may fall back to imp.video).",
+      "properties": {
+        "mimes":       { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+        "protocols":   { "type": "array", "items": { "type": "integer" }, "uniqueItems": true },
+        "placement":   { "type": "integer", "description": "OpenRTB 2.5 video placement (1=in-stream, etc.)" },
+        "startdelay":  { "type": "integer" },
+        "minduration": { "type": "integer" },
+        "maxduration": { "type": "integer" },
+        "playbackmethod": { "type": "array", "items": { "type": "integer" }, "uniqueItems": true },
+        "api": { "type": "array", "items": { "type": "integer" }, "uniqueItems": true }
+      },
+      "additionalProperties": true
+    },
+
+    "dealId": {
+      "type": "string",
+      "description": "Force a deal/PG id to be returned (if eligible)."
+    },
+
+    "tracking": {
+      "type": "object",
+      "description": "Optional tracking/analytics endpoints the DSP can use.",
+      "properties": {
+        "imp":   { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+        "click": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+        "quartiles": {
+          "type": "object",
+          "properties": {
+            "start":   { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+            "first":   { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+            "mid":     { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+            "third":   { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+            "complete":{ "type": "array", "items": { "type": "string" }, "uniqueItems": true }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+
+    "clickUrlOverride": {
+      "type": "string",
+      "description": "Force clickthrough base URL for banner."
+    },
+
+    "gpidOverride": {
+      "type": "string",
+      "description": "Override the GPID sent in imp.ext.gpid if needed."
+    },
+
+    "timeoutMs": {
+      "type": "integer",
+      "description": "Per-request timeout hint (ms) for the bidder HTTP call (adapter may clamp).",
+      "minimum": 50,
+      "maximum": 2000
+    },
+
+    "endpointOverride": {
+      "type": "string",
+      "description": "Override the bidder endpoint for THIS request (adapter must opt-in to read & honor this)."
+    }
+  },
+  "required": ["placementId"],
+  "additionalProperties": true,
+
+  "examples": [
+    {
+      "placementId": "plc-001",
+      "publisherId": "pub-123",
+      "seatId": "seat-9",
+      "floor": 0.8,
+      "currency": "USD",
+      "enforceFloor": true,
+      "creativeTypes": ["banner", "video"],
+      "bannerSizes": [{"w":300,"h":250},{"w":728,"h":90}],
+      "video": {
+        "mimes": ["video/mp4"],
+        "protocols": [2,3,5,6],
+        "placement": 1,
+        "minduration": 5,
+        "maxduration": 30
+      },
+      "dealId": "PG-2025-0007",
+      "tracking": {
+        "imp": ["https://trk.example.com/imp"],
+        "click": ["https://trk.example.com/click"]
+      },
+      "timeoutMs": 500
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-package blis
+﻿package blis
 
 import (
 	"fmt"
@@ -133,3 +133,6 @@ func resolveMacros(bid *openrtb2.Bid) {
 		bid.BURL = strings.ReplaceAll(bid.BURL, "${AUCTION_PRICE}", price)
 	}
 }
+
+
+

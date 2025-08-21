@@ -1,4 +1,4 @@
-package adrino
+﻿package adrino
 
 import (
 	"encoding/json"
@@ -49,3 +49,6 @@ var invalidParams = []string{
 	`{"hash":""}`,
 	`{"aid":123, "placementId":"123", "siteId":"321"}`,
 }
+
+
+

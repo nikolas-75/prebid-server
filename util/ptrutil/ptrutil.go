@@ -1,4 +1,4 @@
-package ptrutil
+﻿package ptrutil
 
 func ToPtr[T any](v T) *T {
 	return &v
@@ -21,3 +21,6 @@ func ValueOrDefault[T any](v *T) T {
 	var def T
 	return def
 }
+
+
+

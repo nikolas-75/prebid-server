@@ -1,4 +1,4 @@
-package server
+﻿package server
 
 import (
 	"context"
@@ -210,3 +210,6 @@ func shutdownAfterSignals(server *http.Server, stopper <-chan os.Signal, done ch
 func sendSignal(to chan<- os.Signal, sig os.Signal) {
 	to <- sig
 }
+
+
+

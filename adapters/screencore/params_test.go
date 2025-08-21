@@ -1,4 +1,4 @@
-package screencore
+﻿package screencore
 
 import (
 	"encoding/json"
@@ -48,3 +48,6 @@ func TestInvalidParams(t *testing.T) {
 		}
 	}
 }
+
+
+
